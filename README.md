@@ -1,17 +1,17 @@
-# Mobile Libaries Schema
+# Library data schemas
 
-This is the open data schema for the [mobile libraries project](https://blog.librarydata.uk/mobile-library-data-project).
+This is a repository to hold open data schemas for various library data projects.
 
 ## Prerequisites
 
-The schema is written using Table Schema. To make use of it there are a lot of associated tools in various programming languages.
+The schemas are written using Table Schema. To make use of this there are a lot of associated tools in various programming languages.
 
 - [Table Schema](https://frictionlessdata.io/docs/table-schema/)
 - [Frictionless Data Software Tools](https://frictionlessdata.io/software/)
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/librarieshacked/mobilelibraries-database/tags).
+We use [SemVer](http://semver.org/) for versioning
 
 ## Authors
 
@@ -25,4 +25,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* All mobile library services
+* All library services
