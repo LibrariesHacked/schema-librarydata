@@ -56,8 +56,8 @@
             }
         },
         {
-            "name": "Unique Property Reference Number (UPRN)",
-            "type": "string",
+            "name": "Unique property reference number",
+            "type": "integer",
             "description": "Ask your GIS officer for this if you dont have it",
             "format": "default",
             "constraints": {
@@ -139,7 +139,7 @@
             }
         },
         {
-            "name": "Co-location",
+            "name": "Colocation",
             "type": "string",
             "description": "Is the library stand alone or co-located?",
             "format": "default",
@@ -152,7 +152,7 @@
             }
         },
         {
-            "name": "Co-located with",
+            "name": "Colocated with",
             "type": "string",
             "description": "What the the library is co-located with if applicable",
             "format": "default",
