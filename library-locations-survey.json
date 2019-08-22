@@ -58,7 +58,7 @@
         {
             "name": "Unique property reference number",
             "type": "integer",
-            "description": "Ask your GIS officer for this if you dont have it",
+            "description": "Unique property reference number for the building unit the library is located in",
             "format": "default",
             "constraints": {
                 "required": true,
@@ -66,7 +66,7 @@
             }
         },
         {
-            "name": "Statutory April 2010",
+            "name": "Statutory 1 April 2010",
             "type": "string",
             "description": "Whether the library was part of the statutory service on 1 April 2010",
             "format": "default",
@@ -79,7 +79,7 @@
             }
         },
         {
-            "name": "Statutory July 2016",
+            "name": "Statutory 1 July 2016",
             "type": "string",
             "description": "Whether the library was part of the statutory service on 1 July 2016",
             "format": "default",
@@ -92,7 +92,7 @@
             }
         },
         {
-            "name": "Statutory July 2019",
+            "name": "Statutory 1 July 2019",
             "type": "string",
             "description": "Whether the library was part of the statutory service on 1 July 2019",
             "format": "default",
@@ -188,7 +188,7 @@
             }
         },
         {
-            "name": "Monday open",
+            "name": "Tuesday open",
             "type": "time",
             "description": "Opening time of the library on mondays. If not open on that day use 00:00",
             "format": "HH:MM",
