@@ -1,0 +1,326 @@
+{
+    "fields": [
+        {
+            "name": "Local authority",
+            "description": "Local authority responsible for the library service",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Library name",
+            "description": "Full public name by which the library is known",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Address 1",
+            "description": "Address line 1",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Address 2",
+            "description": "Address line 2",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Address 3",
+            "description": "Address line 3",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Postcode",
+            "type": "string",
+            "description": "Postcode for the library",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "pattern": "^([A-Z][A-HJ-Y]?[0-9][A-Z0-9]? ?[0-9][A-Z]{2}|GIR ?0A{2})$"
+            }
+        },
+        {
+            "name": "Unique property reference number",
+            "type": "integer",
+            "description": "Unique property reference number for the building unit the library is located in",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "unique": true
+            }
+        },
+        {
+            "name": "Statutory 1 April 2010",
+            "type": "string",
+            "description": "Whether the library was part of the statutory service on 1 April 2010",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "name": "Statutory 1 July 2016",
+            "type": "string",
+            "description": "Whether the library was part of the statutory service on 1 July 2016",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "name": "Statutory 1 July 2019",
+            "type": "string",
+            "description": "Whether the library was part of the statutory service on 1 July 2019",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "name": "Type of library",
+            "type": "string",
+            "description": "The category of library",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    "LAL",
+                    "LAL-",
+                    "CL",
+                    "CRL",
+                    "ICL"
+                ]
+            }
+        },
+        {
+            "name": "Year closed",
+            "type": "year",
+            "description": "Year the library closed",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Year opened",
+            "type": "year",
+            "description": "Year the library opened",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Colocation",
+            "type": "string",
+            "description": "Is the library stand alone or co-located?",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "name": "Colocated with",
+            "type": "string",
+            "description": "What the the library is co-located with if applicable",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Notes",
+            "type": "string",
+            "description": "Notes about the library status or future changes",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Monday open",
+            "type": "time",
+            "description": "Opening time of the library on mondays. If not open on that day use 00:00",
+            "format": "HH:MM",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Monday close",
+            "type": "time",
+            "description": "Closing time of the library on mondays. If not open on that day use 00:00",
+            "format": "HH:MM",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Tuesday open",
+            "type": "time",
+            "description": "Opening time of the library on mondays. If not open on that day use 00:00",
+            "format": "HH:MM",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Tuesday close",
+            "type": "time",
+            "description": "Closing time of the library. If not open on that day use 00:00",
+            "format": "HH:MM",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Wednesday open",
+            "type": "time",
+            "description": "Opening time of the library. If not open on that day use 00:00",
+            "format": "HH:MM",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Wednesday close",
+            "type": "time",
+            "description": "Closing time of the library. If not open on that day use 00:00",
+            "format": "HH:MM",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Thursday open",
+            "type": "time",
+            "description": "Opening time of the library. If not open on that day use 00:00",
+            "format": "HH:MM",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Thursday close",
+            "type": "time",
+            "description": "Closing time of the library. If not open on that day use 00:00",
+            "format": "HH:MM",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Friday open",
+            "type": "time",
+            "description": "Opening time of the library. If not open on that day use 00:00",
+            "format": "HH:MM",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Friday close",
+            "type": "time",
+            "description": "Closing time of the library. If not open on that day use 00:00",
+            "format": "HH:MM",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Saturday open",
+            "type": "time",
+            "description": "Opening time of the library. If not open on that day use 00:00",
+            "format": "HH:MM",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Saturday close",
+            "type": "time",
+            "description": "Closing time of the library. If not open on that day use 00:00",
+            "format": "HH:MM",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Sunday open",
+            "type": "time",
+            "description": "Opening time of the library. If not open on that day use 00:00",
+            "format": "HH:MM",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Sunday close",
+            "type": "time",
+            "description": "Closing time of the library. If not open on that day use 00:00",
+            "format": "HH:MM",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Staffed hours",
+            "type": "number",
+            "description": "Total number of hours the library is staffed (by paid staff and/or volunteers) each week",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Contact email",
+            "type": "string",
+            "description": "The generic or team email (not personal) for the library, or if no general library email is available, then the library service one.",
+            "format": "email",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Library URL",
+            "type": "string",
+            "description": "The specific url for the library.",
+            "format": "uri",
+            "constraints": {
+                "required": true
+            }
+        }
+    ]
+}
