@@ -132,7 +132,7 @@
         {
             "name": "Year opened",
             "type": "year",
-            "description": "Year the library opened",
+            "description": "Year the library opened if a new library since 2010",
             "format": "default",
             "constraints": {
                 "required": false
@@ -141,7 +141,7 @@
         {
             "name": "Colocation",
             "type": "string",
-            "description": "Is the library stand alone or co-located?",
+            "description": "Whether the library is stand-alone or co-located within the building property unit.",
             "format": "default",
             "constraints": {
                 "required": true,
@@ -154,7 +154,7 @@
         {
             "name": "Colocated with",
             "type": "string",
-            "description": "What the the library is co-located with if applicable",
+            "description": "What the library is co-located with if applicable",
             "format": "default",
             "constraints": {
                 "required": false
@@ -172,7 +172,7 @@
         {
             "name": "Monday open",
             "type": "time",
-            "description": "Opening time of the library on mondays. If not open on that day use 00:00",
+            "description": "Opening time of the library on Mondays. If not open on that day use 00:00",
             "format": "HH:MM",
             "constraints": {
                 "required": true
@@ -181,7 +181,7 @@
         {
             "name": "Monday close",
             "type": "time",
-            "description": "Closing time of the library on mondays. If not open on that day use 00:00",
+            "description": "Closing time of the library on Mondays. If not open on that day use 00:00",
             "format": "HH:MM",
             "constraints": {
                 "required": true
@@ -190,7 +190,7 @@
         {
             "name": "Tuesday open",
             "type": "time",
-            "description": "Opening time of the library on mondays. If not open on that day use 00:00",
+            "description": "Opening time of the library on Tuesdays. If not open on that day use 00:00",
             "format": "HH:MM",
             "constraints": {
                 "required": true
@@ -199,7 +199,7 @@
         {
             "name": "Tuesday close",
             "type": "time",
-            "description": "Closing time of the library. If not open on that day use 00:00",
+            "description": "Closing time of the library on Tuesdays. If not open on that day use 00:00",
             "format": "HH:MM",
             "constraints": {
                 "required": true
@@ -208,7 +208,7 @@
         {
             "name": "Wednesday open",
             "type": "time",
-            "description": "Opening time of the library. If not open on that day use 00:00",
+            "description": "Opening time of the library on Wednesdays. If not open on that day use 00:00",
             "format": "HH:MM",
             "constraints": {
                 "required": true
@@ -217,7 +217,7 @@
         {
             "name": "Wednesday close",
             "type": "time",
-            "description": "Closing time of the library. If not open on that day use 00:00",
+            "description": "Closing time of the library on Wednesdays. If not open on that day use 00:00",
             "format": "HH:MM",
             "constraints": {
                 "required": true
@@ -226,7 +226,7 @@
         {
             "name": "Thursday open",
             "type": "time",
-            "description": "Opening time of the library. If not open on that day use 00:00",
+            "description": "Opening time of the library on Thursdays. If not open on that day use 00:00",
             "format": "HH:MM",
             "constraints": {
                 "required": true
@@ -235,7 +235,7 @@
         {
             "name": "Thursday close",
             "type": "time",
-            "description": "Closing time of the library. If not open on that day use 00:00",
+            "description": "Closing time of the library on Thursdays. If not open on that day use 00:00",
             "format": "HH:MM",
             "constraints": {
                 "required": true
@@ -244,7 +244,7 @@
         {
             "name": "Friday open",
             "type": "time",
-            "description": "Opening time of the library. If not open on that day use 00:00",
+            "description": "Opening time of the library on Fridays. If not open on that day use 00:00",
             "format": "HH:MM",
             "constraints": {
                 "required": true
@@ -253,7 +253,7 @@
         {
             "name": "Friday close",
             "type": "time",
-            "description": "Closing time of the library. If not open on that day use 00:00",
+            "description": "Closing time of the library on Fridays. If not open on that day use 00:00",
             "format": "HH:MM",
             "constraints": {
                 "required": true
@@ -262,7 +262,7 @@
         {
             "name": "Saturday open",
             "type": "time",
-            "description": "Opening time of the library. If not open on that day use 00:00",
+            "description": "Opening time of the library on Saturdays. If not open on that day use 00:00",
             "format": "HH:MM",
             "constraints": {
                 "required": true
@@ -271,7 +271,7 @@
         {
             "name": "Saturday close",
             "type": "time",
-            "description": "Closing time of the library. If not open on that day use 00:00",
+            "description": "Closing time of the library on Saturdays. If not open on that day use 00:00",
             "format": "HH:MM",
             "constraints": {
                 "required": true
@@ -280,7 +280,7 @@
         {
             "name": "Sunday open",
             "type": "time",
-            "description": "Opening time of the library. If not open on that day use 00:00",
+            "description": "Opening time of the library on Sundays. If not open on that day use 00:00",
             "format": "HH:MM",
             "constraints": {
                 "required": true
@@ -289,7 +289,7 @@
         {
             "name": "Sunday close",
             "type": "time",
-            "description": "Closing time of the library. If not open on that day use 00:00",
+            "description": "Closing time of the library on Sundays. If not open on that day use 00:00",
             "format": "HH:MM",
             "constraints": {
                 "required": true
@@ -307,7 +307,7 @@
         {
             "name": "Contact email",
             "type": "string",
-            "description": "The generic or team email (not personal) for the library, or if no general library email is available, then the library service one.",
+            "description": "The generic or team email (not personal) for the library. If no general library email is available, the library service one.",
             "format": "email",
             "constraints": {
                 "required": true
@@ -316,7 +316,7 @@
         {
             "name": "Library URL",
             "type": "string",
-            "description": "The specific url for the library.",
+            "description": "The specific URL for the library.",
             "format": "uri",
             "constraints": {
                 "required": true
