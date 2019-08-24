@@ -23,7 +23,7 @@
         {
             "name": "route",
             "title": "Route",
-            "description": "A name for the route",
+            "description": "A name for the route e.g. Route B",
             "type": "string",
             "format": "default",
             "constraints": {
@@ -33,7 +33,7 @@
         {
             "name": "community",
             "title": "Community",
-            "description": "The community served by the stop",
+            "description": "The community served by the stop e.g. village or town name",
             "type": "string",
             "format": "default",
             "constraints": {
@@ -125,7 +125,7 @@
             "title": "Departure Time",
             "type": "time",
             "format": "default",
-            "description": "The time the mobile library leaves the stop",
+            "description": "The time the mobile library departs the stop",
             "constraints": {
                 "required": true
             }
@@ -145,7 +145,7 @@
             "title": "Start Date",
             "type": "date",
             "format": "default",
-            "description": "The date the timetable for this stop started",
+            "description": "The start date for this stop and timetable",
             "constraints": {
                 "required": true
             }
@@ -155,7 +155,7 @@
             "title": "End Date",
             "type": "date",
             "format": "default",
-            "description": "The date the timetable for this stop will end",
+            "description": "The end date for this stop and timetable",
             "constraints": {
                 "required": false
             }
@@ -165,7 +165,7 @@
             "title": "Timetable Link",
             "type": "string",
             "format": "uri",
-            "description": "A link to a web page, or PDF for the stop, route, or mobile timetable",
+            "description": "A link to a web page, or PDF for the stop, route, mobile or service timetable",
             "constraints": {
                 "required": false
             }
