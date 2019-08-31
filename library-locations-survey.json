@@ -57,8 +57,8 @@
         },
         {
             "name": "Unique property reference number",
-            "type": "integer",
             "description": "Unique property reference number for the building unit the library is located in",
+            "type": "integer",
             "format": "default",
             "constraints": {
                 "required": true,
@@ -67,8 +67,8 @@
         },
         {
             "name": "Statutory 1 April 2010",
-            "type": "string",
             "description": "Whether the library was part of the statutory service on 1 April 2010",
+            "type": "string",
             "format": "default",
             "constraints": {
                 "required": true,
@@ -80,8 +80,8 @@
         },
         {
             "name": "Statutory 1 July 2016",
-            "type": "string",
             "description": "Whether the library was part of the statutory service on 1 July 2016",
+            "type": "string",
             "format": "default",
             "constraints": {
                 "required": true,
@@ -93,8 +93,8 @@
         },
         {
             "name": "Statutory 1 July 2019",
-            "type": "string",
             "description": "Whether the library was part of the statutory service on 1 July 2019",
+            "type": "string",
             "format": "default",
             "constraints": {
                 "required": true,
@@ -106,8 +106,8 @@
         },
         {
             "name": "Type of library",
-            "type": "string",
             "description": "The category of public library",
+            "type": "string",
             "format": "default",
             "constraints": {
                 "required": true,
@@ -122,8 +122,8 @@
         },
         {
             "name": "Year closed",
-            "type": "year",
             "description": "Year the library closed",
+            "type": "year",
             "format": "default",
             "constraints": {
                 "required": false
@@ -131,8 +131,8 @@
         },
         {
             "name": "Year opened",
-            "type": "year",
             "description": "Year the library opened if a new library since 2010",
+            "type": "year",
             "format": "default",
             "constraints": {
                 "required": false
@@ -140,8 +140,8 @@
         },
         {
             "name": "Colocation",
-            "type": "string",
             "description": "Whether the library is stand-alone or co-located within the building property unit",
+            "type": "string",
             "format": "default",
             "constraints": {
                 "required": true,
@@ -153,8 +153,8 @@
         },
         {
             "name": "Colocated with",
-            "type": "string",
             "description": "What the library is co-located with if applicable",
+            "type": "string",
             "format": "default",
             "constraints": {
                 "required": false
@@ -162,8 +162,8 @@
         },
         {
             "name": "Notes",
-            "type": "string",
             "description": "Notes about the library status or future changes",
+            "type": "string",
             "format": "default",
             "constraints": {
                 "required": false
@@ -171,8 +171,8 @@
         },
         {
             "name": "Monday open",
-            "type": "time",
             "description": "Opening time of the library on Mondays. If not open on that day use 00:00",
+            "type": "time",
             "format": "%H:%M",
             "constraints": {
                 "required": true
@@ -180,8 +180,8 @@
         },
         {
             "name": "Monday close",
-            "type": "time",
             "description": "Closing time of the library on Mondays. If not open on that day use 00:00",
+            "type": "time",
             "format": "%H:%M",
             "constraints": {
                 "required": true
@@ -189,8 +189,8 @@
         },
         {
             "name": "Tuesday open",
-            "type": "time",
             "description": "Opening time of the library on Tuesdays. If not open on that day use 00:00",
+            "type": "time",
             "format": "%H:%M",
             "constraints": {
                 "required": true
@@ -198,8 +198,8 @@
         },
         {
             "name": "Tuesday close",
-            "type": "time",
             "description": "Closing time of the library on Tuesdays. If not open on that day use 00:00",
+            "type": "time",
             "format": "%H:%M",
             "constraints": {
                 "required": true
@@ -207,8 +207,8 @@
         },
         {
             "name": "Wednesday open",
-            "type": "time",
             "description": "Opening time of the library on Wednesdays. If not open on that day use 00:00",
+            "type": "time",
             "format": "%H:%M",
             "constraints": {
                 "required": true
@@ -216,8 +216,8 @@
         },
         {
             "name": "Wednesday close",
-            "type": "time",
             "description": "Closing time of the library on Wednesdays. If not open on that day use 00:00",
+            "type": "time",
             "format": "%H:%M",
             "constraints": {
                 "required": true
@@ -225,8 +225,8 @@
         },
         {
             "name": "Thursday open",
-            "type": "time",
             "description": "Opening time of the library on Thursdays. If not open on that day use 00:00",
+            "type": "time",
             "format": "%H:%M",
             "constraints": {
                 "required": true
@@ -234,8 +234,8 @@
         },
         {
             "name": "Thursday close",
-            "type": "time",
             "description": "Closing time of the library on Thursdays. If not open on that day use 00:00",
+            "type": "time",
             "format": "%H:%M",
             "constraints": {
                 "required": true
@@ -243,8 +243,8 @@
         },
         {
             "name": "Friday open",
-            "type": "time",
             "description": "Opening time of the library on Fridays. If not open on that day use 00:00",
+            "type": "time",
             "format": "%H:%M",
             "constraints": {
                 "required": true
@@ -252,8 +252,8 @@
         },
         {
             "name": "Friday close",
-            "type": "time",
             "description": "Closing time of the library on Fridays. If not open on that day use 00:00",
+            "type": "time",
             "format": "%H:%M",
             "constraints": {
                 "required": true
@@ -261,8 +261,8 @@
         },
         {
             "name": "Saturday open",
-            "type": "time",
             "description": "Opening time of the library on Saturdays. If not open on that day use 00:00",
+            "type": "time",
             "format": "%H:%M",
             "constraints": {
                 "required": true
@@ -270,8 +270,8 @@
         },
         {
             "name": "Saturday close",
-            "type": "time",
             "description": "Closing time of the library on Saturdays. If not open on that day use 00:00",
+            "type": "time",
             "format": "%H:%M",
             "constraints": {
                 "required": true
@@ -279,8 +279,8 @@
         },
         {
             "name": "Sunday open",
-            "type": "time",
             "description": "Opening time of the library on Sundays. If not open on that day use 00:00",
+            "type": "time",
             "format": "%H:%M",
             "constraints": {
                 "required": true
@@ -288,8 +288,8 @@
         },
         {
             "name": "Sunday close",
-            "type": "time",
             "description": "Closing time of the library on Sundays. If not open on that day use 00:00",
+            "type": "time",
             "format": "%H:%M",
             "constraints": {
                 "required": true
@@ -297,8 +297,8 @@
         },
         {
             "name": "Staffed hours",
-            "type": "number",
             "description": "Total number of hours the library is staffed (by paid staff and/or volunteers) each week",
+            "type": "number",
             "format": "default",
             "constraints": {
                 "required": true
@@ -306,8 +306,8 @@
         },
         {
             "name": "Contact email",
-            "type": "string",
             "description": "The generic or team email (not personal) for the library. If no general library email is available, the library service one.",
+            "type": "string",
             "format": "email",
             "constraints": {
                 "required": true
@@ -315,8 +315,8 @@
         },
         {
             "name": "Library URL",
-            "type": "string",
             "description": "The specific URL for the library.",
+            "type": "string",
             "format": "uri",
             "constraints": {
                 "required": true

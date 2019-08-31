@@ -1,0 +1,84 @@
+{
+    "fields": [
+        {
+            "name": "Local authority",
+            "description": "Local authority responsible for the library service",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Library name",
+            "description": "Full public name by which the library is known",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Count start",
+            "description": "The start date of the count.",
+            "type": "date",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Count end",
+            "description": "The end date of the count.",
+            "type": "date",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Type",
+            "description": "The type of count. Either manual or automatic.",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    "Manual",
+                    "Automatic"
+                ]
+            }
+        },
+        {
+            "name": "Colocated",
+            "description": "Whether the library is stand-alone or co-located within the building property unit",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "name": "Colocated with",
+            "description": "What the library is co-located with if applicable",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Visits",
+            "description": "The number of physical visits within the counting period.",
+            "type": "integer",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        }
+    ]
+}

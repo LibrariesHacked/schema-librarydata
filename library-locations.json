@@ -1,0 +1,246 @@
+{
+    "fields": [
+        {
+            "name": "Local authority",
+            "description": "Local authority responsible for the library service",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Library name",
+            "description": "Full public name by which the library is known",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Address 1",
+            "description": "Address line 1",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Address 2",
+            "description": "Address line 2",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Address 3",
+            "description": "Address line 3",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Postcode",
+            "description": "Postcode for the library building",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "pattern": "^([A-Z][A-HJ-Y]?[0-9][A-Z0-9]? ?[0-9][A-Z]{2}|GIR ?0A{2})$"
+            }
+        },
+        {
+            "name": "Unique property reference number",
+            "description": "Unique property reference number for the building unit the library is located in",
+            "type": "integer",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "unique": true
+            }
+        },
+        {
+            "name": "Statutory",
+            "description": "Whether the library is part of the statutory service",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "name": "Type of library",
+            "description": "The type of public library",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    "LAL",
+                    "LAL-",
+                    "CL",
+                    "CRL",
+                    "ICL"
+                ]
+            }
+        },
+        {
+            "name": "Year opened",
+            "description": "Year the library opened",
+            "type": "year",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Year closed",
+            "description": "Year the library closed",
+            "type": "year",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Monday hours",
+            "description": "Opening hours for Monday",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Tuesday hours",
+            "description": "Opening hours for Tuesday",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Wednesday hours",
+            "description": "Opening hours for Wednesday",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Thursday hours",
+            "description": "Opening hours for Thursday",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Friday hours",
+            "description": "Opening hours for Friday",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Saturday hours",
+            "description": "Opening hours for Saturday",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Sunday hours",
+            "description": "Opening hours for Sunday",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Special hours",
+            "description": "Changes to normal opening hours such as public holidays",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Colocated",
+            "description": "Whether the library is stand-alone or co-located within the building property unit",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "name": "Colocated with",
+            "description": "What the library is co-located with if applicable",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Notes",
+            "description": "Notes about the library status or future changes",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Staffed hours",
+            "description": "Total number of hours the library is staffed (by paid staff and/or volunteers) each week",
+            "type": "number",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Contact email",
+            "description": "The generic or team email (not personal) for the library. If no general library email is available, the library service one.",
+            "type": "string",
+            "format": "email",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Library URL",
+            "description": "The specific URL for the library.",
+            "type": "string",
+            "format": "uri",
+            "constraints": {
+                "required": true
+            }
+        }
+    ]
+}

@@ -1,20 +1,24 @@
 # Library data schemas
 
-This is a repository to hold open data schemas for public library data. A data schema describes how data is structured, such as the fields that should be held. It also describes constraints about the data, such as whether a field is required or optional, and what format the data in the field should be in.
+This is a repository to hold open data schemas for public library data. A data schema describes how data is structured, such as the fields that should be held. It also describes constraints about the data, such as whether a field is optional, and what data type the fields should hold.
 
 ## Prerequisites
 
-The schemas are written using Table Schema. Table Schema is a standard format for describing table data, such as a spreadsheet. A benefit of writing schemas in this format is there are many associated software tools that will provide additional functionality, such as validating that a spreadsheet is correct.
+The schemas are written using Table Schema. Table Schema is a standard format for describing table data, such as that which can be held in a spreadsheet. A benefit of writing schemas in this format is there are  software tools that will provide additional functionality, such as validating that data conforms to a schema.
 
 - [Table Schema Documentation](https://frictionlessdata.io/docs/table-schema/)
 - [Frictionless Data Software Tools](https://frictionlessdata.io/software/)
+- [Good Tables](https://goodtables.io/)
 
 ## Schemas
 
-| Schema Name | File Name | Description |
+| Name | File | Description |
 | ----------- | --------- | ----------- |
-| Mobile library stops | mobile-library-stops.json | Describes how data on mobile library stops can be held to enable to enable published timetables |
-| Library locations survey | library-locations-survey.json | A survey conducted by DCMS libraries in 2016, with the schema updated in 2019 |
+| Mobile library stops | mobile-library-stops.json | Mobile library stops with their timetabled visits |
+| Library locations | library-locations.json | A listing of library locations and their details |
+| Library locations survey | library-locations-survey.json | A survey of library locations in England |
+| Active membership | active-membership.json | The membership of a library service |
+| Physical visits | physical-visits.json | The number of visits made to library buildings |
 
 ## Sample data
 
@@ -24,6 +28,10 @@ For each schema, sample files will be provided:
 - Each will have one example row of data
 - Files with the name _success will provide a successful test against CSVLint
 - Files with the the name _fail should fail validation.
+
+## Real data
+
+We will also be providing real data examples, held in the data folder.
 
 ## Versioning
 
@@ -35,9 +43,7 @@ All completed schemas will be held in the archived folder in this repository and
 
 ## Authors
 
-* **Dave Rowe** - *Initial work* - [DaveBathnes](https://github.com/DaveBathnes)
-
-See also the list of [contributors](https://github.com/librarieshacked/schema-librarydata/contributors) who participated in this project.
+See the list of [contributors](https://github.com/librarieshacked/schema-librarydata/contributors) who participated in this project.
 
 ## License
 
