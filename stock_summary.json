@@ -1,0 +1,62 @@
+{
+    "fields": [
+        {
+            "name": "Local authority",
+            "description": "Local authority responsible for the library service",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Library name",
+            "description": "Full public name by which the library is known",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Count date",
+            "description": "The date this count was completed.",
+            "type": "date",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Type",
+            "description": "The type of item. Will use the item category set by the individual library service e.g. Adult Fiction.",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Book",
+            "description": "Whether the item is a book (of any type).",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        },
+        {
+            "name": "Items",
+            "description": "The number of items for that item type in the counting period.",
+            "type": "integer",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        }
+    ]
+}

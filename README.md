@@ -2,7 +2,7 @@
 
 This is a repository to hold open data schemas for public library data. A data schema describes how data is structured, such as the fields that should be held. It also describes constraints about the data, such as whether a field is optional, and what data type the fields should hold.
 
-## Prerequisites
+## Information
 
 The schemas are written using Table Schema. Table Schema is a standard format for describing table data, such as that which can be held in a spreadsheet. A benefit of writing schemas in this format is there are  software tools that will provide additional functionality, such as validating that data conforms to a schema.
 
@@ -13,12 +13,15 @@ The schemas are written using Table Schema. Table Schema is a standard format fo
 ## Schemas
 
 | Name | File | Description |
-| ----------- | --------- | ----------- |
-| Mobile library stops | mobile-library-stops.json | Mobile library stops with their timetabled visits |
+| ---- | ---- | ----------- |
+| Active membership | active-membership.json | The membership of a library service |
+| Event attendance | event-attendance.json | The number of people attending library events |
+| Issues | issues.json | The number of items being issued in libraries |
 | Library locations | library-locations.json | A listing of library locations and their details |
 | Library locations survey | library-locations-survey.json | A survey of library locations in England |
-| Active membership | active-membership.json | The membership of a library service |
+| Mobile library stops | mobile-library-stops.json | Mobile library stops with their timetabled visits |
 | Physical visits | physical-visits.json | The number of visits made to library buildings |
+| Stock summary | stock-summary.json | Summary of the stock held in libraries |
 
 ## Sample data
 
