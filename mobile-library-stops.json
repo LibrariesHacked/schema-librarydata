@@ -114,7 +114,7 @@
             "name": "arrival",
             "title": "Arrival Time",
             "type": "time",
-            "format": "default",
+            "format": "%H:%M",
             "description": "The time the mobile library arrives at the stop",
             "constraints": {
                 "required": true
@@ -124,7 +124,7 @@
             "name": "departure",
             "title": "Departure Time",
             "type": "time",
-            "format": "default",
+            "format": "%H:%M",
             "description": "The time the mobile library departs the stop",
             "constraints": {
                 "required": true
