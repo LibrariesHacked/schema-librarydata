@@ -225,19 +225,19 @@
             }
         },
         {
-            "name": "Contact email",
-            "description": "The generic or team email (not personal) for the library. If no general library email is available, the library service one.",
+            "name": "URL",
+            "description": "The specific URL for the library.",
             "type": "string",
-            "format": "email",
+            "format": "uri",
             "constraints": {
                 "required": true
             }
         },
         {
-            "name": "Library URL",
-            "description": "The specific URL for the library.",
+            "name": "Email address",
+            "description": "The generic or team email (not personal) for the library. If no general library email is available, the library service one.",
             "type": "string",
-            "format": "uri",
+            "format": "email",
             "constraints": {
                 "required": true
             }
