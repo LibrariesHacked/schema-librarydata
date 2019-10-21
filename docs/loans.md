@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Loans
-description: Counts of issues and renewals in libraries
+description: Lending of items in libraries
 ---
 
 

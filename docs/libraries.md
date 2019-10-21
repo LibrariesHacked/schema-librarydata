@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Libraries
-description: Library locations, opening hours, and contact details
+description: Library location opening hours and contact details
 ---
 
 

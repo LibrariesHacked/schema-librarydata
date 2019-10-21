@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Events
-description: Library event outcomes and attendance
+description: Library event attendance and outcomes
 ---
 
 
