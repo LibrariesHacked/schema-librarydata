@@ -37,19 +37,6 @@
             }
         },
         {
-            "name": "Book",
-            "description": "Whether the item is a book (of any type).",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": true,
-                "enum": [
-                    "Yes",
-                    "No"
-                ]
-            }
-        },
-        {
             "name": "Items",
             "description": "The number of items for that item type in the counting period.",
             "type": "integer",

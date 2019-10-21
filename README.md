@@ -14,11 +14,11 @@ The schemas are written using Table Schema. Table Schema is a standard format fo
 
 | Name | File | Description |
 | ---- | ---- | ----------- |
-| Active membership | active-membership.json | The membership of a library service |
-| Event attendance | event-attendance.json | The number of people attending library events |
-| Issues | issues.json | The number of items being issued in libraries |
-| Library locations | library-locations.json | A listing of library locations and their details |
-| Library locations survey | library-locations-survey.json | A survey of library locations in England |
+| Membership | membership.json | The membership of a library service |
+| Events | events.json | The number of people attending library events |
+| Loans | loans.json | The number of items being issued in libraries |
+| Libraries | libraries.json | A listing of library locations and their details |
+| Library locations survey 2019 | library-locations-survey.json | A survey of library locations in England in 2019 |
 | Mobile library stops | mobile-library-stops.json | Mobile library stops with their timetabled visits |
 | Physical visits | physical-visits.json | The number of visits made to library buildings |
 | Stock summary | stock-summary.json | Summary of the stock held in libraries |

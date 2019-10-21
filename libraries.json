@@ -118,7 +118,7 @@
             "type": "string",
             "format": "default",
             "constraints": {
-                "required": true
+                "required": false
             }
         },
         {
@@ -127,7 +127,7 @@
             "type": "string",
             "format": "default",
             "constraints": {
-                "required": true
+                "required": false
             }
         },
         {
@@ -136,7 +136,7 @@
             "type": "string",
             "format": "default",
             "constraints": {
-                "required": true
+                "required": false
             }
         },
         {
@@ -145,7 +145,7 @@
             "type": "string",
             "format": "default",
             "constraints": {
-                "required": true
+                "required": false
             }
         },
         {
@@ -154,7 +154,7 @@
             "type": "string",
             "format": "default",
             "constraints": {
-                "required": true
+                "required": false
             }
         },
         {
@@ -163,7 +163,7 @@
             "type": "string",
             "format": "default",
             "constraints": {
-                "required": true
+                "required": false
             }
         },
         {
@@ -172,7 +172,7 @@
             "type": "string",
             "format": "default",
             "constraints": {
-                "required": true
+                "required": false
             }
         },
         {
@@ -190,7 +190,7 @@
             "type": "string",
             "format": "default",
             "constraints": {
-                "required": true,
+                "required": false,
                 "enum": [
                     "Yes",
                     "No"
@@ -216,17 +216,8 @@
             }
         },
         {
-            "name": "Staffed hours",
-            "description": "Total number of hours the library is staffed (by paid staff and/or volunteers) each week",
-            "type": "number",
-            "format": "default",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
             "name": "URL",
-            "description": "The specific URL for the library.",
+            "description": "The public website for the library.",
             "type": "string",
             "format": "uri",
             "constraints": {

@@ -37,7 +37,7 @@
             }
         },
         {
-            "name": "Type",
+            "name": "Count type",
             "description": "The type of count. Either manual or automatic.",
             "type": "string",
             "format": "default",
@@ -47,28 +47,6 @@
                     "Manual",
                     "Automatic"
                 ]
-            }
-        },
-        {
-            "name": "Colocated",
-            "description": "Whether the library is stand-alone or co-located within the building property unit",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": true,
-                "enum": [
-                    "Yes",
-                    "No"
-                ]
-            }
-        },
-        {
-            "name": "Colocated with",
-            "description": "What the library is co-located with if applicable",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": false
             }
         },
         {

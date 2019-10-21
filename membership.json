@@ -28,7 +28,7 @@
             }
         },
         {
-            "name": "Active members",
+            "name": "Members",
             "description": "Count of active members (active in the last year) with address located in the specified area.",
             "type": "integer",
             "format": "default",

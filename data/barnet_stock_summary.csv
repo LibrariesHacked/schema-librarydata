@@ -1,424 +1,424 @@
-"Local authority","Library name","Count date","Type","Book","Items"
-"Barnet","Barnet Book Club","2019-10-07","Adult fiction","Yes","2"
-"Barnet","Barnet Book Club","2019-10-07","Barnet Book Club","Yes","2261"
-"Barnet","Barnet Book Club","2019-10-07","Teenage fiction","Yes","1"
-"Barnet","Bibliographic Services","2019-10-07","Adult audiobook","No","15"
-"Barnet","Bibliographic Services","2019-10-07","Adult fiction","Yes","48"
-"Barnet","Bibliographic Services","2019-10-07","Adult non fiction","Yes","193"
-"Barnet","Bibliographic Services","2019-10-07","Adult reference","Yes","19"
-"Barnet","Bibliographic Services","2019-10-07","Barnet Book Club","Yes","15"
-"Barnet","Bibliographic Services","2019-10-07","Children's fiction","Yes","43"
-"Barnet","Bibliographic Services","2019-10-07","Children's non fiction","Yes","40"
-"Barnet","Bibliographic Services","2019-10-07","Children's reference","Yes","5"
-"Barnet","Bibliographic Services","2019-10-07","Compact disc","No","8"
-"Barnet","Bibliographic Services","2019-10-07","DVD certificate 12","No","6"
-"Barnet","Bibliographic Services","2019-10-07","DVD certificate 15","No","15"
-"Barnet","Bibliographic Services","2019-10-07","DVD certificate 18+","No","4"
-"Barnet","Bibliographic Services","2019-10-07","DVD certificate exempt","No","3"
-"Barnet","Bibliographic Services","2019-10-07","DVD certificate PG","No","6"
-"Barnet","Bibliographic Services","2019-10-07","DVD certificate U","No","21"
-"Barnet","Bibliographic Services","2019-10-07","Interlending book","Yes","8"
-"Barnet","Bibliographic Services","2019-10-07","Large print adult fiction","Yes","18"
-"Barnet","Bibliographic Services","2019-10-07","Large print adult non fiction","Yes","5"
-"Barnet","Bibliographic Services","2019-10-07","Music score","Yes","1"
-"Barnet","Bibliographic Services","2019-10-07","Playset","Yes","1"
-"Barnet","Bibliographic Services","2019-10-07","SLS Fiction","Yes","1"
-"Barnet","Bibliographic Services","2019-10-07","Teenage fiction","Yes","19"
-"Barnet","Bibliographic Services","2019-10-07","Teenage non fiction","Yes","9"
-"Barnet","Bibliographic Services","2019-10-07","Vocal score sets","Yes","1"
-"Barnet","Burnt Oak","2019-10-07","Adult audiobook","No","208"
-"Barnet","Burnt Oak","2019-10-07","Adult fiction","Yes","2772"
-"Barnet","Burnt Oak","2019-10-07","Adult non fiction","Yes","2953"
-"Barnet","Burnt Oak","2019-10-07","Adult reference","Yes","376"
-"Barnet","Burnt Oak","2019-10-07","Barnet Book Club","Yes","8"
-"Barnet","Burnt Oak","2019-10-07","Children's audiobook","No","2"
-"Barnet","Burnt Oak","2019-10-07","Children's fiction","Yes","4148"
-"Barnet","Burnt Oak","2019-10-07","Children's non fiction","Yes","1140"
-"Barnet","Burnt Oak","2019-10-07","Children's reference","Yes","73"
-"Barnet","Burnt Oak","2019-10-07","Compact disc","No","47"
-"Barnet","Burnt Oak","2019-10-07","DVD certificate 12","No","148"
-"Barnet","Burnt Oak","2019-10-07","DVD certificate 15","No","131"
-"Barnet","Burnt Oak","2019-10-07","DVD certificate 18+","No","15"
-"Barnet","Burnt Oak","2019-10-07","DVD certificate exempt","No","7"
-"Barnet","Burnt Oak","2019-10-07","DVD certificate PG","No","51"
-"Barnet","Burnt Oak","2019-10-07","DVD certificate U","No","257"
-"Barnet","Burnt Oak","2019-10-07","Electronic devices","No","10"
-"Barnet","Burnt Oak","2019-10-07","Language learning","Yes","7"
-"Barnet","Burnt Oak","2019-10-07","Large print adult fiction","Yes","195"
-"Barnet","Burnt Oak","2019-10-07","Large print adult non fiction","Yes","17"
-"Barnet","Burnt Oak","2019-10-07","Music score","Yes","2"
-"Barnet","Burnt Oak","2019-10-07","Periodical","No","1"
-"Barnet","Burnt Oak","2019-10-07","SLS Non Fiction","Yes","1"
-"Barnet","Burnt Oak","2019-10-07","Teenage fiction","Yes","653"
-"Barnet","Burnt Oak","2019-10-07","Teenage non fiction","Yes","292"
-"Barnet","Childs Hill","2019-10-07","Adult audiobook","No","297"
-"Barnet","Childs Hill","2019-10-07","Adult fiction","Yes","2588"
-"Barnet","Childs Hill","2019-10-07","Adult non fiction","Yes","2168"
-"Barnet","Childs Hill","2019-10-07","Adult reference","Yes","252"
-"Barnet","Childs Hill","2019-10-07","Barnet Book Club","Yes","2"
-"Barnet","Childs Hill","2019-10-07","Children's audiobook","No","6"
-"Barnet","Childs Hill","2019-10-07","Children's fiction","Yes","4257"
-"Barnet","Childs Hill","2019-10-07","Children's non fiction","Yes","691"
-"Barnet","Childs Hill","2019-10-07","Children's reference","Yes","40"
-"Barnet","Childs Hill","2019-10-07","Compact disc","No","61"
-"Barnet","Childs Hill","2019-10-07","DVD certificate 12","No","92"
-"Barnet","Childs Hill","2019-10-07","DVD certificate 15","No","66"
-"Barnet","Childs Hill","2019-10-07","DVD certificate 18+","No","8"
-"Barnet","Childs Hill","2019-10-07","DVD certificate exempt","No","4"
-"Barnet","Childs Hill","2019-10-07","DVD certificate PG","No","42"
-"Barnet","Childs Hill","2019-10-07","DVD certificate U","No","133"
-"Barnet","Childs Hill","2019-10-07","Electronic devices","No","10"
-"Barnet","Childs Hill","2019-10-07","Language learning","Yes","5"
-"Barnet","Childs Hill","2019-10-07","Large print adult fiction","Yes","386"
-"Barnet","Childs Hill","2019-10-07","Large print adult non fiction","Yes","29"
-"Barnet","Childs Hill","2019-10-07","Playset","Yes","4"
-"Barnet","Childs Hill","2019-10-07","Teenage fiction","Yes","572"
-"Barnet","Childs Hill","2019-10-07","Teenage non fiction","Yes","134"
-"Barnet","Chipping Barnet","2019-10-07","Adult audiobook","No","533"
-"Barnet","Chipping Barnet","2019-10-07","Adult fiction","Yes","11799"
-"Barnet","Chipping Barnet","2019-10-07","Adult non fiction","Yes","14233"
-"Barnet","Chipping Barnet","2019-10-07","Adult reference","Yes","1568"
-"Barnet","Chipping Barnet","2019-10-07","Barnet Book Club","Yes","6"
-"Barnet","Chipping Barnet","2019-10-07","Children's audiobook","No","100"
-"Barnet","Chipping Barnet","2019-10-07","Children's fiction","Yes","12667"
-"Barnet","Chipping Barnet","2019-10-07","Children's non fiction","Yes","3489"
-"Barnet","Chipping Barnet","2019-10-07","Children's reference","Yes","60"
-"Barnet","Chipping Barnet","2019-10-07","Compact disc","No","2007"
-"Barnet","Chipping Barnet","2019-10-07","DVD certificate 12","No","677"
-"Barnet","Chipping Barnet","2019-10-07","DVD certificate 15","No","959"
-"Barnet","Chipping Barnet","2019-10-07","DVD certificate 18+","No","178"
-"Barnet","Chipping Barnet","2019-10-07","DVD certificate exempt","No","36"
-"Barnet","Chipping Barnet","2019-10-07","DVD certificate PG","No","128"
-"Barnet","Chipping Barnet","2019-10-07","DVD certificate U","No","492"
-"Barnet","Chipping Barnet","2019-10-07","Electronic devices","No","10"
-"Barnet","Chipping Barnet","2019-10-07","Interlending book","Yes","1"
-"Barnet","Chipping Barnet","2019-10-07","Language learning","Yes","34"
-"Barnet","Chipping Barnet","2019-10-07","Large print adult fiction","Yes","754"
-"Barnet","Chipping Barnet","2019-10-07","Large print adult non fiction","Yes","127"
-"Barnet","Chipping Barnet","2019-10-07","Large print children's fiction","Yes","8"
-"Barnet","Chipping Barnet","2019-10-07","Music score","Yes","107"
-"Barnet","Chipping Barnet","2019-10-07","Playset","Yes","2"
-"Barnet","Chipping Barnet","2019-10-07","Teenage fiction","Yes","2321"
-"Barnet","Chipping Barnet","2019-10-07","Teenage non fiction","Yes","671"
-"Barnet","Chipping Barnet","2019-10-07","Vocal score sets","Yes","1"
-"Barnet","Colindale","2019-10-07","Adult audiobook","No","257"
-"Barnet","Colindale","2019-10-07","Adult fiction","Yes","2597"
-"Barnet","Colindale","2019-10-07","Adult non fiction","Yes","3533"
-"Barnet","Colindale","2019-10-07","Adult reference","Yes","321"
-"Barnet","Colindale","2019-10-07","Barnet Book Club","Yes","4"
-"Barnet","Colindale","2019-10-07","Children's audiobook","No","2"
-"Barnet","Colindale","2019-10-07","Children's fiction","Yes","4956"
-"Barnet","Colindale","2019-10-07","Children's non fiction","Yes","1412"
-"Barnet","Colindale","2019-10-07","Children's reference","Yes","71"
-"Barnet","Colindale","2019-10-07","Compact disc","No","30"
-"Barnet","Colindale","2019-10-07","DVD certificate 12","No","205"
-"Barnet","Colindale","2019-10-07","DVD certificate 15","No","192"
-"Barnet","Colindale","2019-10-07","DVD certificate 18+","No","19"
-"Barnet","Colindale","2019-10-07","DVD certificate PG","No","31"
-"Barnet","Colindale","2019-10-07","DVD certificate U","No","175"
-"Barnet","Colindale","2019-10-07","Electronic devices","No","10"
-"Barnet","Colindale","2019-10-07","Language learning","Yes","5"
-"Barnet","Colindale","2019-10-07","Large print adult fiction","Yes","180"
-"Barnet","Colindale","2019-10-07","Large print adult non fiction","Yes","36"
-"Barnet","Colindale","2019-10-07","SLS Non Fiction","Yes","8"
-"Barnet","Colindale","2019-10-07","Teenage fiction","Yes","633"
-"Barnet","Colindale","2019-10-07","Teenage non fiction","Yes","327"
-"Barnet","Customer Services Organisation","2019-10-07","Adult fiction","Yes","7"
-"Barnet","Customer Services Organisation","2019-10-07","Adult non fiction","Yes","13"
-"Barnet","Customer Services Organisation","2019-10-07","Adult reference","Yes","2"
-"Barnet","Customer Services Organisation","2019-10-07","Children's fiction","Yes","8"
-"Barnet","Customer Services Organisation","2019-10-07","Children's non fiction","Yes","3"
-"Barnet","Customer Services Organisation","2019-10-07","Compact disc","No","1"
-"Barnet","Customer Services Organisation","2019-10-07","DVD certificate 12","No","2"
-"Barnet","Customer Services Organisation","2019-10-07","DVD certificate 15","No","1"
-"Barnet","Customer Services Organisation","2019-10-07","DVD certificate U","No","1"
-"Barnet","Customer Services Organisation","2019-10-07","Teenage non fiction","Yes","3"
-"Barnet","Early Years Team","2019-10-07","Adult non fiction","Yes","2"
-"Barnet","Early Years Team","2019-10-07","Children's fiction","Yes","280"
-"Barnet","Early Years Team","2019-10-07","Children's non fiction","Yes","33"
-"Barnet","Early Years Team","2019-10-07","Children's reference","Yes","2"
-"Barnet","Early Years Team","2019-10-07","SLS Fiction","Yes","4"
-"Barnet","Early Years Team","2019-10-07","SLS Non Fiction","Yes","3"
-"Barnet","East Finchley","2019-10-07","Adult audiobook","No","190"
-"Barnet","East Finchley","2019-10-07","Adult fiction","Yes","3005"
-"Barnet","East Finchley","2019-10-07","Adult non fiction","Yes","4030"
-"Barnet","East Finchley","2019-10-07","Adult reference","Yes","484"
-"Barnet","East Finchley","2019-10-07","Barnet Book Club","Yes","4"
-"Barnet","East Finchley","2019-10-07","Children's audiobook","No","6"
-"Barnet","East Finchley","2019-10-07","Children's fiction","Yes","4377"
-"Barnet","East Finchley","2019-10-07","Children's non fiction","Yes","1857"
-"Barnet","East Finchley","2019-10-07","Children's reference","Yes","74"
-"Barnet","East Finchley","2019-10-07","Compact disc","No","1091"
-"Barnet","East Finchley","2019-10-07","DVD certificate 12","No","317"
-"Barnet","East Finchley","2019-10-07","DVD certificate 15","No","342"
-"Barnet","East Finchley","2019-10-07","DVD certificate 18+","No","55"
-"Barnet","East Finchley","2019-10-07","DVD certificate exempt","No","10"
-"Barnet","East Finchley","2019-10-07","DVD certificate PG","No","44"
-"Barnet","East Finchley","2019-10-07","DVD certificate U","No","316"
-"Barnet","East Finchley","2019-10-07","Electronic devices","No","10"
-"Barnet","East Finchley","2019-10-07","Language learning","Yes","16"
-"Barnet","East Finchley","2019-10-07","Large print adult fiction","Yes","154"
-"Barnet","East Finchley","2019-10-07","Large print adult non fiction","Yes","14"
-"Barnet","East Finchley","2019-10-07","Music score","Yes","52"
-"Barnet","East Finchley","2019-10-07","Schools - Braille","No","1"
-"Barnet","East Finchley","2019-10-07","SLS DVD","No","1"
-"Barnet","East Finchley","2019-10-07","Teenage fiction","Yes","596"
-"Barnet","East Finchley","2019-10-07","Teenage non fiction","Yes","1215"
-"Barnet","Edgware","2019-10-07","Adult audiobook","No","267"
-"Barnet","Edgware","2019-10-07","Adult fiction","Yes","5307"
-"Barnet","Edgware","2019-10-07","Adult non fiction","Yes","5978"
-"Barnet","Edgware","2019-10-07","Adult reference","Yes","716"
-"Barnet","Edgware","2019-10-07","Barnet Book Club","Yes","6"
-"Barnet","Edgware","2019-10-07","Children's audiobook","No","2"
-"Barnet","Edgware","2019-10-07","Children's fiction","Yes","7203"
-"Barnet","Edgware","2019-10-07","Children's non fiction","Yes","2007"
-"Barnet","Edgware","2019-10-07","Children's reference","Yes","82"
-"Barnet","Edgware","2019-10-07","Compact disc","No","60"
-"Barnet","Edgware","2019-10-07","DVD certificate 12","No","270"
-"Barnet","Edgware","2019-10-07","DVD certificate 15","No","274"
-"Barnet","Edgware","2019-10-07","DVD certificate 18+","No","47"
-"Barnet","Edgware","2019-10-07","DVD certificate exempt","No","6"
-"Barnet","Edgware","2019-10-07","DVD certificate PG","No","42"
-"Barnet","Edgware","2019-10-07","DVD certificate U","No","246"
-"Barnet","Edgware","2019-10-07","Electronic devices","No","10"
-"Barnet","Edgware","2019-10-07","Language learning","Yes","24"
-"Barnet","Edgware","2019-10-07","Large print adult fiction","Yes","315"
-"Barnet","Edgware","2019-10-07","Large print adult non fiction","Yes","24"
-"Barnet","Edgware","2019-10-07","Large print children's fiction","Yes","41"
-"Barnet","Edgware","2019-10-07","Music score","Yes","6"
-"Barnet","Edgware","2019-10-07","Periodical","No","155"
-"Barnet","Edgware","2019-10-07","SLS DVD","No","1"
-"Barnet","Edgware","2019-10-07","Teenage fiction","Yes","1127"
-"Barnet","Edgware","2019-10-07","Teenage non fiction","Yes","405"
-"Barnet","Edgware","2019-10-07","Vocal score sets","Yes","8352"
-"Barnet","Finchley Church End","2019-10-07","Adult audiobook","No","343"
-"Barnet","Finchley Church End","2019-10-07","Adult fiction","Yes","5370"
-"Barnet","Finchley Church End","2019-10-07","Adult non fiction","Yes","5836"
-"Barnet","Finchley Church End","2019-10-07","Adult reference","Yes","871"
-"Barnet","Finchley Church End","2019-10-07","Barnet Book Club","Yes","3"
-"Barnet","Finchley Church End","2019-10-07","Children's audiobook","No","8"
-"Barnet","Finchley Church End","2019-10-07","Children's fiction","Yes","7219"
-"Barnet","Finchley Church End","2019-10-07","Children's non fiction","Yes","2420"
-"Barnet","Finchley Church End","2019-10-07","Children's reference","Yes","48"
-"Barnet","Finchley Church End","2019-10-07","Compact disc","No","68"
-"Barnet","Finchley Church End","2019-10-07","DVD certificate 12","No","359"
-"Barnet","Finchley Church End","2019-10-07","DVD certificate 15","No","493"
-"Barnet","Finchley Church End","2019-10-07","DVD certificate 18+","No","87"
-"Barnet","Finchley Church End","2019-10-07","DVD certificate exempt","No","28"
-"Barnet","Finchley Church End","2019-10-07","DVD certificate PG","No","96"
-"Barnet","Finchley Church End","2019-10-07","DVD certificate U","No","284"
-"Barnet","Finchley Church End","2019-10-07","Electronic devices","No","10"
-"Barnet","Finchley Church End","2019-10-07","Language learning","Yes","27"
-"Barnet","Finchley Church End","2019-10-07","Large print adult fiction","Yes","367"
-"Barnet","Finchley Church End","2019-10-07","Large print adult non fiction","Yes","34"
-"Barnet","Finchley Church End","2019-10-07","Music score","Yes","13"
-"Barnet","Finchley Church End","2019-10-07","Periodical","No","1"
-"Barnet","Finchley Church End","2019-10-07","Playset","Yes","5273"
-"Barnet","Finchley Church End","2019-10-07","Teenage fiction","Yes","1031"
-"Barnet","Finchley Church End","2019-10-07","Teenage non fiction","Yes","443"
-"Barnet","Golders Green","2019-10-07","Adult audiobook","No","169"
-"Barnet","Golders Green","2019-10-07","Adult fiction","Yes","3656"
-"Barnet","Golders Green","2019-10-07","Adult non fiction","Yes","3626"
-"Barnet","Golders Green","2019-10-07","Adult reference","Yes","443"
-"Barnet","Golders Green","2019-10-07","Barnet Book Club","Yes","2"
-"Barnet","Golders Green","2019-10-07","Children's audiobook","No","6"
-"Barnet","Golders Green","2019-10-07","Children's fiction","Yes","5605"
-"Barnet","Golders Green","2019-10-07","Children's non fiction","Yes","1428"
-"Barnet","Golders Green","2019-10-07","Children's reference","Yes","73"
-"Barnet","Golders Green","2019-10-07","Compact disc","No","76"
-"Barnet","Golders Green","2019-10-07","DVD certificate 12","No","229"
-"Barnet","Golders Green","2019-10-07","DVD certificate 15","No","205"
-"Barnet","Golders Green","2019-10-07","DVD certificate 18+","No","25"
-"Barnet","Golders Green","2019-10-07","DVD certificate exempt","No","8"
-"Barnet","Golders Green","2019-10-07","DVD certificate PG","No","60"
-"Barnet","Golders Green","2019-10-07","DVD certificate U","No","245"
-"Barnet","Golders Green","2019-10-07","Electronic devices","No","10"
-"Barnet","Golders Green","2019-10-07","Language learning","Yes","9"
-"Barnet","Golders Green","2019-10-07","Large print adult fiction","Yes","209"
-"Barnet","Golders Green","2019-10-07","Large print adult non fiction","Yes","27"
-"Barnet","Golders Green","2019-10-07","Music score","Yes","4"
-"Barnet","Golders Green","2019-10-07","Teenage fiction","Yes","970"
-"Barnet","Golders Green","2019-10-07","Teenage non fiction","Yes","204"
-"Barnet","Hendon","2019-10-07","Adult audiobook","No","378"
-"Barnet","Hendon","2019-10-07","Adult fiction","Yes","4551"
-"Barnet","Hendon","2019-10-07","Adult non fiction","Yes","4802"
-"Barnet","Hendon","2019-10-07","Adult reference","Yes","1029"
-"Barnet","Hendon","2019-10-07","Barnet Book Club","Yes","2"
-"Barnet","Hendon","2019-10-07","Children's audiobook","No","8"
-"Barnet","Hendon","2019-10-07","Children's fiction","Yes","6211"
-"Barnet","Hendon","2019-10-07","Children's non fiction","Yes","1896"
-"Barnet","Hendon","2019-10-07","Children's reference","Yes","20"
-"Barnet","Hendon","2019-10-07","Compact disc","No","135"
-"Barnet","Hendon","2019-10-07","DVD certificate 12","No","231"
-"Barnet","Hendon","2019-10-07","DVD certificate 15","No","210"
-"Barnet","Hendon","2019-10-07","DVD certificate 18+","No","30"
-"Barnet","Hendon","2019-10-07","DVD certificate exempt","No","9"
-"Barnet","Hendon","2019-10-07","DVD certificate PG","No","33"
-"Barnet","Hendon","2019-10-07","DVD certificate U","No","300"
-"Barnet","Hendon","2019-10-07","Electronic devices","No","10"
-"Barnet","Hendon","2019-10-07","Language learning","Yes","33"
-"Barnet","Hendon","2019-10-07","Large print adult fiction","Yes","395"
-"Barnet","Hendon","2019-10-07","Large print adult non fiction","Yes","54"
-"Barnet","Hendon","2019-10-07","Large print children's fiction","Yes","23"
-"Barnet","Hendon","2019-10-07","Music score","Yes","56"
-"Barnet","Hendon","2019-10-07","Teenage fiction","Yes","842"
-"Barnet","Hendon","2019-10-07","Teenage non fiction","Yes","298"
-"Barnet","Hendon","2019-10-07","Vocal score sets","Yes","1"
-"Barnet","Home Library Service","2019-10-07","Adult audiobook","No","6"
-"Barnet","Home Library Service","2019-10-07","Adult fiction","Yes","41"
-"Barnet","Home Library Service","2019-10-07","Adult non fiction","Yes","27"
-"Barnet","Home Library Service","2019-10-07","Children's fiction","Yes","2"
-"Barnet","Home Library Service","2019-10-07","Compact disc","No","3"
-"Barnet","Home Library Service","2019-10-07","DVD certificate 15","No","1"
-"Barnet","Home Library Service","2019-10-07","Language learning","Yes","1"
-"Barnet","Home Library Service","2019-10-07","Large print adult fiction","Yes","1075"
-"Barnet","Home Library Service","2019-10-07","Large print adult non fiction","Yes","19"
-"Barnet","Home Library Service","2019-10-07","Teenage fiction","Yes","1"
-"Barnet","Local Studies and Archives","2019-10-07","Adult non fiction","Yes","62"
-"Barnet","Local Studies and Archives","2019-10-07","Adult reference","Yes","2195"
-"Barnet","Local Studies and Archives","2019-10-07","Children's non fiction","Yes","1"
-"Barnet","Local Studies and Archives","2019-10-07","Children's reference","Yes","1"
-"Barnet","Mill Hill","2019-10-07","Adult audiobook","No","204"
-"Barnet","Mill Hill","2019-10-07","Adult fiction","Yes","3281"
-"Barnet","Mill Hill","2019-10-07","Adult non fiction","Yes","2932"
-"Barnet","Mill Hill","2019-10-07","Adult reference","Yes","409"
-"Barnet","Mill Hill","2019-10-07","Barnet Book Club","Yes","5"
-"Barnet","Mill Hill","2019-10-07","Children's audiobook","No","2"
-"Barnet","Mill Hill","2019-10-07","Children's fiction","Yes","5979"
-"Barnet","Mill Hill","2019-10-07","Children's non fiction","Yes","1926"
-"Barnet","Mill Hill","2019-10-07","Children's reference","Yes","64"
-"Barnet","Mill Hill","2019-10-07","Compact disc","No","87"
-"Barnet","Mill Hill","2019-10-07","DVD certificate 12","No","145"
-"Barnet","Mill Hill","2019-10-07","DVD certificate 15","No","136"
-"Barnet","Mill Hill","2019-10-07","DVD certificate 18+","No","11"
-"Barnet","Mill Hill","2019-10-07","DVD certificate exempt","No","6"
-"Barnet","Mill Hill","2019-10-07","DVD certificate PG","No","100"
-"Barnet","Mill Hill","2019-10-07","DVD certificate U","No","275"
-"Barnet","Mill Hill","2019-10-07","Electronic devices","No","10"
-"Barnet","Mill Hill","2019-10-07","Language learning","Yes","19"
-"Barnet","Mill Hill","2019-10-07","Large print adult fiction","Yes","213"
-"Barnet","Mill Hill","2019-10-07","Large print adult non fiction","Yes","31"
-"Barnet","Mill Hill","2019-10-07","Playset","Yes","63"
-"Barnet","Mill Hill","2019-10-07","Teenage fiction","Yes","705"
-"Barnet","Mill Hill","2019-10-07","Teenage non fiction","Yes","153"
-"Barnet","Mobile Library","2019-10-07","Adult audiobook","No","7"
-"Barnet","Mobile Library","2019-10-07","Adult fiction","Yes","37"
-"Barnet","Mobile Library","2019-10-07","Adult non fiction","Yes","39"
-"Barnet","Mobile Library","2019-10-07","Children's fiction","Yes","57"
-"Barnet","Mobile Library","2019-10-07","Children's non fiction","Yes","7"
-"Barnet","Mobile Library","2019-10-07","Compact disc","No","4"
-"Barnet","Mobile Library","2019-10-07","DVD certificate 12","No","6"
-"Barnet","Mobile Library","2019-10-07","DVD certificate 15","No","8"
-"Barnet","Mobile Library","2019-10-07","DVD certificate 18+","No","1"
-"Barnet","Mobile Library","2019-10-07","DVD certificate PG","No","3"
-"Barnet","Mobile Library","2019-10-07","DVD certificate U","No","8"
-"Barnet","Mobile Library","2019-10-07","Large print adult fiction","Yes","52"
-"Barnet","Mobile Library","2019-10-07","Large print adult non fiction","Yes","18"
-"Barnet","Mobile Library","2019-10-07","Teenage fiction","Yes","7"
-"Barnet","New Barnet library","2019-10-07","Adult audiobook","No","205"
-"Barnet","New Barnet library","2019-10-07","Adult fiction","Yes","2375"
-"Barnet","New Barnet library","2019-10-07","Adult non fiction","Yes","2146"
-"Barnet","New Barnet library","2019-10-07","Adult reference","Yes","759"
-"Barnet","New Barnet library","2019-10-07","Barnet Book Club","Yes","4"
-"Barnet","New Barnet library","2019-10-07","Children's audiobook","No","2"
-"Barnet","New Barnet library","2019-10-07","Children's fiction","Yes","3972"
-"Barnet","New Barnet library","2019-10-07","Children's non fiction","Yes","1106"
-"Barnet","New Barnet library","2019-10-07","Children's reference","Yes","69"
-"Barnet","New Barnet library","2019-10-07","Compact disc","No","45"
-"Barnet","New Barnet library","2019-10-07","DVD certificate 12","No","102"
-"Barnet","New Barnet library","2019-10-07","DVD certificate 15","No","128"
-"Barnet","New Barnet library","2019-10-07","DVD certificate 18+","No","8"
-"Barnet","New Barnet library","2019-10-07","DVD certificate exempt","No","6"
-"Barnet","New Barnet library","2019-10-07","DVD certificate PG","No","57"
-"Barnet","New Barnet library","2019-10-07","DVD certificate U","No","183"
-"Barnet","New Barnet library","2019-10-07","Electronic devices","No","10"
-"Barnet","New Barnet library","2019-10-07","Language learning","Yes","6"
-"Barnet","New Barnet library","2019-10-07","Large print adult fiction","Yes","216"
-"Barnet","New Barnet library","2019-10-07","Large print adult non fiction","Yes","17"
-"Barnet","New Barnet library","2019-10-07","Music score","Yes","9"
-"Barnet","New Barnet library","2019-10-07","Teenage fiction","Yes","488"
-"Barnet","New Barnet library","2019-10-07","Teenage non fiction","Yes","108"
-"Barnet","North Finchley","2019-10-07","Adult audiobook","No","139"
-"Barnet","North Finchley","2019-10-07","Adult fiction","Yes","3336"
-"Barnet","North Finchley","2019-10-07","Adult non fiction","Yes","3633"
-"Barnet","North Finchley","2019-10-07","Adult reference","Yes","384"
-"Barnet","North Finchley","2019-10-07","Barnet Book Club","Yes","1"
-"Barnet","North Finchley","2019-10-07","Children's audiobook","No","6"
-"Barnet","North Finchley","2019-10-07","Children's fiction","Yes","5990"
-"Barnet","North Finchley","2019-10-07","Children's non fiction","Yes","1322"
-"Barnet","North Finchley","2019-10-07","Children's reference","Yes","107"
-"Barnet","North Finchley","2019-10-07","Compact disc","No","36"
-"Barnet","North Finchley","2019-10-07","DVD certificate 12","No","280"
-"Barnet","North Finchley","2019-10-07","DVD certificate 15","No","254"
-"Barnet","North Finchley","2019-10-07","DVD certificate 18+","No","34"
-"Barnet","North Finchley","2019-10-07","DVD certificate exempt","No","2"
-"Barnet","North Finchley","2019-10-07","DVD certificate PG","No","26"
-"Barnet","North Finchley","2019-10-07","DVD certificate U","No","270"
-"Barnet","North Finchley","2019-10-07","Electronic devices","No","10"
-"Barnet","North Finchley","2019-10-07","Language learning","Yes","11"
-"Barnet","North Finchley","2019-10-07","Large print adult fiction","Yes","248"
-"Barnet","North Finchley","2019-10-07","Large print adult non fiction","Yes","24"
-"Barnet","North Finchley","2019-10-07","Large print children's fiction","Yes","21"
-"Barnet","North Finchley","2019-10-07","Music score","Yes","6"
-"Barnet","North Finchley","2019-10-07","Teenage fiction","Yes","837"
-"Barnet","North Finchley","2019-10-07","Teenage non fiction","Yes","273"
-"Barnet","Osidge","2019-10-07","Adult audiobook","No","1465"
-"Barnet","Osidge","2019-10-07","Adult fiction","Yes","3731"
-"Barnet","Osidge","2019-10-07","Adult non fiction","Yes","3297"
-"Barnet","Osidge","2019-10-07","Adult reference","Yes","600"
-"Barnet","Osidge","2019-10-07","Barnet Book Club","Yes","6"
-"Barnet","Osidge","2019-10-07","Children's audiobook","No","6"
-"Barnet","Osidge","2019-10-07","Children's fiction","Yes","6034"
-"Barnet","Osidge","2019-10-07","Children's non fiction","Yes","1911"
-"Barnet","Osidge","2019-10-07","Children's reference","Yes","33"
-"Barnet","Osidge","2019-10-07","Compact disc","No","522"
-"Barnet","Osidge","2019-10-07","DVD certificate 12","No","264"
-"Barnet","Osidge","2019-10-07","DVD certificate 15","No","235"
-"Barnet","Osidge","2019-10-07","DVD certificate 18+","No","32"
-"Barnet","Osidge","2019-10-07","DVD certificate exempt","No","12"
-"Barnet","Osidge","2019-10-07","DVD certificate PG","No","132"
-"Barnet","Osidge","2019-10-07","DVD certificate U","No","300"
-"Barnet","Osidge","2019-10-07","Electronic devices","No","10"
-"Barnet","Osidge","2019-10-07","Language learning","Yes","9"
-"Barnet","Osidge","2019-10-07","Large print adult fiction","Yes","2410"
-"Barnet","Osidge","2019-10-07","Large print adult non fiction","Yes","317"
-"Barnet","Osidge","2019-10-07","Music score","Yes","1"
-"Barnet","Osidge","2019-10-07","SLS Fiction","Yes","2"
-"Barnet","Osidge","2019-10-07","Teenage fiction","Yes","610"
-"Barnet","Osidge","2019-10-07","Teenage non fiction","Yes","181"
-"Barnet","Schools Library Resources Service","2019-10-07","Adult fiction","Yes","9"
-"Barnet","Schools Library Resources Service","2019-10-07","Adult non fiction","Yes","18"
-"Barnet","Schools Library Resources Service","2019-10-07","Children's fiction","Yes","108"
-"Barnet","Schools Library Resources Service","2019-10-07","Children's non fiction","Yes","7"
-"Barnet","Schools Library Resources Service","2019-10-07","SLS Artefact","No","4894"
-"Barnet","Schools Library Resources Service","2019-10-07","SLS Audio","No","48"
-"Barnet","Schools Library Resources Service","2019-10-07","SLS CD","No","220"
-"Barnet","Schools Library Resources Service","2019-10-07","SLS DVD","No","610"
-"Barnet","Schools Library Resources Service","2019-10-07","SLS Fiction","Yes","23758"
-"Barnet","Schools Library Resources Service","2019-10-07","SLS Map","No","125"
-"Barnet","Schools Library Resources Service","2019-10-07","SLS Non Fiction","Yes","62232"
-"Barnet","Schools Library Resources Service","2019-10-07","SLS Picture","No","3913"
-"Barnet","Schools Library Resources Service","2019-10-07","SLS Poster","No","2008"
-"Barnet","Schools Library Resources Service","2019-10-07","SLS Resource Pack","No","570"
-"Barnet","South Friern","2019-10-07","Adult audiobook","No","124"
-"Barnet","South Friern","2019-10-07","Adult fiction","Yes","2360"
-"Barnet","South Friern","2019-10-07","Adult non fiction","Yes","1332"
-"Barnet","South Friern","2019-10-07","Adult reference","Yes","55"
-"Barnet","South Friern","2019-10-07","Barnet Book Club","Yes","3"
-"Barnet","South Friern","2019-10-07","Children's audiobook","No","8"
-"Barnet","South Friern","2019-10-07","Children's fiction","Yes","3702"
-"Barnet","South Friern","2019-10-07","Children's non fiction","Yes","635"
-"Barnet","South Friern","2019-10-07","Children's reference","Yes","8"
-"Barnet","South Friern","2019-10-07","Compact disc","No","39"
-"Barnet","South Friern","2019-10-07","DVD certificate 12","No","105"
-"Barnet","South Friern","2019-10-07","DVD certificate 15","No","92"
-"Barnet","South Friern","2019-10-07","DVD certificate 18+","No","19"
-"Barnet","South Friern","2019-10-07","DVD certificate exempt","No","2"
-"Barnet","South Friern","2019-10-07","DVD certificate PG","No","62"
-"Barnet","South Friern","2019-10-07","DVD certificate U","No","183"
-"Barnet","South Friern","2019-10-07","Electronic devices","No","10"
-"Barnet","South Friern","2019-10-07","Language learning","Yes","15"
-"Barnet","South Friern","2019-10-07","Large print adult fiction","Yes","93"
-"Barnet","South Friern","2019-10-07","Large print adult non fiction","Yes","8"
-"Barnet","South Friern","2019-10-07","Teenage fiction","Yes","494"
-"Barnet","South Friern","2019-10-07","Teenage non fiction","Yes","123"
+Local authority,Library name,Count date,Type,Items
+Barnet,Barnet Book Club,2019-10-07,Adult fiction,2
+Barnet,Barnet Book Club,2019-10-07,Barnet Book Club,2261
+Barnet,Barnet Book Club,2019-10-07,Teenage fiction,1
+Barnet,Bibliographic Services,2019-10-07,Adult audiobook,15
+Barnet,Bibliographic Services,2019-10-07,Adult fiction,48
+Barnet,Bibliographic Services,2019-10-07,Adult non fiction,193
+Barnet,Bibliographic Services,2019-10-07,Adult reference,19
+Barnet,Bibliographic Services,2019-10-07,Barnet Book Club,15
+Barnet,Bibliographic Services,2019-10-07,Children's fiction,43
+Barnet,Bibliographic Services,2019-10-07,Children's non fiction,40
+Barnet,Bibliographic Services,2019-10-07,Children's reference,5
+Barnet,Bibliographic Services,2019-10-07,Compact disc,8
+Barnet,Bibliographic Services,2019-10-07,DVD certificate 12,6
+Barnet,Bibliographic Services,2019-10-07,DVD certificate 15,15
+Barnet,Bibliographic Services,2019-10-07,DVD certificate 18+,4
+Barnet,Bibliographic Services,2019-10-07,DVD certificate exempt,3
+Barnet,Bibliographic Services,2019-10-07,DVD certificate PG,6
+Barnet,Bibliographic Services,2019-10-07,DVD certificate U,21
+Barnet,Bibliographic Services,2019-10-07,Interlending book,8
+Barnet,Bibliographic Services,2019-10-07,Large print adult fiction,18
+Barnet,Bibliographic Services,2019-10-07,Large print adult non fiction,5
+Barnet,Bibliographic Services,2019-10-07,Music score,1
+Barnet,Bibliographic Services,2019-10-07,Playset,1
+Barnet,Bibliographic Services,2019-10-07,SLS Fiction,1
+Barnet,Bibliographic Services,2019-10-07,Teenage fiction,19
+Barnet,Bibliographic Services,2019-10-07,Teenage non fiction,9
+Barnet,Bibliographic Services,2019-10-07,Vocal score sets,1
+Barnet,Burnt Oak,2019-10-07,Adult audiobook,208
+Barnet,Burnt Oak,2019-10-07,Adult fiction,2772
+Barnet,Burnt Oak,2019-10-07,Adult non fiction,2953
+Barnet,Burnt Oak,2019-10-07,Adult reference,376
+Barnet,Burnt Oak,2019-10-07,Barnet Book Club,8
+Barnet,Burnt Oak,2019-10-07,Children's audiobook,2
+Barnet,Burnt Oak,2019-10-07,Children's fiction,4148
+Barnet,Burnt Oak,2019-10-07,Children's non fiction,1140
+Barnet,Burnt Oak,2019-10-07,Children's reference,73
+Barnet,Burnt Oak,2019-10-07,Compact disc,47
+Barnet,Burnt Oak,2019-10-07,DVD certificate 12,148
+Barnet,Burnt Oak,2019-10-07,DVD certificate 15,131
+Barnet,Burnt Oak,2019-10-07,DVD certificate 18+,15
+Barnet,Burnt Oak,2019-10-07,DVD certificate exempt,7
+Barnet,Burnt Oak,2019-10-07,DVD certificate PG,51
+Barnet,Burnt Oak,2019-10-07,DVD certificate U,257
+Barnet,Burnt Oak,2019-10-07,Electronic devices,10
+Barnet,Burnt Oak,2019-10-07,Language learning,7
+Barnet,Burnt Oak,2019-10-07,Large print adult fiction,195
+Barnet,Burnt Oak,2019-10-07,Large print adult non fiction,17
+Barnet,Burnt Oak,2019-10-07,Music score,2
+Barnet,Burnt Oak,2019-10-07,Periodical,1
+Barnet,Burnt Oak,2019-10-07,SLS Non Fiction,1
+Barnet,Burnt Oak,2019-10-07,Teenage fiction,653
+Barnet,Burnt Oak,2019-10-07,Teenage non fiction,292
+Barnet,Childs Hill,2019-10-07,Adult audiobook,297
+Barnet,Childs Hill,2019-10-07,Adult fiction,2588
+Barnet,Childs Hill,2019-10-07,Adult non fiction,2168
+Barnet,Childs Hill,2019-10-07,Adult reference,252
+Barnet,Childs Hill,2019-10-07,Barnet Book Club,2
+Barnet,Childs Hill,2019-10-07,Children's audiobook,6
+Barnet,Childs Hill,2019-10-07,Children's fiction,4257
+Barnet,Childs Hill,2019-10-07,Children's non fiction,691
+Barnet,Childs Hill,2019-10-07,Children's reference,40
+Barnet,Childs Hill,2019-10-07,Compact disc,61
+Barnet,Childs Hill,2019-10-07,DVD certificate 12,92
+Barnet,Childs Hill,2019-10-07,DVD certificate 15,66
+Barnet,Childs Hill,2019-10-07,DVD certificate 18+,8
+Barnet,Childs Hill,2019-10-07,DVD certificate exempt,4
+Barnet,Childs Hill,2019-10-07,DVD certificate PG,42
+Barnet,Childs Hill,2019-10-07,DVD certificate U,133
+Barnet,Childs Hill,2019-10-07,Electronic devices,10
+Barnet,Childs Hill,2019-10-07,Language learning,5
+Barnet,Childs Hill,2019-10-07,Large print adult fiction,386
+Barnet,Childs Hill,2019-10-07,Large print adult non fiction,29
+Barnet,Childs Hill,2019-10-07,Playset,4
+Barnet,Childs Hill,2019-10-07,Teenage fiction,572
+Barnet,Childs Hill,2019-10-07,Teenage non fiction,134
+Barnet,Chipping Barnet,2019-10-07,Adult audiobook,533
+Barnet,Chipping Barnet,2019-10-07,Adult fiction,11799
+Barnet,Chipping Barnet,2019-10-07,Adult non fiction,14233
+Barnet,Chipping Barnet,2019-10-07,Adult reference,1568
+Barnet,Chipping Barnet,2019-10-07,Barnet Book Club,6
+Barnet,Chipping Barnet,2019-10-07,Children's audiobook,100
+Barnet,Chipping Barnet,2019-10-07,Children's fiction,12667
+Barnet,Chipping Barnet,2019-10-07,Children's non fiction,3489
+Barnet,Chipping Barnet,2019-10-07,Children's reference,60
+Barnet,Chipping Barnet,2019-10-07,Compact disc,2007
+Barnet,Chipping Barnet,2019-10-07,DVD certificate 12,677
+Barnet,Chipping Barnet,2019-10-07,DVD certificate 15,959
+Barnet,Chipping Barnet,2019-10-07,DVD certificate 18+,178
+Barnet,Chipping Barnet,2019-10-07,DVD certificate exempt,36
+Barnet,Chipping Barnet,2019-10-07,DVD certificate PG,128
+Barnet,Chipping Barnet,2019-10-07,DVD certificate U,492
+Barnet,Chipping Barnet,2019-10-07,Electronic devices,10
+Barnet,Chipping Barnet,2019-10-07,Interlending book,1
+Barnet,Chipping Barnet,2019-10-07,Language learning,34
+Barnet,Chipping Barnet,2019-10-07,Large print adult fiction,754
+Barnet,Chipping Barnet,2019-10-07,Large print adult non fiction,127
+Barnet,Chipping Barnet,2019-10-07,Large print children's fiction,8
+Barnet,Chipping Barnet,2019-10-07,Music score,107
+Barnet,Chipping Barnet,2019-10-07,Playset,2
+Barnet,Chipping Barnet,2019-10-07,Teenage fiction,2321
+Barnet,Chipping Barnet,2019-10-07,Teenage non fiction,671
+Barnet,Chipping Barnet,2019-10-07,Vocal score sets,1
+Barnet,Colindale,2019-10-07,Adult audiobook,257
+Barnet,Colindale,2019-10-07,Adult fiction,2597
+Barnet,Colindale,2019-10-07,Adult non fiction,3533
+Barnet,Colindale,2019-10-07,Adult reference,321
+Barnet,Colindale,2019-10-07,Barnet Book Club,4
+Barnet,Colindale,2019-10-07,Children's audiobook,2
+Barnet,Colindale,2019-10-07,Children's fiction,4956
+Barnet,Colindale,2019-10-07,Children's non fiction,1412
+Barnet,Colindale,2019-10-07,Children's reference,71
+Barnet,Colindale,2019-10-07,Compact disc,30
+Barnet,Colindale,2019-10-07,DVD certificate 12,205
+Barnet,Colindale,2019-10-07,DVD certificate 15,192
+Barnet,Colindale,2019-10-07,DVD certificate 18+,19
+Barnet,Colindale,2019-10-07,DVD certificate PG,31
+Barnet,Colindale,2019-10-07,DVD certificate U,175
+Barnet,Colindale,2019-10-07,Electronic devices,10
+Barnet,Colindale,2019-10-07,Language learning,5
+Barnet,Colindale,2019-10-07,Large print adult fiction,180
+Barnet,Colindale,2019-10-07,Large print adult non fiction,36
+Barnet,Colindale,2019-10-07,SLS Non Fiction,8
+Barnet,Colindale,2019-10-07,Teenage fiction,633
+Barnet,Colindale,2019-10-07,Teenage non fiction,327
+Barnet,Customer Services Organisation,2019-10-07,Adult fiction,7
+Barnet,Customer Services Organisation,2019-10-07,Adult non fiction,13
+Barnet,Customer Services Organisation,2019-10-07,Adult reference,2
+Barnet,Customer Services Organisation,2019-10-07,Children's fiction,8
+Barnet,Customer Services Organisation,2019-10-07,Children's non fiction,3
+Barnet,Customer Services Organisation,2019-10-07,Compact disc,1
+Barnet,Customer Services Organisation,2019-10-07,DVD certificate 12,2
+Barnet,Customer Services Organisation,2019-10-07,DVD certificate 15,1
+Barnet,Customer Services Organisation,2019-10-07,DVD certificate U,1
+Barnet,Customer Services Organisation,2019-10-07,Teenage non fiction,3
+Barnet,Early Years Team,2019-10-07,Adult non fiction,2
+Barnet,Early Years Team,2019-10-07,Children's fiction,280
+Barnet,Early Years Team,2019-10-07,Children's non fiction,33
+Barnet,Early Years Team,2019-10-07,Children's reference,2
+Barnet,Early Years Team,2019-10-07,SLS Fiction,4
+Barnet,Early Years Team,2019-10-07,SLS Non Fiction,3
+Barnet,East Finchley,2019-10-07,Adult audiobook,190
+Barnet,East Finchley,2019-10-07,Adult fiction,3005
+Barnet,East Finchley,2019-10-07,Adult non fiction,4030
+Barnet,East Finchley,2019-10-07,Adult reference,484
+Barnet,East Finchley,2019-10-07,Barnet Book Club,4
+Barnet,East Finchley,2019-10-07,Children's audiobook,6
+Barnet,East Finchley,2019-10-07,Children's fiction,4377
+Barnet,East Finchley,2019-10-07,Children's non fiction,1857
+Barnet,East Finchley,2019-10-07,Children's reference,74
+Barnet,East Finchley,2019-10-07,Compact disc,1091
+Barnet,East Finchley,2019-10-07,DVD certificate 12,317
+Barnet,East Finchley,2019-10-07,DVD certificate 15,342
+Barnet,East Finchley,2019-10-07,DVD certificate 18+,55
+Barnet,East Finchley,2019-10-07,DVD certificate exempt,10
+Barnet,East Finchley,2019-10-07,DVD certificate PG,44
+Barnet,East Finchley,2019-10-07,DVD certificate U,316
+Barnet,East Finchley,2019-10-07,Electronic devices,10
+Barnet,East Finchley,2019-10-07,Language learning,16
+Barnet,East Finchley,2019-10-07,Large print adult fiction,154
+Barnet,East Finchley,2019-10-07,Large print adult non fiction,14
+Barnet,East Finchley,2019-10-07,Music score,52
+Barnet,East Finchley,2019-10-07,Schools - Braille,1
+Barnet,East Finchley,2019-10-07,SLS DVD,1
+Barnet,East Finchley,2019-10-07,Teenage fiction,596
+Barnet,East Finchley,2019-10-07,Teenage non fiction,1215
+Barnet,Edgware,2019-10-07,Adult audiobook,267
+Barnet,Edgware,2019-10-07,Adult fiction,5307
+Barnet,Edgware,2019-10-07,Adult non fiction,5978
+Barnet,Edgware,2019-10-07,Adult reference,716
+Barnet,Edgware,2019-10-07,Barnet Book Club,6
+Barnet,Edgware,2019-10-07,Children's audiobook,2
+Barnet,Edgware,2019-10-07,Children's fiction,7203
+Barnet,Edgware,2019-10-07,Children's non fiction,2007
+Barnet,Edgware,2019-10-07,Children's reference,82
+Barnet,Edgware,2019-10-07,Compact disc,60
+Barnet,Edgware,2019-10-07,DVD certificate 12,270
+Barnet,Edgware,2019-10-07,DVD certificate 15,274
+Barnet,Edgware,2019-10-07,DVD certificate 18+,47
+Barnet,Edgware,2019-10-07,DVD certificate exempt,6
+Barnet,Edgware,2019-10-07,DVD certificate PG,42
+Barnet,Edgware,2019-10-07,DVD certificate U,246
+Barnet,Edgware,2019-10-07,Electronic devices,10
+Barnet,Edgware,2019-10-07,Language learning,24
+Barnet,Edgware,2019-10-07,Large print adult fiction,315
+Barnet,Edgware,2019-10-07,Large print adult non fiction,24
+Barnet,Edgware,2019-10-07,Large print children's fiction,41
+Barnet,Edgware,2019-10-07,Music score,6
+Barnet,Edgware,2019-10-07,Periodical,155
+Barnet,Edgware,2019-10-07,SLS DVD,1
+Barnet,Edgware,2019-10-07,Teenage fiction,1127
+Barnet,Edgware,2019-10-07,Teenage non fiction,405
+Barnet,Edgware,2019-10-07,Vocal score sets,8352
+Barnet,Finchley Church End,2019-10-07,Adult audiobook,343
+Barnet,Finchley Church End,2019-10-07,Adult fiction,5370
+Barnet,Finchley Church End,2019-10-07,Adult non fiction,5836
+Barnet,Finchley Church End,2019-10-07,Adult reference,871
+Barnet,Finchley Church End,2019-10-07,Barnet Book Club,3
+Barnet,Finchley Church End,2019-10-07,Children's audiobook,8
+Barnet,Finchley Church End,2019-10-07,Children's fiction,7219
+Barnet,Finchley Church End,2019-10-07,Children's non fiction,2420
+Barnet,Finchley Church End,2019-10-07,Children's reference,48
+Barnet,Finchley Church End,2019-10-07,Compact disc,68
+Barnet,Finchley Church End,2019-10-07,DVD certificate 12,359
+Barnet,Finchley Church End,2019-10-07,DVD certificate 15,493
+Barnet,Finchley Church End,2019-10-07,DVD certificate 18+,87
+Barnet,Finchley Church End,2019-10-07,DVD certificate exempt,28
+Barnet,Finchley Church End,2019-10-07,DVD certificate PG,96
+Barnet,Finchley Church End,2019-10-07,DVD certificate U,284
+Barnet,Finchley Church End,2019-10-07,Electronic devices,10
+Barnet,Finchley Church End,2019-10-07,Language learning,27
+Barnet,Finchley Church End,2019-10-07,Large print adult fiction,367
+Barnet,Finchley Church End,2019-10-07,Large print adult non fiction,34
+Barnet,Finchley Church End,2019-10-07,Music score,13
+Barnet,Finchley Church End,2019-10-07,Periodical,1
+Barnet,Finchley Church End,2019-10-07,Playset,5273
+Barnet,Finchley Church End,2019-10-07,Teenage fiction,1031
+Barnet,Finchley Church End,2019-10-07,Teenage non fiction,443
+Barnet,Golders Green,2019-10-07,Adult audiobook,169
+Barnet,Golders Green,2019-10-07,Adult fiction,3656
+Barnet,Golders Green,2019-10-07,Adult non fiction,3626
+Barnet,Golders Green,2019-10-07,Adult reference,443
+Barnet,Golders Green,2019-10-07,Barnet Book Club,2
+Barnet,Golders Green,2019-10-07,Children's audiobook,6
+Barnet,Golders Green,2019-10-07,Children's fiction,5605
+Barnet,Golders Green,2019-10-07,Children's non fiction,1428
+Barnet,Golders Green,2019-10-07,Children's reference,73
+Barnet,Golders Green,2019-10-07,Compact disc,76
+Barnet,Golders Green,2019-10-07,DVD certificate 12,229
+Barnet,Golders Green,2019-10-07,DVD certificate 15,205
+Barnet,Golders Green,2019-10-07,DVD certificate 18+,25
+Barnet,Golders Green,2019-10-07,DVD certificate exempt,8
+Barnet,Golders Green,2019-10-07,DVD certificate PG,60
+Barnet,Golders Green,2019-10-07,DVD certificate U,245
+Barnet,Golders Green,2019-10-07,Electronic devices,10
+Barnet,Golders Green,2019-10-07,Language learning,9
+Barnet,Golders Green,2019-10-07,Large print adult fiction,209
+Barnet,Golders Green,2019-10-07,Large print adult non fiction,27
+Barnet,Golders Green,2019-10-07,Music score,4
+Barnet,Golders Green,2019-10-07,Teenage fiction,970
+Barnet,Golders Green,2019-10-07,Teenage non fiction,204
+Barnet,Hendon,2019-10-07,Adult audiobook,378
+Barnet,Hendon,2019-10-07,Adult fiction,4551
+Barnet,Hendon,2019-10-07,Adult non fiction,4802
+Barnet,Hendon,2019-10-07,Adult reference,1029
+Barnet,Hendon,2019-10-07,Barnet Book Club,2
+Barnet,Hendon,2019-10-07,Children's audiobook,8
+Barnet,Hendon,2019-10-07,Children's fiction,6211
+Barnet,Hendon,2019-10-07,Children's non fiction,1896
+Barnet,Hendon,2019-10-07,Children's reference,20
+Barnet,Hendon,2019-10-07,Compact disc,135
+Barnet,Hendon,2019-10-07,DVD certificate 12,231
+Barnet,Hendon,2019-10-07,DVD certificate 15,210
+Barnet,Hendon,2019-10-07,DVD certificate 18+,30
+Barnet,Hendon,2019-10-07,DVD certificate exempt,9
+Barnet,Hendon,2019-10-07,DVD certificate PG,33
+Barnet,Hendon,2019-10-07,DVD certificate U,300
+Barnet,Hendon,2019-10-07,Electronic devices,10
+Barnet,Hendon,2019-10-07,Language learning,33
+Barnet,Hendon,2019-10-07,Large print adult fiction,395
+Barnet,Hendon,2019-10-07,Large print adult non fiction,54
+Barnet,Hendon,2019-10-07,Large print children's fiction,23
+Barnet,Hendon,2019-10-07,Music score,56
+Barnet,Hendon,2019-10-07,Teenage fiction,842
+Barnet,Hendon,2019-10-07,Teenage non fiction,298
+Barnet,Hendon,2019-10-07,Vocal score sets,1
+Barnet,Home Library Service,2019-10-07,Adult audiobook,6
+Barnet,Home Library Service,2019-10-07,Adult fiction,41
+Barnet,Home Library Service,2019-10-07,Adult non fiction,27
+Barnet,Home Library Service,2019-10-07,Children's fiction,2
+Barnet,Home Library Service,2019-10-07,Compact disc,3
+Barnet,Home Library Service,2019-10-07,DVD certificate 15,1
+Barnet,Home Library Service,2019-10-07,Language learning,1
+Barnet,Home Library Service,2019-10-07,Large print adult fiction,1075
+Barnet,Home Library Service,2019-10-07,Large print adult non fiction,19
+Barnet,Home Library Service,2019-10-07,Teenage fiction,1
+Barnet,Local Studies and Archives,2019-10-07,Adult non fiction,62
+Barnet,Local Studies and Archives,2019-10-07,Adult reference,2195
+Barnet,Local Studies and Archives,2019-10-07,Children's non fiction,1
+Barnet,Local Studies and Archives,2019-10-07,Children's reference,1
+Barnet,Mill Hill,2019-10-07,Adult audiobook,204
+Barnet,Mill Hill,2019-10-07,Adult fiction,3281
+Barnet,Mill Hill,2019-10-07,Adult non fiction,2932
+Barnet,Mill Hill,2019-10-07,Adult reference,409
+Barnet,Mill Hill,2019-10-07,Barnet Book Club,5
+Barnet,Mill Hill,2019-10-07,Children's audiobook,2
+Barnet,Mill Hill,2019-10-07,Children's fiction,5979
+Barnet,Mill Hill,2019-10-07,Children's non fiction,1926
+Barnet,Mill Hill,2019-10-07,Children's reference,64
+Barnet,Mill Hill,2019-10-07,Compact disc,87
+Barnet,Mill Hill,2019-10-07,DVD certificate 12,145
+Barnet,Mill Hill,2019-10-07,DVD certificate 15,136
+Barnet,Mill Hill,2019-10-07,DVD certificate 18+,11
+Barnet,Mill Hill,2019-10-07,DVD certificate exempt,6
+Barnet,Mill Hill,2019-10-07,DVD certificate PG,100
+Barnet,Mill Hill,2019-10-07,DVD certificate U,275
+Barnet,Mill Hill,2019-10-07,Electronic devices,10
+Barnet,Mill Hill,2019-10-07,Language learning,19
+Barnet,Mill Hill,2019-10-07,Large print adult fiction,213
+Barnet,Mill Hill,2019-10-07,Large print adult non fiction,31
+Barnet,Mill Hill,2019-10-07,Playset,63
+Barnet,Mill Hill,2019-10-07,Teenage fiction,705
+Barnet,Mill Hill,2019-10-07,Teenage non fiction,153
+Barnet,Mobile Library,2019-10-07,Adult audiobook,7
+Barnet,Mobile Library,2019-10-07,Adult fiction,37
+Barnet,Mobile Library,2019-10-07,Adult non fiction,39
+Barnet,Mobile Library,2019-10-07,Children's fiction,57
+Barnet,Mobile Library,2019-10-07,Children's non fiction,7
+Barnet,Mobile Library,2019-10-07,Compact disc,4
+Barnet,Mobile Library,2019-10-07,DVD certificate 12,6
+Barnet,Mobile Library,2019-10-07,DVD certificate 15,8
+Barnet,Mobile Library,2019-10-07,DVD certificate 18+,1
+Barnet,Mobile Library,2019-10-07,DVD certificate PG,3
+Barnet,Mobile Library,2019-10-07,DVD certificate U,8
+Barnet,Mobile Library,2019-10-07,Large print adult fiction,52
+Barnet,Mobile Library,2019-10-07,Large print adult non fiction,18
+Barnet,Mobile Library,2019-10-07,Teenage fiction,7
+Barnet,New Barnet library,2019-10-07,Adult audiobook,205
+Barnet,New Barnet library,2019-10-07,Adult fiction,2375
+Barnet,New Barnet library,2019-10-07,Adult non fiction,2146
+Barnet,New Barnet library,2019-10-07,Adult reference,759
+Barnet,New Barnet library,2019-10-07,Barnet Book Club,4
+Barnet,New Barnet library,2019-10-07,Children's audiobook,2
+Barnet,New Barnet library,2019-10-07,Children's fiction,3972
+Barnet,New Barnet library,2019-10-07,Children's non fiction,1106
+Barnet,New Barnet library,2019-10-07,Children's reference,69
+Barnet,New Barnet library,2019-10-07,Compact disc,45
+Barnet,New Barnet library,2019-10-07,DVD certificate 12,102
+Barnet,New Barnet library,2019-10-07,DVD certificate 15,128
+Barnet,New Barnet library,2019-10-07,DVD certificate 18+,8
+Barnet,New Barnet library,2019-10-07,DVD certificate exempt,6
+Barnet,New Barnet library,2019-10-07,DVD certificate PG,57
+Barnet,New Barnet library,2019-10-07,DVD certificate U,183
+Barnet,New Barnet library,2019-10-07,Electronic devices,10
+Barnet,New Barnet library,2019-10-07,Language learning,6
+Barnet,New Barnet library,2019-10-07,Large print adult fiction,216
+Barnet,New Barnet library,2019-10-07,Large print adult non fiction,17
+Barnet,New Barnet library,2019-10-07,Music score,9
+Barnet,New Barnet library,2019-10-07,Teenage fiction,488
+Barnet,New Barnet library,2019-10-07,Teenage non fiction,108
+Barnet,North Finchley,2019-10-07,Adult audiobook,139
+Barnet,North Finchley,2019-10-07,Adult fiction,3336
+Barnet,North Finchley,2019-10-07,Adult non fiction,3633
+Barnet,North Finchley,2019-10-07,Adult reference,384
+Barnet,North Finchley,2019-10-07,Barnet Book Club,1
+Barnet,North Finchley,2019-10-07,Children's audiobook,6
+Barnet,North Finchley,2019-10-07,Children's fiction,5990
+Barnet,North Finchley,2019-10-07,Children's non fiction,1322
+Barnet,North Finchley,2019-10-07,Children's reference,107
+Barnet,North Finchley,2019-10-07,Compact disc,36
+Barnet,North Finchley,2019-10-07,DVD certificate 12,280
+Barnet,North Finchley,2019-10-07,DVD certificate 15,254
+Barnet,North Finchley,2019-10-07,DVD certificate 18+,34
+Barnet,North Finchley,2019-10-07,DVD certificate exempt,2
+Barnet,North Finchley,2019-10-07,DVD certificate PG,26
+Barnet,North Finchley,2019-10-07,DVD certificate U,270
+Barnet,North Finchley,2019-10-07,Electronic devices,10
+Barnet,North Finchley,2019-10-07,Language learning,11
+Barnet,North Finchley,2019-10-07,Large print adult fiction,248
+Barnet,North Finchley,2019-10-07,Large print adult non fiction,24
+Barnet,North Finchley,2019-10-07,Large print children's fiction,21
+Barnet,North Finchley,2019-10-07,Music score,6
+Barnet,North Finchley,2019-10-07,Teenage fiction,837
+Barnet,North Finchley,2019-10-07,Teenage non fiction,273
+Barnet,Osidge,2019-10-07,Adult audiobook,1465
+Barnet,Osidge,2019-10-07,Adult fiction,3731
+Barnet,Osidge,2019-10-07,Adult non fiction,3297
+Barnet,Osidge,2019-10-07,Adult reference,600
+Barnet,Osidge,2019-10-07,Barnet Book Club,6
+Barnet,Osidge,2019-10-07,Children's audiobook,6
+Barnet,Osidge,2019-10-07,Children's fiction,6034
+Barnet,Osidge,2019-10-07,Children's non fiction,1911
+Barnet,Osidge,2019-10-07,Children's reference,33
+Barnet,Osidge,2019-10-07,Compact disc,522
+Barnet,Osidge,2019-10-07,DVD certificate 12,264
+Barnet,Osidge,2019-10-07,DVD certificate 15,235
+Barnet,Osidge,2019-10-07,DVD certificate 18+,32
+Barnet,Osidge,2019-10-07,DVD certificate exempt,12
+Barnet,Osidge,2019-10-07,DVD certificate PG,132
+Barnet,Osidge,2019-10-07,DVD certificate U,300
+Barnet,Osidge,2019-10-07,Electronic devices,10
+Barnet,Osidge,2019-10-07,Language learning,9
+Barnet,Osidge,2019-10-07,Large print adult fiction,2410
+Barnet,Osidge,2019-10-07,Large print adult non fiction,317
+Barnet,Osidge,2019-10-07,Music score,1
+Barnet,Osidge,2019-10-07,SLS Fiction,2
+Barnet,Osidge,2019-10-07,Teenage fiction,610
+Barnet,Osidge,2019-10-07,Teenage non fiction,181
+Barnet,Schools Library Resources Service,2019-10-07,Adult fiction,9
+Barnet,Schools Library Resources Service,2019-10-07,Adult non fiction,18
+Barnet,Schools Library Resources Service,2019-10-07,Children's fiction,108
+Barnet,Schools Library Resources Service,2019-10-07,Children's non fiction,7
+Barnet,Schools Library Resources Service,2019-10-07,SLS Artefact,4894
+Barnet,Schools Library Resources Service,2019-10-07,SLS Audio,48
+Barnet,Schools Library Resources Service,2019-10-07,SLS CD,220
+Barnet,Schools Library Resources Service,2019-10-07,SLS DVD,610
+Barnet,Schools Library Resources Service,2019-10-07,SLS Fiction,23758
+Barnet,Schools Library Resources Service,2019-10-07,SLS Map,125
+Barnet,Schools Library Resources Service,2019-10-07,SLS Non Fiction,62232
+Barnet,Schools Library Resources Service,2019-10-07,SLS Picture,3913
+Barnet,Schools Library Resources Service,2019-10-07,SLS Poster,2008
+Barnet,Schools Library Resources Service,2019-10-07,SLS Resource Pack,570
+Barnet,South Friern,2019-10-07,Adult audiobook,124
+Barnet,South Friern,2019-10-07,Adult fiction,2360
+Barnet,South Friern,2019-10-07,Adult non fiction,1332
+Barnet,South Friern,2019-10-07,Adult reference,55
+Barnet,South Friern,2019-10-07,Barnet Book Club,3
+Barnet,South Friern,2019-10-07,Children's audiobook,8
+Barnet,South Friern,2019-10-07,Children's fiction,3702
+Barnet,South Friern,2019-10-07,Children's non fiction,635
+Barnet,South Friern,2019-10-07,Children's reference,8
+Barnet,South Friern,2019-10-07,Compact disc,39
+Barnet,South Friern,2019-10-07,DVD certificate 12,105
+Barnet,South Friern,2019-10-07,DVD certificate 15,92
+Barnet,South Friern,2019-10-07,DVD certificate 18+,19
+Barnet,South Friern,2019-10-07,DVD certificate exempt,2
+Barnet,South Friern,2019-10-07,DVD certificate PG,62
+Barnet,South Friern,2019-10-07,DVD certificate U,183
+Barnet,South Friern,2019-10-07,Electronic devices,10
+Barnet,South Friern,2019-10-07,Language learning,15
+Barnet,South Friern,2019-10-07,Large print adult fiction,93
+Barnet,South Friern,2019-10-07,Large print adult non fiction,8
+Barnet,South Friern,2019-10-07,Teenage fiction,494
+Barnet,South Friern,2019-10-07,Teenage non fiction,123
