@@ -10,6 +10,10 @@ The schemas are written using Table Schema. Table Schema is a standard format fo
 - [Frictionless Data Software Tools](https://frictionlessdata.io/software/)
 - [Good Tables](https://goodtables.io/)
 
+## Documentation
+
+Descriptive documentation for these schemas is held in the ```docs``` directory within this repository.
+
 ## Schemas
 
 | Name | File | Description |
@@ -28,6 +32,7 @@ The schemas are written using Table Schema. Table Schema is a standard format fo
 For each schema, sample data is held in the *samples* folder. This is to enable easy testing of the schema using tools such as [CSVLint](https://csvlint.io/). These files could also be used for automated testing, when making any schema updates.
 
 For each schema, sample files will be provided:
+
 - Each will have one example row of data
 - Files with the name _success will provide a successful test against CSVLint
 - Files with the the name _fail should fail validation.
@@ -47,7 +52,3 @@ All completed schemas will be held in the archived folder in this repository and
 ## Authors
 
 See the list of [contributors](https://github.com/librarieshacked/schema-librarydata/contributors) who participated in this project.
-
-## License
-
-This project is openly licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
