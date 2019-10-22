@@ -20,8 +20,6 @@ A mobile library stop is a location visited by a mobile library vehicle. It shou
 
 A full sample can be viewed at [Somerset mobile stops](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/somerset_mobile_library_stops.csv).
 
-A full technical specification for the fields is available using the [TableSchema format](https://github.com/LibrariesHacked/schema-librarydata/blob/master/mobile-library-stops.json).
-
 ### Field notes
 
 ---

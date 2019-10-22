@@ -19,8 +19,9 @@ This documentation details a core dataset for library open data.
 
 #### General notes
 
-- Common field standards. Guide for fields that are common between datasets.
+- Technical schemas. The detailed constraints and requirements for each dataset
+- Common field standards. Guide for fields that are common between datasets
 
 #### Guides
 
-- How to validate a dataset.
+- How to validate a dataset
