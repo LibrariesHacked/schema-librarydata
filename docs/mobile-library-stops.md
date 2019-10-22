@@ -1,12 +1,14 @@
 ---
 layout: default
 title: Mobile library stops
-description: Locations of mobile library stops and how when they are visited
+description: Locations of mobile library stops and when they are visited
 ---
+
+[Back](./)
 
 ### Definition
 
-A mobile library stop is a location served at intervals by a mobile library van, and available for visiting for all members of the public. For example, this would exclude home delivery locations or locations that are otherwise private.
+A mobile library stop is a location served at intervals by a mobile library van. It must be available for visiting for all members of the public. For example, this would exclude home delivery locations or locations that are otherwise restricted.
 
 ### Sample data row
 
@@ -20,8 +22,8 @@ The full sample can be viewed at [Somerset mobile stops](https://github.com/Libr
 
 ### Potential problems
 
-- **Private stops**. In some cases mobile library services alternate between private stops (e.g. home visits) and public stops. This restricts them from publicising their routes. This dataset definition should encourage services to take the chance to publish only their public stops so that the data ccan be used for public information.
-- **Co-ordinates**. Many services will not have co-ordinates (latitude and longitude) for their mobile library stops. These are a requirement of the dataset. However, collecting these can be done with mobile devices, so advice should be provided on easy ways of doing this.
+- **Private stops**. In some cases mobile library routes alternate between public and private stops (e.g. home visits). This currently restricts them from publicising their routes. This dataset should encourage services to take the chance to publish only their public stops, so that the data can be used to provide that public information.
+- **Co-ordinates**. Many services will not have co-ordinates (latitude and longitude) for their mobile library stops. These are a requirement of this dataset. Advice should be provided on easy ways of collecting these, but it could delay publishing of the data.
 
 ### How the data could be used
 
