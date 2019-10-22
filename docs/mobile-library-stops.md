@@ -23,7 +23,6 @@ description: Locations of mobile library stops and their frequency
 | Frequency | The frequency of vists to the stop | FREQ=WEEKLY;INTERVAL=4 |
 | Start | The start date this timetable is valid | 2019-11-12 |
 | End | The end date this timetable is valid |  |
-| Timetable | A URL link to an online timetable | https://www.somerset.gov.uk/libraries-leisure-and-communities/libraries/library-facilities/mobile-library/
- |
+| Timetable | A URL link to an online timetable | [Example link](https://www.somerset.gov.uk/libraries-leisure-and-communities/libraries/library-facilities/mobile-library/) |
 
 [Back](./)
