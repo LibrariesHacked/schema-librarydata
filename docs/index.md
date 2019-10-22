@@ -2,10 +2,14 @@
 layout: default
 ---
 
-# Library open data
+### Library open data
 
+This documentation details a draft specification for a core dataset for public library open data.
 
-## Datasets
+> The core dataset is intended to be a series of data which all library services will collect, use and publish to help inform and improve local library service delivery
+- [DCMS Libraries Blog](https://dcmslibraries.blog.gov.uk/2019/09/06/libraries-and-open-data/)
+
+#### Datasets
 
 | Dataset | Description |
 | ------ | ----------- |
