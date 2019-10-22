@@ -5,8 +5,7 @@ layout: default
 This documentation details a core dataset for library open data.
 
 > The core dataset is intended to be a series of data which all library services will collect, use and publish to help inform and improve local library service delivery
-> -- <cite>[DCMS libraries blog][1]</cite>
-[1]:https://dcmslibraries.blog.gov.uk/2019/09/06/libraries-and-open-data/
+> -- <cite>[DCMS libraries blog][https://dcmslibraries.blog.gov.uk/2019/09/06/libraries-and-open-data/]</cite>
 
 #### Datasets
 
