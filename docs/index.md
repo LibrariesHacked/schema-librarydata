@@ -17,3 +17,10 @@ This documentation details a core dataset for library open data.
 - [Physical visits](./physical-visits). People counters and manual surveys of library visitors
 - [Stock summary](./stock-summary). Summary counts of the stock held by libraries
 
+#### General notes
+
+- Common field standards. Guide for fields that are common between datasets.
+
+#### Guides
+
+- How to validate a dataset.

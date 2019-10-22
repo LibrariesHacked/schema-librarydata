@@ -10,11 +10,9 @@ description: Locations of mobile library stops and when they are visited
 
 ---
 
-A mobile library stop is a location visited at intervals by a mobile library vehicle. It should be open to all members of the public. This excludes locations that are for home deliveries, or locations that have other access restrictions (such as school-only).
+A mobile library stop is a location visited by a mobile library vehicle. It should be open to all members of the public. This will exclude locations that are for home deliveries, or locations that have other access restrictions (such as school-only).
 
 ### Sample data row
-
----
 
 | Organisation | Mobile name | Route | Community | Stop | Address | Postcode | GeoX | GeoY | Day | Arrival | Departure | Frequency | Start | End | Timetable |
 | ------------ | ----------- | ----- | --------- | ---- | ------- | -------- | ---- | ---- | --- | ------- | --------- | --------- | ----- | --- | --------- |
@@ -22,27 +20,29 @@ A mobile library stop is a location visited at intervals by a mobile library veh
 
 A full sample can be viewed at [Somerset mobile stops](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/somerset_mobile_library_stops.csv).
 
+A full technical specification for the fields is available using the [TableSchema format](https://github.com/LibrariesHacked/schema-librarydata/blob/master/mobile-library-stops.json).
+
 ### Field notes
 
 ---
 
 #### Frequency 
 
-The frequency field describes when the stop will be visited. This uses the [iCalendar RRule specification](https://icalendar.org/iCalendar-RFC-5545/3-8-5-3-recurrence-rule.html). This is an open standard for communicating when calendar events happen.
+This describes when the stop will be visited. This uses the [iCalendar RRule specification](https://icalendar.org/iCalendar-RFC-5545/3-8-5-3-recurrence-rule.html). This is an open standard for communicating when recurring events happen.
 
-In the majority of the cases, mobile library stops are visited at weekly intervals. For example, every two weeks is described as 'FREQ=WEEKLY;INTERVAL=2'. In some cases stops are visited monthly by a named day of the week. For example 'FREQ=MONTHLY;BYDAY=2MO', would mean the stop is visited on the second Monday of each month.
+In the majority of the cases, mobile library stops are visited at weekly intervals. For example, every week is described as 'FREQ=WEEKLY;INTERVAL=1', every two weeks would be 'FREQ=WEEKLY;INTERVAL=2'. In some cases stops are visited monthly by a named day of the week. For example, 'FREQ=MONTHLY;BYDAY=2MO', would mean the stop is visited on the second Monday of each month.
 
 #### Start
 
-The start date should be the first date at which the stop will be visited. It will then be possible to calculate future dates based upon the frequency field.
-
+This should be the first date at which the stop will be visited. It will then be possible to calculate future dates based upon the frequency field.
+ 
 #### End
 
-The end date is optional, and describes the last date at which the stop will be visited. This could be used if timetables are planned for set periods in advance only.
+This field is optional, and describes the last date at which the stop will be visited. This could be used if timetables are planned for set periods in advance only.
 
 #### Timetable
 
-The timetable URL should provide a web address at which a citizen can find details of the mobile library stop. This should not link to a PDF file as these are less likely to fulfill accessibility requirements.
+This field should provide a web address at which a citizen can find details of the mobile library stop, or the mobile library in general. This should not link to a PDF file, as these are less likely to fulfill [accessibility requirements](https://gds.blog.gov.uk/2018/07/16/why-gov-uk-content-should-be-published-in-html-and-not-pdf/).
 
 ### Potential problems
 
@@ -76,15 +76,15 @@ For an example usage see this [mobile library dashboard](https://www.mobilelibra
 
 #### Vehicle stops
 
-Some services publish details of mobile libraries such as lunch breaks, or the time they leave and arrive at the depot. This would add interesting possibilities for providing more information about how the mobile library is operated, with potential for greater route optimisation from the data.
+Some services publish details such as lunch breaks, or the time mobile vehicles leave and arrive at the depot. This could add interesting possibilities for providing more information about how the mobile library is operated.
 
 #### Cancellations
 
-If the data were updated in 'real-time' it would be possible to add the capability of late-notice cancellations of the service. This could be done using a field for cancellation dates.
+If the data were updated in 'real-time' it would be possible to add last-minute cancellations of the service.
 
 #### Real-time GPS data
 
-A further real-time data option would be to include coordinates of the current position of the mobile library vehicle. This would provide the opportunity to provide estimated arrival times, and to alert users to delays.
+A further real-time data option would be to include coordinates of the position of the mobile library vehicle. This would provide the opportunity to provide estimated arrival times, and to alert users to delays.
 
 ---
 
