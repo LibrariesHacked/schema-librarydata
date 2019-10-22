@@ -5,4 +5,4 @@ description: People counters and manual surveys of library visitors
 ---
 
 
-[Back](./)
+[&lt; Back to home](./)

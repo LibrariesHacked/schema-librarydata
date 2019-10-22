@@ -5,4 +5,4 @@ description: Lending of items in libraries
 ---
 
 
-[Back](./)
+[&lt; Back to home](./)
