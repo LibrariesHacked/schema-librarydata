@@ -12,13 +12,19 @@ description: Locations of mobile library stops and when they are visited
 
 A mobile library stop is a location visited by a mobile library vehicle. It should be open to all members of the public. This will exclude locations that are for home deliveries, or locations that have other access restrictions (such as school-only).
 
+### How the data can be collected
+
+Library services will often already hold mobile library stops in spreadsheets. To some extent these are also held in the Library Management System, but this is rarely the 'master' copy of the data.
+
+In theis case, the easiest way to compile this data will be to rearrange existing spreadsheets into this data format. 
+
 ### Sample data row
 
 | Organisation | Mobile name | Route | Community | Stop | Address | Postcode | GeoX | GeoY | Day | Arrival | Departure | Frequency | Start | End | Timetable |
 | ------------ | ----------- | ----- | --------- | ---- | ------- | -------- | ---- | ---- | --- | ------- | --------- | --------- | ----- | --- | --------- |
 | Somerset | Mobile | A | Brompton Regis | Wimbleball Lake | Wimbleball Lake, Brompton Regis | TA22 9NU | -3.47537 | 51.064823 | Tuesday | 10:05 | 10:20 | FREQ=WEEKLY;INTERVAL=4 | 2019-11-12 | | [Link](https://www.somerset.gov.uk/libraries-leisure-and-communities/libraries/library-facilities/mobile-library/) |
 
-A full sample can be viewed at [Somerset mobile stops](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/somerset_mobile_library_stops.csv).
+A full sample can be viewed at [Somerset mobile stops](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/mobile_library_stops_somerset.csv).
 
 ### Field notes
 
@@ -50,15 +56,15 @@ This field should provide a web address at which a citizen can find details of t
 
 In some cases mobile library routes alternate between public and private stops (e.g. home visits). This currently restricts them from publicising their routes. This dataset should encourage services to take the chance to publish only their public stops, so that the data can be used to provide that public information.
 
-#### Coordinates
+#### Coordinates (GeoX and GeoY)
 
-Many services will not currently hold coordinates (latitude and longitude) for their mobile library stops. These are a requirement of this dataset so it may be that advice should be documented for ways to collect these.
+Some services will not currently hold coordinates (latitude and longitude) for their mobile library stops. These are a requirement of this dataset, so it may be that advice should be provided for options of how to collect these.
 
 ### How the data is updated
 
 ---
 
-Updates to the data should be made as soon as there are any changes to the stops. The data can then be revalidated and published to replace the previous data.
+Updates to the data should be made when there are any changes to the stops. The data can then be revalidated and published to replace the previous data.
 
 ### How the data could be used
 
