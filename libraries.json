@@ -220,7 +220,7 @@
             "type": "string",
             "format": "uri",
             "constraints": {
-                "required": true
+                "required": false
             }
         },
         {
@@ -229,7 +229,7 @@
             "type": "string",
             "format": "email",
             "constraints": {
-                "required": true
+                "required": false
             }
         }
     ]
