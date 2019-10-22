@@ -2,8 +2,6 @@
 layout: default
 ---
 
-### Library open data
-
 This documentation details a specification for a core dataset for library open data.
 
 > The core dataset is intended to be a series of data which all library services will collect, use and publish to help inform and improve local library service delivery

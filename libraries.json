@@ -61,8 +61,7 @@
             "type": "integer",
             "format": "default",
             "constraints": {
-                "required": true,
-                "unique": true
+                "required": false
             }
         },
         {
