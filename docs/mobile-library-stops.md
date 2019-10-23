@@ -74,6 +74,11 @@ This data provides full timetable information for mobile library stops. It would
 
 For an example usage see this [mobile library dashboard](https://www.mobilelibraries.org).
 
+<figure>
+    <img src="{{site.url}}/images/mobile_library_stops_somerset.png" alt="Somerset mobile library on a map"/>
+    <figcaption>The Somerset Mobile library on it's route towards Higher Chillington.</figcaption>
+</figure>
+
 ### Future enhancements
 
 ---
