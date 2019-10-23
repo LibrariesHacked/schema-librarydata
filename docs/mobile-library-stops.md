@@ -14,9 +14,9 @@ A mobile library stop is a location visited by a mobile library vehicle. It shou
 
 ### How the data can be collected
 
-Library services will often already hold mobile library stops in spreadsheets. To some extent these are also held in the Library Management System, but this is rarely the 'master' copy of the data.
+Library services will often already hold mobile library stops in spreadsheets. These may also be held in the Library Management System, but this is rarely the 'master' copy of the data.
 
-In theis case, the easiest way to compile this data will be to rearrange existing spreadsheets into this data format. 
+In this case, the easiest way to compile this data will be to rearrange existing spreadsheets or documents into this data format.
 
 ### Sample data row
 
@@ -34,7 +34,7 @@ A full sample can be viewed at [Somerset mobile stops](https://github.com/Librar
 
 This describes when the stop will be visited. This uses the [iCalendar RRule specification](https://icalendar.org/iCalendar-RFC-5545/3-8-5-3-recurrence-rule.html). This is an open standard for communicating when recurring events happen.
 
-In the majority of the cases, mobile library stops are visited at weekly intervals. For example, every week is described as 'FREQ=WEEKLY;INTERVAL=1', every two weeks would be 'FREQ=WEEKLY;INTERVAL=2'. In some cases stops are visited monthly by a named day of the week. For example, 'FREQ=MONTHLY;BYDAY=2MO', would mean the stop is visited on the second Monday of each month.
+In the majority of the cases, mobile library stops are visited at weekly intervals. For example, every week is described as 'FREQ=WEEKLY;INTERVAL=1', every two weeks would be 'FREQ=WEEKLY;INTERVAL=2'. Stops may be visited at monthly intervals, by a named day of the week. For example, 'FREQ=MONTHLY;BYDAY=2MO', would mean the stop is visited on the second Monday of each month.
 
 #### Start
 
@@ -54,11 +54,11 @@ This field should provide a web address at which a citizen can find details of t
 
 #### Private stops 
 
-In some cases mobile library routes alternate between public and private stops (e.g. home visits). This currently restricts them from publicising their routes. This dataset should encourage services to take the chance to publish only their public stops, so that the data can be used to provide that public information.
+In some cases mobile library routes alternate between public and private stops (e.g. home visits). This currently restricts them from publicising their routes. This dataset should encourage services to take the chance to publish their public stops, so the data can be used to provide public information.
 
 #### Coordinates (GeoX and GeoY)
 
-Some services will not currently hold coordinates (latitude and longitude) for their mobile library stops. These are a requirement of this dataset, so it may be that advice should be provided for options of how to collect these.
+Some services will not currently hold coordinates (latitude and longitude) for their stops. These are a requirement of this dataset, so it may be that advice is also provided for options of how to collect these.
 
 ### How the data is updated
 
@@ -76,7 +76,7 @@ For an example usage see this [mobile library dashboard](https://www.mobilelibra
 
 <figure>
     <img src="{{site.url}}/images/mobile_library_stops_somerset.png" alt="Somerset mobile library on a map"/>
-    <figcaption>The Somerset Mobile library on it's route towards Higher Chillington.</figcaption>
+    <figcaption>The Somerset Mobile library on it's route towards Higher Chillington stop.</figcaption>
 </figure>
 
 ### Future enhancements
@@ -89,11 +89,11 @@ Some services publish details such as lunch breaks, or the time mobile vehicles 
 
 #### Cancellations
 
-If the data were updated in 'real-time' it would be possible to add last-minute cancellations of the service.
+If the data were updated in real-time it would be possible to add last-minute cancellations of the service and provide these to users as notifications.
 
 #### Real-time GPS data
 
-A further real-time data option would be to include coordinates of the position of the mobile library vehicle. This would provide the opportunity to provide estimated arrival times, and to alert users to delays.
+A further real-time option would be to include coordinates of the current position of the mobile library vehicle. This would provide the opportunity to provide estimated arrival times, and alert users to delays.
 
 ---
 
