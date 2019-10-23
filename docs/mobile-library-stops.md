@@ -16,7 +16,7 @@ A mobile library stop is a location visited by a mobile library vehicle. It shou
 
 Library services will often already hold mobile library stops in spreadsheets. These may also be held in the Library Management System, but this is rarely the 'master' copy of the data.
 
-In this case, the easiest way to compile this data will be to rearrange existing spreadsheets or documents into this data format.
+In this case, the most likely method for compiling this data will be to rearrange existing spreadsheets or documents into this data format.
 
 ### Sample data row
 
