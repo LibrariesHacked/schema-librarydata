@@ -10,11 +10,11 @@ description: Brief description of the dataset
 
 ---
 
-This should be a broad definition that explains what the dataset is. It can include some general guidance about what the data should and shouldn't include.
+This should be a definition that explains what the dataset is. It can include some broad guidance about what the data should and shouldn't include.
 
 ### How the data can be collected
 
-A sescription of how the data can be collected, based upon our knowledge and what we did when publishing the sample data. For example this could have been extracts from an LMS reporting system, or manual updates to a spreadsheet.
+A description of how the data can be collected, based upon our knowledge and what we did when publishing the sample data. For example this could have been extracts from an LMS reporting system, or manual updates to a spreadsheet.
 
 ### Sample data row
 
@@ -30,7 +30,7 @@ A full sample can be viewed at ... (provide link to the sample data).
 
 #### Field title
 
-These sections should only include fields where it is worth providing additional explanation. For example, an opening hours column may need some explanation of the data structure, and where it has been taken from.
+These sections should only be completed for fields where it is worth providing additional explanation. For example, an opening hours column may need some explanation of the data structure, and where the standard has been taken from.
 
 ---
 
@@ -38,13 +38,13 @@ These sections should only include fields where it is worth providing additional
 
 #### Problem title
 
-A description of a problem that can occur, from our discussions. It could be a technical issue (size of dataset), a 
+A description of a problem that can occur, from our discussions. It could be a technical issue (size of dataset), a training issue, common data problem, etc.
 
 ### How the data is updated
 
 ---
 
-We aren't covering this in detail at this stage, but this can be a short indication of what happens when the data is updated. For example, the data may be added to (e.g. issues), or updated and replaced (e.g. libraries/mobile libraries).
+We aren't covering this in detail at this stage, but this can be a short indication of what happens when the data is updated. For example, the data may be added to each time it is published (e.g. loans), or updated and replaced (e.g. libraries/mobile libraries).
 
 ### How the data could be used
 
@@ -58,7 +58,7 @@ An example of what could be done with the data.
 
 #### Future enhancement title
 
-Something that could be added later on that will bring extra value to the dataset but is likely to be too difficult immediately.
+Something that could be added later on that will bring extra value to the dataset. Will generally be something that is likely to be too difficult immediately.
 
 ---
 
