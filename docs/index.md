@@ -2,7 +2,7 @@
 layout: default
 ---
 
-This documentation details a core dataset for public library open data. For libraries, having a set of definitions for data can aid in greater local ability to interogate, report on, and build open applications from that data.
+This documentation details a core dataset for public library open data. Having a set of definitions for data can enable local services to interogate, report on, and build shared and open applications from that data.
 
 > We will ‘fix our plumbing’ to break our dependence on inflexible and expensive technology that doesn’t join up effectively. This means insisting on modular building blocks for the IT we rely on, and open standards to give a common structure to the data we create.
 > -- <cite>[Local digital declaration](https://localdigital.gov.uk/declaration/)</cite>
