@@ -2,10 +2,10 @@
 layout: default
 ---
 
-This documentation details a core dataset for library open data.
+This documentation details a core dataset for public library open data. For libraries, having a set of definitions for data can aid in greater local ability to interogate, report on, and build open applications from that data.
 
-> The core dataset is intended to be a series of data which all library services will collect, use and publish to help inform and improve local library service delivery
-> -- <cite>[DCMS libraries blog](https://dcmslibraries.blog.gov.uk/2019/09/06/libraries-and-open-data/)</cite>
+> We will ‘fix our plumbing’ to break our dependence on inflexible and expensive technology that doesn’t join up effectively. This means insisting on modular building blocks for the IT we rely on, and open standards to give a common structure to the data we create.
+> -- <cite>[Local digital declaration](https://localdigital.gov.uk/declaration/)</cite>
 
 #### Datasets
 
@@ -25,3 +25,6 @@ This documentation details a core dataset for library open data.
 #### Guides
 
 - How to validate a dataset
+
+> The core dataset is intended to be a series of data which all library services will collect, use and publish to help inform and improve local library service delivery
+> -- <cite>[DCMS libraries blog](https://dcmslibraries.blog.gov.uk/2019/09/06/libraries-and-open-data/)</cite>
