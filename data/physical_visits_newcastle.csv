@@ -1,0 +1,26 @@
+Local authority,Library name,Count start,Count end,Count type,Visits
+Newcastle City Council,City,2019-01-01,2019-01-31,Automatic counter,56660
+Newcastle City Council,City,2019-02-01,2019-02-28,Automatic counter,50793
+Newcastle City Council,City,2019-03-01,2019-03-31,Automatic counter,56452
+Newcastle City Council,City,2019-04-01,2019-04-30,Automatic counter,49030
+Newcastle City Council,City,2019-05-01,2019-05-31,Automatic counter,52035
+Newcastle City Council,City,2019-06-01,2019-06-30,Automatic counter,43374
+Newcastle City Council,City,2019-07-01,2019-07-31,Automatic counter,46245
+Newcastle City Council,Blakelaw,2019-01-01,2019-01-31,Manual (daily),1684
+Newcastle City Council,Blakelaw,2019-02-01,2019-02-28,Manual (daily),845
+Newcastle City Council,Blakelaw,2019-03-01,2019-03-31,Manual (daily),796
+Newcastle City Council,Blakelaw,2019-04-01,2019-04-30,Manual (daily),785
+Newcastle City Council,Blakelaw,2019-05-01,2019-05-31,Manual (daily),589
+Newcastle City Council,Blakelaw,2019-06-01,2019-06-30,Manual (daily),629
+Newcastle City Council,Blakelaw,2019-07-01,2019-07-31,Manual (daily),699
+Newcastle City Council,Cruddas Park,2019-01-01,2019-01-31,Manual (daily),1047
+Newcastle City Council,Cruddas Park,2019-02-01,2019-02-28,Manual (daily),965
+Newcastle City Council,Cruddas Park,2019-03-01,2019-03-31,Manual (daily),1001
+Newcastle City Council,Cruddas Park,2019-04-01,2019-04-30,Manual (daily),1110
+Newcastle City Council,Cruddas Park,2019-05-01,2019-05-31,Manual (daily),1065
+Newcastle City Council,Cruddas Park,2019-06-01,2019-06-30,Manual (daily),1265
+Newcastle City Council,Cruddas Park,2019-07-01,2019-07-31,Manual (daily),1197
+Newcastle City Council,Outer West,2019-02-11,2019-02-17,Manual (one week every quarter),767
+Newcastle City Council,Kenton,2019-02-11,2019-02-17,Manual (one week every quarter),283
+Newcastle City Council,Gosforth,2019-02-11,2019-02-17,Manual (one week every quarter),849
+Newcastle City Council,Outer West,2019-05-13,2019-05-19,Manual (one week every quarter),663
