@@ -1,0 +1,181 @@
+Local authority,Library name,Count start,Count end,Type,Book,Issues
+Barnet,Barnet Book Club,01/04/2019,30/06/2019,Adult audiobook,No,9
+Barnet,Barnet Book Club,01/04/2019,30/06/2019,Adult fiction,Yes,37
+Barnet,Barnet Book Club,01/04/2019,30/06/2019,Adult non fiction,Yes,23
+Barnet,Barnet Book Club,01/04/2019,30/06/2019,Barnet Book Club,Yes,662
+Barnet,Barnet Book Club,01/04/2019,30/06/2019,Children's fiction,Yes,29
+Barnet,Barnet Book Club,01/04/2019,30/06/2019,Children's non fiction,Yes,2
+Barnet,Barnet Book Club,01/04/2019,30/06/2019,Teenage fiction,Yes,2
+Barnet,Barnet Book Club,01/04/2019,30/06/2019,Teenage non fiction,Yes,4
+Barnet,Bibliographic Services,01/04/2019,30/06/2019,Adult fiction,Yes,122
+Barnet,Bibliographic Services,01/04/2019,30/06/2019,Adult non fiction,Yes,78
+Barnet,Bibliographic Services,01/04/2019,30/06/2019,Children's fiction,Yes,40
+Barnet,Bibliographic Services,01/04/2019,30/06/2019,DVD certificate 12,No,1
+Barnet,Bibliographic Services,01/04/2019,30/06/2019,DVD certificate 15,No,2
+Barnet,Bibliographic Services,01/04/2019,30/06/2019,DVD certificate U,No,1
+Barnet,Bibliographic Services,01/04/2019,30/06/2019,Teenage fiction,Yes,10
+Barnet,Burnt Oak,01/04/2019,30/06/2019,Adult audiobook,No,40
+Barnet,Burnt Oak,01/04/2019,30/06/2019,Adult fiction,Yes,1085
+Barnet,Burnt Oak,01/04/2019,30/06/2019,Adult non fiction,Yes,937
+Barnet,Burnt Oak,01/04/2019,30/06/2019,Children's fiction,Yes,2894
+Barnet,Burnt Oak,01/04/2019,30/06/2019,Children's non fiction,Yes,386
+Barnet,Burnt Oak,01/04/2019,30/06/2019,Compact disc,No,5
+Barnet,Burnt Oak,01/04/2019,30/06/2019,DVD certificate 12,No,20
+Barnet,Burnt Oak,01/04/2019,30/06/2019,DVD certificate 15,No,8
+Barnet,Burnt Oak,01/04/2019,30/06/2019,DVD certificate 18+,No,3
+Barnet,Burnt Oak,01/04/2019,30/06/2019,DVD certificate U,No,6
+Barnet,Burnt Oak,01/04/2019,30/06/2019,Electronic devices,No,1
+Barnet,Burnt Oak,01/04/2019,30/06/2019,Interlending book,Yes,1
+Barnet,Burnt Oak,01/04/2019,30/06/2019,Language learning,Yes,7
+Barnet,Burnt Oak,01/04/2019,30/06/2019,Large print adult fiction,Yes,27
+Barnet,Burnt Oak,01/04/2019,30/06/2019,Large print adult non fiction,Yes,1
+Barnet,Burnt Oak,01/04/2019,30/06/2019,Music score,Yes,1
+Barnet,Burnt Oak,01/04/2019,30/06/2019,Teenage fiction,Yes,239
+Barnet,Burnt Oak,01/04/2019,30/06/2019,Teenage non fiction,Yes,189
+Barnet,Capita,01/04/2019,30/06/2019,Adult fiction,Yes,34
+Barnet,Capita,01/04/2019,30/06/2019,Adult non fiction,Yes,55
+Barnet,Capita,01/04/2019,30/06/2019,Children's fiction,Yes,30
+Barnet,Capita,01/04/2019,30/06/2019,Children's non fiction,Yes,32
+Barnet,Capita,01/04/2019,30/06/2019,Large print adult fiction,Yes,2
+Barnet,Childs Hill,01/04/2019,30/06/2019,Adult audiobook,No,14
+Barnet,Childs Hill,01/04/2019,30/06/2019,Adult fiction,Yes,709
+Barnet,Childs Hill,01/04/2019,30/06/2019,Adult non fiction,Yes,643
+Barnet,Childs Hill,01/04/2019,30/06/2019,Barnet Book Club,Yes,1
+Barnet,Childs Hill,01/04/2019,30/06/2019,Children's fiction,Yes,1747
+Barnet,Childs Hill,01/04/2019,30/06/2019,Children's non fiction,Yes,121
+Barnet,Childs Hill,01/04/2019,30/06/2019,Children's reference,Yes,1
+Barnet,Childs Hill,01/04/2019,30/06/2019,Compact disc,No,10
+Barnet,Childs Hill,01/04/2019,30/06/2019,DVD certificate 12,No,3
+Barnet,Childs Hill,01/04/2019,30/06/2019,DVD certificate 15,No,2
+Barnet,Childs Hill,01/04/2019,30/06/2019,DVD certificate PG,No,2
+Barnet,Childs Hill,01/04/2019,30/06/2019,DVD certificate U,No,12
+Barnet,Childs Hill,01/04/2019,30/06/2019,Electronic devices,No,2
+Barnet,Childs Hill,01/04/2019,30/06/2019,Language learning,Yes,13
+Barnet,Childs Hill,01/04/2019,30/06/2019,Large print adult fiction,Yes,39
+Barnet,Childs Hill,01/04/2019,30/06/2019,Large print adult non fiction,Yes,2
+Barnet,Childs Hill,01/04/2019,30/06/2019,Playset,Yes,28
+Barnet,Childs Hill,01/04/2019,30/06/2019,Teenage fiction,Yes,75
+Barnet,Childs Hill,01/04/2019,30/06/2019,Teenage non fiction,Yes,20
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,Adult audiobook,No,353
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,Adult fiction,Yes,10262
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,Adult non fiction,Yes,6328
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,Barnet Book Club,Yes,122
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,Children's audiobook,No,47
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,Children's fiction,Yes,14132
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,Children's non fiction,Yes,1617
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,Compact disc,No,615
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,DVD certificate 12,No,97
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,DVD certificate 15,No,116
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,DVD certificate 18+,No,16
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,DVD certificate exempt,No,6
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,DVD certificate PG,No,20
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,DVD certificate U,No,62
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,Electronic devices,No,8
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,Interlending book,Yes,2
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,Language learning,Yes,13
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,Large print adult fiction,Yes,308
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,Large print adult non fiction,Yes,38
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,Music score,Yes,49
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,Playset,Yes,1
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,Teenage fiction,Yes,1095
+Barnet,Chipping Barnet,01/04/2019,30/06/2019,Teenage non fiction,Yes,606
+Barnet,Colindale,01/04/2019,30/06/2019,Adult audiobook,No,12
+Barnet,Colindale,01/04/2019,30/06/2019,Adult fiction,Yes,1608
+Barnet,Colindale,01/04/2019,30/06/2019,Adult non fiction,Yes,1784
+Barnet,Colindale,01/04/2019,30/06/2019,Barnet Book Club,Yes,1
+Barnet,Colindale,01/04/2019,30/06/2019,Children's fiction,Yes,5416
+Barnet,Colindale,01/04/2019,30/06/2019,Children's non fiction,Yes,840
+Barnet,Colindale,01/04/2019,30/06/2019,Compact disc,No,13
+Barnet,Colindale,01/04/2019,30/06/2019,DVD certificate 12,No,22
+Barnet,Colindale,01/04/2019,30/06/2019,DVD certificate 15,No,15
+Barnet,Colindale,01/04/2019,30/06/2019,DVD certificate PG,No,4
+Barnet,Colindale,01/04/2019,30/06/2019,DVD certificate U,No,28
+Barnet,Colindale,01/04/2019,30/06/2019,Large print adult fiction,Yes,40
+Barnet,Colindale,01/04/2019,30/06/2019,Large print adult non fiction,Yes,8
+Barnet,Colindale,01/04/2019,30/06/2019,Music score,Yes,8
+Barnet,Colindale,01/04/2019,30/06/2019,Teenage fiction,Yes,288
+Barnet,Colindale,01/04/2019,30/06/2019,Teenage non fiction,Yes,141
+Barnet,Customer Services Organisation,01/04/2019,30/06/2019,Adult audiobook,No,58
+Barnet,Customer Services Organisation,01/04/2019,30/06/2019,Adult fiction,Yes,751
+Barnet,Customer Services Organisation,01/04/2019,30/06/2019,Adult non fiction,Yes,611
+Barnet,Customer Services Organisation,01/04/2019,30/06/2019,Children's fiction,Yes,779
+Barnet,Customer Services Organisation,01/04/2019,30/06/2019,Children's non fiction,Yes,114
+Barnet,Customer Services Organisation,01/04/2019,30/06/2019,Compact disc,No,12
+Barnet,Customer Services Organisation,01/04/2019,30/06/2019,Electronic devices,No,2
+Barnet,Customer Services Organisation,01/04/2019,30/06/2019,Interlending book,Yes,1
+Barnet,Customer Services Organisation,01/04/2019,30/06/2019,Language learning,Yes,2
+Barnet,Customer Services Organisation,01/04/2019,30/06/2019,Large print adult fiction,Yes,16
+Barnet,Customer Services Organisation,01/04/2019,30/06/2019,Large print adult non fiction,Yes,1
+Barnet,Customer Services Organisation,01/04/2019,30/06/2019,Music score,Yes,3
+Barnet,Customer Services Organisation,01/04/2019,30/06/2019,Playset,Yes,6
+Barnet,Customer Services Organisation,01/04/2019,30/06/2019,Teenage fiction,Yes,45
+Barnet,Customer Services Organisation,01/04/2019,30/06/2019,Teenage non fiction,Yes,14
+Barnet,East Finchley,01/04/2019,30/06/2019,Adult audiobook,No,122
+Barnet,East Finchley,01/04/2019,30/06/2019,Adult fiction,Yes,2229
+Barnet,East Finchley,01/04/2019,30/06/2019,Adult non fiction,Yes,1956
+Barnet,East Finchley,01/04/2019,30/06/2019,Adult reference,Yes,1
+Barnet,East Finchley,01/04/2019,30/06/2019,Barnet Book Club,Yes,13
+Barnet,East Finchley,01/04/2019,30/06/2019,Children's fiction,Yes,5511
+Barnet,East Finchley,01/04/2019,30/06/2019,Children's non fiction,Yes,997
+Barnet,East Finchley,01/04/2019,30/06/2019,Compact disc,No,269
+Barnet,East Finchley,01/04/2019,30/06/2019,DVD certificate 12,No,27
+Barnet,East Finchley,01/04/2019,30/06/2019,DVD certificate 15,No,17
+Barnet,East Finchley,01/04/2019,30/06/2019,DVD certificate 18+,No,3
+Barnet,East Finchley,01/04/2019,30/06/2019,DVD certificate exempt,No,1
+Barnet,East Finchley,01/04/2019,30/06/2019,DVD certificate PG,No,5
+Barnet,East Finchley,01/04/2019,30/06/2019,DVD certificate U,No,30
+Barnet,East Finchley,01/04/2019,30/06/2019,Electronic devices,No,1
+Barnet,East Finchley,01/04/2019,30/06/2019,Language learning,Yes,6
+Barnet,East Finchley,01/04/2019,30/06/2019,Large print adult fiction,Yes,66
+Barnet,East Finchley,01/04/2019,30/06/2019,Large print adult non fiction,Yes,1
+Barnet,East Finchley,01/04/2019,30/06/2019,Large print children's fiction,Yes,1
+Barnet,East Finchley,01/04/2019,30/06/2019,Music score,Yes,12
+Barnet,East Finchley,01/04/2019,30/06/2019,Teenage fiction,Yes,268
+Barnet,East Finchley,01/04/2019,30/06/2019,Teenage non fiction,Yes,322
+Barnet,Edgware,01/04/2019,30/06/2019,Adult audiobook,No,103
+Barnet,Edgware,01/04/2019,30/06/2019,Adult fiction,Yes,6679
+Barnet,Edgware,01/04/2019,30/06/2019,Adult non fiction,Yes,4108
+Barnet,Edgware,01/04/2019,30/06/2019,Children's audiobook,No,1
+Barnet,Edgware,01/04/2019,30/06/2019,Children's fiction,Yes,11130
+Barnet,Edgware,01/04/2019,30/06/2019,Children's non fiction,Yes,1207
+Barnet,Edgware,01/04/2019,30/06/2019,Compact disc,No,53
+Barnet,Edgware,01/04/2019,30/06/2019,DVD certificate 12,No,42
+Barnet,Edgware,01/04/2019,30/06/2019,DVD certificate 15,No,24
+Barnet,Edgware,01/04/2019,30/06/2019,DVD certificate 18+,No,3
+Barnet,Edgware,01/04/2019,30/06/2019,DVD certificate exempt,No,1
+Barnet,Edgware,01/04/2019,30/06/2019,DVD certificate PG,No,3
+Barnet,Edgware,01/04/2019,30/06/2019,DVD certificate U,No,60
+Barnet,Edgware,01/04/2019,30/06/2019,Electronic devices,No,9
+Barnet,Edgware,01/04/2019,30/06/2019,Language learning,Yes,18
+Barnet,Edgware,01/04/2019,30/06/2019,Large print adult fiction,Yes,133
+Barnet,Edgware,01/04/2019,30/06/2019,Large print adult non fiction,Yes,3
+Barnet,Edgware,01/04/2019,30/06/2019,Large print children's fiction,Yes,19
+Barnet,Edgware,01/04/2019,30/06/2019,Music score,Yes,36
+Barnet,Edgware,01/04/2019,30/06/2019,Playset,Yes,39
+Barnet,Edgware,01/04/2019,30/06/2019,Teenage fiction,Yes,1078
+Barnet,Edgware,01/04/2019,30/06/2019,Teenage non fiction,Yes,316
+Barnet,Edgware,01/04/2019,30/06/2019,Vocal score sets,Yes,30
+Barnet,Finchley Church End,01/04/2019,30/06/2019,Adult audiobook,No,133
+Barnet,Finchley Church End,01/04/2019,30/06/2019,Adult fiction,Yes,7203
+Barnet,Finchley Church End,01/04/2019,30/06/2019,Adult non fiction,Yes,4824
+Barnet,Finchley Church End,01/04/2019,30/06/2019,Children's audiobook,No,3
+Barnet,Finchley Church End,01/04/2019,30/06/2019,Children's fiction,Yes,12779
+Barnet,Finchley Church End,01/04/2019,30/06/2019,Children's non fiction,Yes,1467
+Barnet,Finchley Church End,01/04/2019,30/06/2019,Compact disc,No,48
+Barnet,Finchley Church End,01/04/2019,30/06/2019,DVD certificate 12,No,36
+Barnet,Finchley Church End,01/04/2019,30/06/2019,DVD certificate 15,No,34
+Barnet,Finchley Church End,01/04/2019,30/06/2019,DVD certificate 18+,No,4
+Barnet,Finchley Church End,01/04/2019,30/06/2019,DVD certificate exempt,No,1
+Barnet,Finchley Church End,01/04/2019,30/06/2019,DVD certificate PG,No,14
+Barnet,Finchley Church End,01/04/2019,30/06/2019,DVD certificate U,No,38
+Barnet,Finchley Church End,01/04/2019,30/06/2019,Electronic devices,No,6
+Barnet,Finchley Church End,01/04/2019,30/06/2019,Language learning,Yes,19
+Barnet,Finchley Church End,01/04/2019,30/06/2019,Large print adult fiction,Yes,232
+Barnet,Finchley Church End,01/04/2019,30/06/2019,Large print adult non fiction,Yes,24
+Barnet,Finchley Church End,01/04/2019,30/06/2019,Large print children's fiction,Yes,6
+Barnet,Finchley Church End,01/04/2019,30/06/2019,Music score,Yes,76
+Barnet,Finchley Church End,01/04/2019,30/06/2019,Playset,Yes,60
+Barnet,Finchley Church End,01/04/2019,30/06/2019,Teenage fiction,Yes,1215
+Barnet,Finchley Church End,01/04/2019,30/06/2019,Teenage non fiction,Yes,317
+Barnet,Golders Green,01/04/2019,30/06/2019,Adult audiobook,No,61
+Barnet,Golders Green,01/04/2019,30/06/2019,Adult fiction,Yes,3761
