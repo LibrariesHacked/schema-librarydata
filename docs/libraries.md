@@ -5,13 +5,6 @@ description: Library location opening hours and contact details
 ---
 
 
-[&lt; Back to home](./)
-
----
-layout: default
-title: The dataset name
-description: Brief description of the dataset
----
 
 [&lt; Back to home](./)
 
