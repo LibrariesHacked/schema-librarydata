@@ -42,11 +42,7 @@
             "type": "string",
             "format": "default",
             "constraints": {
-                "required": true,
-                "enum": [
-                    "Manual",
-                    "Automatic"
-                ]
+                "required": true
             }
         },
         {
