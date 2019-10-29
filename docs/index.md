@@ -24,7 +24,7 @@ This documentation details a core dataset for public library open data. Having s
 
 #### Guides
 
-- How to validate a dataset
+- [How to: validate a dataset](./how-to-validate-a-dataset). Instructions for checking your data conforms to the schema
 
 > We will ‘fix our plumbing’ to break our dependence on inflexible and expensive technology that doesn’t join up effectively. This means insisting on modular building blocks for the IT we rely on, and open standards to give a common structure to the data we create.
 > -- <cite>[Local digital declaration](https://localdigital.gov.uk/declaration/)</cite>
