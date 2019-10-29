@@ -8,8 +8,7 @@ description: Guidelines for common fields between datasets
 
 ### Field notes
 
-
-
+#### Date fields
 
 ### Potential problems
 
