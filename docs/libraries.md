@@ -25,17 +25,18 @@ A library is a static service point which allows access to the general public to
 
 ---
 
-A description of how the data can be collected, based upon our knowledge and what we did when publishing the sample data. For example this could have been extracts from an LMS reporting system, or manual updates to a spreadsheet.
+Manual collection. Library services will be able to use the library locations survey 2016 as a starting point.
+
+
 
 ### Sample data row
 
-Here we include a single row of data taken from one of our real sample files. All fields in the dataset should be included, and ideally there should be an example value for each one.
 
-| Field name 1 | Field name 2 | 
-| ------------ | ------------ |
-| Example value for field 1 | Example value for field 2 |
+| Local authority | Library name | Address 1 | Address 2 | Address 3 | Postcode | Unique Property Reference Number | Statutory | Type of Library | Year opened | Year closed | Monday hours | Tuesday hours | Wednesday hours | Thursday hours | Friday hours | Saturday hours | Sunday hours | Special hours | Colocated | Colocated with | Notes | URL | Email address |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| Plymouth  | Crownhill | Cross Park Road | Crownhill | | PL6 5AN | 100041062012 | Yes | LAL | 1991 | | 08:30-18:00| 08:30-18:00 | 08:30-18:00 | 08.30-20:00 | 08:30-18:00 | 09:00-17:00 | | | No | | | https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/crownhilllibrary | library@plymouth.gov.uk
 
-A full sample can be viewed at ... (provide link to the sample data on GitHub).
+A full sample can be viewed at https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/libraries_plymouth.csv.
 
 ### Field notes
 
