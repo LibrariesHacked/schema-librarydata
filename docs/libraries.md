@@ -29,7 +29,9 @@ Manual collection. Library services will be able to use the library locations su
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
 | Plymouth  | Crownhill | Cross Park Road | Crownhill | | PL6 5AN | 100041062012 | Yes | LAL | 1991 | | 08:30-18:00| 08:30-18:00 | 08:30-18:00 | 08.30-20:00 | 08:30-18:00 | 09:00-17:00 | | | No | | | https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/crownhilllibrary | library@plymouth.gov.uk
 
-A full sample can be viewed at https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/libraries_plymouth.csv.
+A full sample can be viewed at [Plymouth library list](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/libraries_plymouth.csv).
+
+
 
 ### Field notes
 
