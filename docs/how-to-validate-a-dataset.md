@@ -23,7 +23,7 @@ These instructions use the tool, [Good Tables](https://goodtables.io), developed
 1. In your browser, navigate to [https://try.goodtables.io](http://try.goodtables.io/)
 2. In the **Source** text field, select the option to 'Upload File'.
 3. Using the **Browse** button, upload your CSV file
-4. In the **Schema** text field, enter the URL of the schema that you want to validate the data against. These are listed in the table below.
+4. In the **Schema** text field, enter the URL of the schema that you want to validate the data against. These are listed in the table further down this page.
 5. Click the **Validate** button. The tool will report whether the table is valid.
 
 <figure>
@@ -49,13 +49,13 @@ These instructions use the tool, [Good Tables](https://goodtables.io), developed
 
 The data validation may tell you you don't have a valid table.
 
-In these cases, the tool will display the things that are incorrect. In the example shown below, the data has failed validation because some mandatory columns have no values in them (reported as a 'required constraint'). Another error reported is an 'enumerable constraint', which means a column value does not match what the schema is expecting. In this particular case 'Mon' has been used instead of 'Monday'. It is important that we use consistent values for our data.
+In these cases, the tool will display the things that are incorrect. In the example shown below, the data has failed validation because some mandatory columns have no values in them (reported as a 'required constraint'). Another error reported is an 'enumerable constraint', which means a column value does not match what the schema is expecting. In this case, 'Mon' has been used instead of 'Monday'. Although it often seems picky, it's important we use consistent values for our data.
 
-Although it may not always be clear what is wrong with the data, this documentation should give a full description of the data expected. The [sample files](https://github.com/LibrariesHacked/schema-librarydata/tree/master/data) have successfully passed validation, and can also be used as a guide.
+It may not always be clear what is wrong with the data. This documentation should give a full description of the data expected and the [sample files](https://github.com/LibrariesHacked/schema-librarydata/tree/master/data) have successfully passed validation, and can also be used as a guide.
 
 <figure>
     <img src="{{site.url}}/images/how-to-validate-a-dataset-invalid.png" alt="Example of invalid data"/>
-    <figcaption>An example of invalid data, with numerous errors reported.</figcaption>
+    <figcaption>An example of invalid data, with errors displayed.</figcaption>
 </figure>
 
 ---
