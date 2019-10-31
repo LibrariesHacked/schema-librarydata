@@ -19,6 +19,7 @@ Data collection on events is likely to be manual, but could be helped by existin
 ### Sample data row
 
 | Local authority | Library name | Event date | Name | Outcome | Attendees |
+| --------------- | ------------ | ---------- | ---- | ------- | --------- |
 | Barnet | Burnt Oak | 2018-01-12 | Toddler Read and Rhyme | Stronger more resilient communities | 11 |
 
 A full sample can be viewed at [Barnet events](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/events_barnet.csv).
@@ -29,9 +30,7 @@ A full sample can be viewed at [Barnet events](https://github.com/LibrariesHacke
 
 #### Outcome
 
-The set of outcomes are taken from the Libraries Taskforce [outcomes libraries deliver for their communities](https://www.gov.uk/government/publications/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021#the-outcomes-libraries-deliver-for-their-communities).
-
-The schema enforces selecting one of these outcomes for each event.
+The set of outcomes are taken from the Libraries Taskforce Ambition document: [outcomes libraries deliver for their communities](https://www.gov.uk/government/publications/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021#the-outcomes-libraries-deliver-for-their-communities). One of these outcomes must be selected for each event.
 
 | Outcome |
 | ------- |
@@ -49,7 +48,7 @@ The schema enforces selecting one of these outcomes for each event.
 
 #### Multiple or unknown outcomes
 
-It could be difficult for a library service to assign an outcome to each event. It is ikely that an event would apply to multiple different outcomes. In these cases, at the moment just one has to be selected. This is likely to lead to cases where very similar events are assigned under different outcomes.
+It could be difficult for a library service to assign an outcome to each event. It's likely that an event would apply to multiple different outcomes. In these cases, at the moment just one has to be selected. This is likely to lead to situations where similar events are assigned under different outcomes.
 
 We should look at options to:
 
@@ -59,7 +58,7 @@ We should look at options to:
 
 #### Non-library events
 
-The definition of library events as being 'facilitated or organised by the library service' is quite broad. This means that some library services may include events that others wouldn't. For example, reading groups that are largely self-organised, but use library premises and books. For now, if the library is collecting data on the events, and counts of attendees, this will left to the discretion of the service.
+The definition of library events as being 'facilitated or organised by the library service' is broad. This means library services may include events that others wouldn't. For example, reading groups that are largely self-organised, but use library premises and books. For now, if the library is collecting data on the events, and counts of attendees, this will left to the discretion of the service.
 
 ### How the data is updated
 
@@ -67,8 +66,8 @@ The definition of library events as being 'facilitated or organised by the libra
 
 To update their event data, library services can either:
 
-- Publish an additional file with the new events
-- Update an existing file with new rows
+- Publish an additional file with the new set of events
+- Update an existing file with each new event as an additional row
 
 Depending on how many events the service holds, a new file may be easier to manage. It is likely that this data will collected as the events are held, so we should explore guidance for updating this data regularly (e.g. monthly).
 
