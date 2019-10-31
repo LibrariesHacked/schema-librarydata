@@ -74,7 +74,7 @@ This column provides a means for adding dates that do not conform to the normal 
 If UPRN is provided, then coordinates, building footprint, and height, could all be available from Ordnance Survey. Ordnance Survey could potentially be approached by DCMS via BEIS (Department for Business, Energy and Industrial Strategy) to allow this data to be included, and automatically added if UPRN is provided.
 
 
----
+
 
 ### Potential problems
 
