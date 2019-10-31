@@ -1,16 +1,18 @@
 ---
 layout: default
 title: Technical schemas
-description: Formal definitions of what the data will look like
+description: Formal definitions of what the data should look like
 ---
 
 [&lt; Back to home](./)
 
 ### Schema definitions
 
+---
+
 [Table Schema](https://frictionlessdata.io/docs/table-schema/) is a standard for writing data 'schemas'. It allows for a formal definition of what the columns should be, and what type of data can be in each column.
 
-Using this allows us to validate data with tools that are able to check that files match the specified schema.
+This allows us to validate data with tools that can check whether files match the specified schema.
 
 For our public library data, each dataset has it's own schema definition file. These can be viewed using the links below.
 

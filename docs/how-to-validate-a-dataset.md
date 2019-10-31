@@ -12,7 +12,7 @@ description: Instructions for checking your data conforms to the schema
 
 Validating our data gives us confidence it is in the right format.
 
-It does not guarantee the data is **accurate**. A count of loans could be wrong, for example, and it would be difficult to spot. But it ensures the data we publish will work in the systems that are designed to use it, and it can be combined with other services' data.
+It does not guarantee the data is **accurate**. A count of loans could be factually wrong. But it ensures the data we publish will work in the systems that are designed to use it, and it can be combined with other services' data.
 
 ### Instructions
 
@@ -49,9 +49,9 @@ These instructions use the tool, [Good Tables](https://goodtables.io), developed
 
 The data validation may tell you you don't have a valid table.
 
-In these cases, the tool will display the things that are incorrect. In the example shown below, the data has failed validation because some mandatory columns have no values in them (reported as a 'required constraint'). Another error reported is an 'enumerable constraint', which means a column value does not match what the schema is expecting. In this case, 'Mon' has been used instead of 'Monday'. Although it often seems picky, it's important we use consistent values for our data.
+In these cases, it will display the things that are incorrect. In the example shown below, the data has failed validation because some mandatory columns have no values in them (reported as a 'required constraint'). Another error reported is an 'enumerable constraint', which means a column value does not match what the schema is expecting. In this case, 'Mon' has been used instead of 'Monday'. Although it often seems overly picky, it's important we use consistent values for our data.
 
-It may not always be clear what is wrong with the data. This documentation should give a full description of the data expected and the [sample files](https://github.com/LibrariesHacked/schema-librarydata/tree/master/data) have successfully passed validation, and can also be used as a guide.
+It may not be clear what is wrong with the data. This documentation should give guidance of the data expected. The [sample files](https://github.com/LibrariesHacked/schema-librarydata/tree/master/data) have all successfully passed validation, and can also be used as reference.
 
 <figure>
     <img src="{{site.url}}/images/how-to-validate-a-dataset-invalid.png" alt="Example of invalid data"/>
