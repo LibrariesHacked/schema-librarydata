@@ -4,6 +4,8 @@ title: Events
 description: Library event attendance and outcomes
 ---
 
+[&lt; Back to home](./)
+
 ### Definition
 
 ---
@@ -75,7 +77,9 @@ Depending on how many events the service holds, a new file may be easier to mana
 
 ---
 
-An example of what could be done with the data.
+Having comprehensive data on events alongside 'traditional' usage data such as loans will be a long-needed tool for analysis of library outcomes.
+
+
 
 ### Future enhancements
 
