@@ -10,9 +10,9 @@ description: Instructions for checking your data conforms to the schema
 
 ---
 
-Validating our data gives us confidence it is in the right format.
+Validating data gives us confidence it is in the right format.
 
-It does not guarantee the data is **accurate**. A count of loans could be factually wrong. But it ensures the data we publish will work in the systems that are designed to use it, and it can be combined with other services' data.
+It does not guarantee the data is **accurate**. A count of loans could be factually wrong. But it ensures the data we publish will work in systems that are designed to use it, and it can be combined with other services' data.
 
 ### Instructions
 
@@ -27,7 +27,7 @@ These instructions use the tool, [Good Tables](https://goodtables.io), developed
 5. Click the **Validate** button. The tool will report whether the table is valid.
 
 <figure>
-    <img src="{{site.url}}/images/how-to-validate-a-dataset-valid.png" alt="Example of successful data validation"/>
+    <img src="{{site.url}}/images/how-to-validate-a-dataset-valid.png" alt="Example of successful data validation" />
     <figcaption>An example of a successful data validation, using Plymouth library listings.</figcaption>
 </figure>
 

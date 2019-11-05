@@ -52,7 +52,7 @@ This field should provide a web address at which a citizen can find details of t
 
 ---
 
-#### Private stops 
+#### Private stops
 
 In some cases mobile library routes alternate between public and private stops (e.g. home visits). This currently restricts them from publicising their routes. This dataset should encourage services to take the chance to publish their public stops, so the data can be used to provide public information.
 

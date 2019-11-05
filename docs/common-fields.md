@@ -10,7 +10,7 @@ description: Guidelines for common fields between datasets
 
 ---
 
-This page describes some common guidelines for the fields that will be used between multiple datasets.
+This page describes some common guidelines for fields that will be used between multiple datasets.
 
 #### Local authority
 
@@ -19,13 +19,21 @@ This should be the local authority name as listed in the relevant register on go
 | Area | Local authority register |
 | ---- | ------------------------ |
 | Scotland | [Local authorities in Scotland](https://www.registers.service.gov.uk/registers/local-authority-sct) |
-| Wales | [Local authorities in Wales](https://www.registers.service.gov.uk/registers/principal-local-authority) | 
+| Wales | [Local authorities in Wales](https://www.registers.service.gov.uk/registers/principal-local-authority) |
 | Northern Ireland | [LibrariesNI](https://www.librariesni.org.uk) |
 | England | [Local authorities in England](https://www.registers.service.gov.uk/registers/local-authority-eng) |
 
 Although the organisation running the library service may not be the local authority (e.g. a commissioned library service), it's the authority that has statutory responsibility for the library service.
 
 An exception to this is Northern Ireland, as Libraries NI have statutory responsibility for libraries.
+
+#### Library name
+
+The [libraries](./libraries) dataset is the core dataset for listing libraries. The name should be the publicly known name of the library.
+
+It is recommended to be consistent as to whether the word 'Library' is included in the name.
+
+The name must also be consistent wherever it is listed. This is essential to provide linked data between datasets. For example, the physical visists dataset does not have colocation information within it, because that is in the libraries dataset. This relies on the two datasets providing complementary information, and sharing the same names.
 
 #### Date fields
 
