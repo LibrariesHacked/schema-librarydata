@@ -16,7 +16,7 @@ A loan is the issuing of any item of stock within the library management system 
 
 ---
 
-Library management systems will have the means of extracting and reporting data, and so this collection should be able to be automated. That could be just to extract the data, but may include automation that also published the data at regular intervals.
+Library management systems will have the means of extracting and reporting data, and so this collection should be able to be automated. This may include automation that also publishes the data at regular intervals.
 
 ### Sample data row
 

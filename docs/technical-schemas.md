@@ -10,7 +10,7 @@ description: Formal definitions of what the data should look like
 
 ---
 
-[Table Schema](https://frictionlessdata.io/docs/table-schema/) is a standard for writing data 'schemas'. It allows for a formal definition of what the columns should be, and what type of data can be in each column.
+[Table Schema](https://frictionlessdata.io/docs/table-schema/) is a standard for writing data schemas. It allows for a formal definition of what the columns should be in a dataset, and what type of data can be in each column.
 
 This allows us to validate data with tools that can check whether files match the specified schema.
 
