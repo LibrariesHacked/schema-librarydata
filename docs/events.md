@@ -16,7 +16,7 @@ A library event is an event held within a library, and facilitated or organised 
 
 ---
 
-Data collection on events is likely to be manual, but could be aided by reports from existing systems, such as Eventbrite. Or be recorded in custom spreadsheets and databases. For example, Barnet collect event data using a custom Access database, which can then be exported as CSV.
+Data collection on events is likely to be manual, but could be aided by reports from existing systems, such as Eventbrite. Or be recorded in custom spreadsheets and databases. For example, Barnet collect event data using a Microsoft Access database, which can then be exported as CSV.
 
 If starting from scratch, [this template file](https://github.com/LibrariesHacked/schema-librarydata/blob/master/templates/events.csv) can be downloaded and opened using spreadsheet software.
 
@@ -34,7 +34,7 @@ A full sample can be viewed at [Barnet events](https://github.com/LibrariesHacke
 
 #### Outcome
 
-The set of outcomes are taken from the Libraries Taskforce Ambition document: [outcomes libraries deliver for their communities](https://www.gov.uk/government/publications/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021#the-outcomes-libraries-deliver-for-their-communities). One of these outcomes must be selected for each event.
+The outcomes are taken from the Libraries Taskforce Ambition document: [outcomes libraries deliver for their communities](https://www.gov.uk/government/publications/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021#the-outcomes-libraries-deliver-for-their-communities). One of these outcomes must be selected for each event.
 
 | Outcome |
 | ------- |
@@ -52,13 +52,13 @@ The set of outcomes are taken from the Libraries Taskforce Ambition document: [o
 
 #### Multiple or unknown outcomes
 
-It could be difficult for a library service to assign an outcome to each event. It's likely that an event would apply to multiple different outcomes. In these cases, at the moment just one has to be selected. This is likely to lead to situations where similar events are assigned under different outcomes.
+It could be difficult for a library service to assign an outcome to each event. It's likely that an event would apply to multiple outcomes. In these cases, just one should be selected. This may also lead to situations where similar events are assigned under different outcomes.
 
 We should investigate options to:
 
 - Assign multiple outcomes
 - Have an option for leaving this empty or unknown
-- Have guidance for common event types that suggests which outcomes to use
+- Have guidance for common events that suggests which outcome(s) to use
 
 #### Non-library events
 
