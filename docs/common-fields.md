@@ -23,35 +23,33 @@ This should be the local authority name as listed in the relevant register on go
 | Northern Ireland | [LibrariesNI](https://www.librariesni.org.uk) |
 | England | [Local authorities in England](https://www.registers.service.gov.uk/registers/local-authority-eng) |
 
-Although the organisation running the library service may not be the local authority (e.g. a commissioned library service), it's the authority that has statutory responsibility for the library service.
+Although the organisation running the library service may not be a local authority (e.g. a commissioned library service), it's the authority that has statutory responsibility for the library service and should be listed.
 
 An exception to this is Northern Ireland, as Libraries NI have statutory responsibility for libraries.
 
 #### Library name
 
-The [libraries](./libraries) dataset is the core dataset for listing libraries. The name should be the publicly known name of the library.
-
 It is recommended to be consistent as to whether the word 'Library' is included in the name.
 
-The name must also be consistent wherever it is listed. This is essential to link data between datasets. For example, the physical visists dataset does not information as to whether the library is colocated with other services. That data is held in the libraries dataset. This relies on the two datasets providing complementary information, and sharing the same names.
+The name must also be consistent wherever it is listed. This is essential to link data between datasets. For example, the physical visists dataset does not say whether the library is colocated with other services. That data is held in the libraries dataset. Using both datasets together relies on the two datasets sharing the same names.
 
 #### Date fields
 
-A common standard should be agreed for dates. For example, the 25th December 2019 could be written in multiple ways.
+The 25th December 2019 could be written in multiple ways.
 
 - 25/12/2019
 - 12/25/2019
 - 2019-12-25
 
-At the moment, dates are specified in the 'default' date format, which is the International Standard [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) (e.g. **2019-12-25** or described as YYYY-MM-DD). This option provides a widely recognised and unambiguous solution.
+At the moment, dates should be specified using the International Standard [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) (e.g. **2019-12-25**, or described as YYYY-MM-DD). This option provides a widely recognised and unambiguous solution.
 
 ### Potential problems
 
 #### Date standards
 
-There can be a recurring problem of software (e.g. Excel) 'auto-correcting' dates to another format. This will often use the settings on the user's computer. Data validation will ensure that the format is enforced, but clear guidance can be provided for data publishers on how to tackle software issues.
+There can be a recurring problem of software 'auto-correcting' dates to another format. This will often use settings on the user's computer. Data validation will ensure that the format is enforced, but clear guidance can be provided for data publishers on how to tackle these software issues.
 
-It could also be that an online tool could detect the existing date format, and convert it to the standard.
+It could also be that an online tool could detect the date format, and convert it to the standard.
 
 ---
 

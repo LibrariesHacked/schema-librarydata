@@ -16,7 +16,7 @@ A loan is the issuing of any item of stock within the library management system 
 
 ---
 
-Library management systems will have the means of extracting and reporting data, and so this collection should be able to be automated. This may include automation that also publishes the data at regular intervals.
+Library management systems will have the means of extracting and reporting data, and so this should be able to be automated. This may include automated publishing of the data at regular intervals.
 
 ### Sample data row
 
@@ -67,6 +67,12 @@ To update their loans data, library services can either:
 
 ---
 
+Accurate loans data, by item type will be able to show patterns in what type of items are loaned between different authorities. As stock data by item type will also be published, tools can be created that aim to analyse stock alongside loans to provide local and national insight into stock and demand.
+
+<figure>
+    <img src="{{site.url}}/images/loans_barnet.png" alt="Bar chart displaying count of items of stock in Barnet with markers for loan counts per type." width="100%"/>
+    <figcaption>Items of stock in Barnet with markers to show count of loans of those item types.</figcaption>
+</figure>
 
 
 ### Future enhancements

@@ -34,7 +34,7 @@ A full sample can be viewed at [Barnet events](https://github.com/LibrariesHacke
 
 #### Outcome
 
-The outcomes are taken from the Libraries Taskforce Ambition document: [outcomes libraries deliver for their communities](https://www.gov.uk/government/publications/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021#the-outcomes-libraries-deliver-for-their-communities). One of these outcomes must be selected for each event.
+The outcomes are taken from the Libraries Taskforce Ambition document: [outcomes libraries deliver for their communities](https://www.gov.uk/government/publications/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021#the-outcomes-libraries-deliver-for-their-communities). One outcome must be selected for each event.
 
 | Outcome |
 | ------- |
@@ -52,7 +52,7 @@ The outcomes are taken from the Libraries Taskforce Ambition document: [outcomes
 
 #### Multiple or unknown outcomes
 
-It could be difficult for a library service to assign an outcome to each event. It's likely that an event would apply to multiple outcomes. In these cases, just one should be selected. This may also lead to situations where similar events are assigned under different outcomes.
+It could be difficult for a library service to assign an outcome to each event. It's also likely that an event could apply to multiple outcomes. In these cases, just one should be selected. This may lead to situations where similar or the same events are assigned under different outcomes.
 
 We should investigate options to:
 
@@ -62,7 +62,7 @@ We should investigate options to:
 
 #### Non-library events
 
-The definition of library events as being 'facilitated or organised by the library service' is broad. This means library services may include events that others wouldn't. For example, reading groups that are largely self-organised, but use library premises and books. For now this will left to the discretion of the service.
+The definition of library events as being 'facilitated or organised by the library service' is broad. This means library services may include events that others wouldn't. For example, reading groups that use library premises and books. For now this will left to the discretion of the service.
 
 ### How the data is updated
 

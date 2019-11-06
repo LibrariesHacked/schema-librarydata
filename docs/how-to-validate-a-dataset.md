@@ -12,7 +12,7 @@ description: Instructions for checking your data conforms to the schema
 
 Validating data gives us confidence it is in the right format.
 
-It does not guarantee the data is **accurate**. A count of loans could be factually wrong. But it ensures the data we publish will work in systems that are designed to use it, and it can be combined with other services' data.
+It does not guarantee the data is **accurate**. Data could still be factually wrong. But it ensures the data we publish will work in systems that are designed to use it, and it can be combined with other services' data.
 
 ### Instructions
 

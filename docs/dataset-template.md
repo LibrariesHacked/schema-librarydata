@@ -36,9 +36,9 @@ A full sample can be viewed at ... (provide link to the sample data on GitHub).
 
 These sections should only be completed for fields where it is worth providing additional notes. For example, an opening hours column may need explanation of the data structure, and where the standard has been taken from.
 
----
-
 ### Potential problems
+
+---
 
 #### Problem title
 

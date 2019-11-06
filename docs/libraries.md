@@ -78,13 +78,13 @@ If you do not know the UPRNs of your library it is likely that the Geographic In
 
 #### UPRN
 
-Excel can tend to be tricky when holding big numbers, and it may transform them to scientific notation when exporting to CSV format. UPRNs are also difficult as they are often held as a single number e.g. '199356', but are sometimes stored as 'zero padded' to ensure they are all the same length e.g. '00000199356'. We will likely get a mix of both but this should not matter.
+Excel can tend to be tricky when holding big numbers, and it may transform them to scientific notation (e.g. 1.23E+10). UPRNs are also difficult as they are sometimes stored as 'zero padded' to ensure they are all the same length e.g. '00000199356' rather than '199356'. We will likely get a mix of both styles.
 
 ### How the data is updated
 
 ---
 
-Each service can maintain a single data file that is updated whenever the library details change, including changes to opening hours. As the data contains closed libraries, there is no need to remove these if a library is closed, the file can be updated by adding the year of closure. If there are new libraries, they can be added as an additional row.
+Each service can maintain a single data file that is updated whenever the details change, including changes to opening hours. As the data contains closed libraries, there is no need to remove these if a library is closed, the file can be updated by adding the year of closure. If there are new libraries, they can be added as an additional row.
 
 ### How the data could be used
 
