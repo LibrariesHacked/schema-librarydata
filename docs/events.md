@@ -46,9 +46,9 @@ The outcomes are taken from the Libraries Taskforce Ambition document: [outcomes
 | Greater prosperity |
 | Stronger more resilient communities |
 
----
-
 ### Potential problems
+
+---
 
 #### Multiple or unknown outcomes
 
@@ -84,7 +84,7 @@ Having comprehensive data on events alongside traditional usage data such as loa
 Even as a simple visualisation, the Barnet events data, filtered by events so far held in 2019 shows the scale of attendance at library events. Particularly the impact and popularity of those such as Rhyme Time.
 
 <figure>
-    <img src="{{site.url}}/images/mobile_library_stops_somerset.png" alt="Bubble chart displaying barnet events by type."/>
+    <img src="{{site.url}}/images/events_barnet.png" alt="Bubble chart displaying barnet events by type."/>
     <figcaption>Total attendees at Barnet library events held grouped by event type.</figcaption>
 </figure>
 
