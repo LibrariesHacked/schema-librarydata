@@ -38,9 +38,9 @@ Detailed reporting is encouraged. For example, the reporting could be on a daily
 
 #### Type
 
-The type will be the item type as the item has been categorised under in the library management system.
+The type will be the item type the item has been categorised under in the library management system.
 
-This should ideally be a human readable value rather than a code. For example 'Adult Fiction' rather than 'ADU_FIC'. The set of item types will be whatever are used by the library service.
+This should ideally be a human readable value rather than a code. For example 'Adult Fiction' rather than 'ADU_FIC'. The set of item types will be those that are used by the library service.
 
 #### Loans
 
@@ -50,7 +50,7 @@ Combining issues and renewals of items into a single count is a method of report
 
 ### Potential problems
 
-#### Non-standardised item categories
+#### Non-standardised item types
 
 Using item types as they are designed by each library service will mean a lot of variation between similar types of items. For example one service may write 'Child Fiction' and another 'Fiction - Child'.
 

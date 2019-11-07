@@ -10,13 +10,15 @@ description: Locations of mobile library stops and when they are visited
 
 ---
 
-A mobile library stop is a location visited by a mobile library vehicle. It should also be open to members of the public. This will exclude locations that are for home deliveries, or locations that have other access restrictions (such as school-only).
+A mobile library stop is a location visited by a mobile library vehicle. It should be open to all members of the public. This will exclude locations that are for home deliveries, or locations that have other access restrictions (such as school-only).
 
 ### How the data can be collected
 
 Library services will often already hold mobile library stops in spreadsheets. They may also be held in the Library Management System, but this is rarely the 'master' copy of the data.
 
 The most likely method for compiling this data will be to rearrange existing spreadsheets or documents into this data format.
+
+If starting from scratch, [this template file](https://github.com/LibrariesHacked/schema-librarydata/blob/master/templates/mobile-library-stops.csv) can be downloaded and opened using spreadsheet software.
 
 ### Sample data row
 

@@ -10,7 +10,7 @@ description: Summary counts of the stock held by libraries
 
 ---
 
-An item of stock is any item held by the library that is available to the public, and catalogued in the library management system. This dataset is a summary set of the number of different types of items held by libraries.
+An item of stock is any item held by the library that is available to the public, and catalogued in the library management system. This dataset is a summary of the number of different types of items held by libraries.
 
 ### How the data can be collected
 
@@ -32,17 +32,17 @@ A full sample can be viewed at [Barnet stock summary](https://github.com/Librari
 
 #### Type
 
-The type will be the item type as the item has been categorised under in the library management system.
+The type will be the item type the item has been categorised under in the library management system.
 
-This should ideally be a human readable value rather than a code. For example 'Adult Fiction' rather than 'ADU_FIC'. The set of item types will be whatever are used by the library service.
+This should ideally be a human readable value rather than a code. For example 'Adult Fiction' rather than 'ADU_FIC'. The set of item types will be those that are used by the library service.
 
 ---
 
 ### Potential problems
 
-#### Non-standardised item categories
+#### Non-standardised item types
 
-Using item types as they are designed by each library service will mean a lot of variation between similar types of items. For example one service may write 'Child Fiction' and another 'Fiction - Child'.
+Using item types as used by each library service will mean a lot of variation between similar types of items. For example one service may write 'Child Fiction' and another 'Fiction - Child'.
 
 ### How the data is updated
 
@@ -54,7 +54,9 @@ As the data is a 'snapshot' of the current count of items in a library catalogue
 
 ---
 
+As with the [loans dataset](./loans), combining this data would be useful as a means of comparing local use of stock with other authorities.
 
+It is also a first step to publishing more detailed catalogue data, which could be used for more powerful purposes. Such as an open source inter-library loans and cross-catalogue single platform.
 
 ### Future enhancements
 
@@ -62,6 +64,17 @@ As the data is a 'snapshot' of the current count of items in a library catalogue
 
 #### Full catalogue detail
 
+It is likely that the enhancements to this dataset would need an additional schema e.g. 'stock detail'. This would provide more complete information on all the titles and items held by the library service such as:
+
+- Title
+- Author (where applicable)
+- ISBN (where applicable)
+- Date acquired
+- Date published
+- Checkout status
+- Count of loans
+
+As well as providing detailed insight into catalogues across the country, workshops could be held on cleaning and refining the data held in library catalogues.
 
 ---
 

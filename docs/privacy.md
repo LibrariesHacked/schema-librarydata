@@ -12,9 +12,9 @@ description: How we use data and protect your privacy
 
 Cookies are files saved on your phone, tablet or computer when you visit a website.
 
-This site uses [Cloudflare](https://www.cloudflare.com/), to ensure we provide the site using encryption (you can check that it has 'https' at the start of the address), as well as maximising the security and performance of the website.
+This site uses [Cloudflare](https://www.cloudflare.com/), to ensure we provide the site using encryption (see the 'https' at the start of the address), as well as maximising the security and performance of the website.
 
-Cloudflare set a single cookie on your computer when you use this website. The cookie is necessary to deliver their security features, such as identifying when a malicious user is suspected of attempting to overload a website. This would display a challenge to the user, blocking them from repeated requests.
+Cloudflare creates a single cookie on your computer when you use this website. The cookie is necessary to deliver their security features, such as identifying when a malicious user is suspected of attempting to overload a website. This would display a challenge to the user, blocking them from repeated requests.
 
 This uses your IP address, but anonymises it so that it can not be identified in future. The cookie is not used for any cross-site tracking, or marketing purposes. More details are available at the [Cloudflare description of the use of cookies](https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies#12345682).
 
