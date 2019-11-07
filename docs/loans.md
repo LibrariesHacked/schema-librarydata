@@ -10,7 +10,7 @@ description: Lending of items in libraries
 
 ---
 
-A loan is the issuing of any item of stock within the library management system to a member of the library service. A renewal of a item on loan is counted as an additional loan.
+A loan is the issuing of an item of stock to a member of the library service. A renewal of a item already on loan is counted as an additional loan.
 
 ### How the data can be collected
 
@@ -34,13 +34,13 @@ A full sample can be viewed at [Barnet loans](https://github.com/LibrariesHacked
 
 The count start and end is the report period the count is for.
 
-Detailed reporting is encouraged. For example, the reporting could be on a daily basis, in which case the start and end would be the same date. This would be good for analysis, such as comparing library use on different days of the week.
+Detailed reporting is encouraged. For example, the reporting could be on a daily basis, in which case the start and end would be the same. This would be good for analysis, such as comparing library use on different days of the week.
 
 #### Type
 
-The type will be the item type the item has been categorised under in the library management system.
+The type will be the item type the item is categorised under in the library management system.
 
-This should ideally be a human readable value rather than a code. For example 'Adult Fiction' rather than 'ADU_FIC'. The set of item types will be those that are used by the library service.
+This should ideally be a human readable value rather than a code. For example 'Adult Fiction' rather than 'ADU_FIC'. The set of types will be those that are used by each library service.
 
 #### Loans
 

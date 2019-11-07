@@ -34,7 +34,7 @@ A full sample can be viewed at [Plymouth libraries](https://github.com/Libraries
 
 #### Statutory
 
-All statutory libraries should be listed. For libraries that are not statutory it is up to the individual service as to whether they are included.
+All statutory libraries should be listed. For libraries that are not statutory it is up to the service to include them or not.
 
 #### Type of library
 
@@ -54,15 +54,15 @@ These columns should allow for new libraries, closures, and replacement librarie
 
 #### Opening hours
 
-Currently, opening hours should be all hours in which the library is open and available to all members of the public.
+Currently, opening hours should be the hours in which the library is open and available to all members of the public.
 
-There is a column for each day. Hours are in 24 hour clock and include start and end e.g. **09:00-17:00**. If there are multiple opening hours in a day (e.g. a lunch break) these can be separated by commas e.g. **09:00-12:00,13:00-17:00**.
+There is a column for each day. Hours are in 24 hour clock and include start and end e.g. **09:00-17:00**. If there are multiple opening hours in a day these can be separated by commas e.g. **09:00-12:00,13:00-17:00** would accommodate a lunch break.
 
 This is a format used by Google for listing opening hours. For more info see [these Google support pages](https://support.google.com/business/answer/3370250?#hours)
 
 #### Special hours
 
-This column provides a means for adding dates that have special changes to hours. This could be public holidays when the library is closed. The format is to specify the date, include a colon, and then the opening hours. Separate different entries with commas. For example, **2019-12-25: X, 2019-12-27: 10:00-13:00** would signify that the library is closed on the 25th December, and open from 10am to 1pm on the 27th December.
+This column allows for adding dates that are different to normal. This could be public holidays when the library is closed, or other special situations. The format is to specify the date, include a colon, and then the opening hours. Each date is separated with commas. For example, **2019-12-25: X, 2019-12-26: X,2019-12-27: 10:00-13:00**. This would say that the library is closed on the 25th and 26th December, and open from 10am to 1pm on the 27th December.
 
 For more info see [these Google support pages](https://support.google.com/business/answer/6303076).
 
@@ -90,33 +90,35 @@ Each service can maintain a single data file that is updated whenever the detail
 
 ---
 
-Accurate location data on libraries is useful to analyse library provision, especially at a local level. For example, the [Plymouth Library Finder](https://plymouth.librarydata.uk) uses location data to assess the population within walking, cycling, or driving distance of a library and compare these visually.
+Accurate data on libraries is useful to analyse library provision, especially at a local level. For example, a tool to display Plymouth library locations uses location data to assess the population within walking, cycling, or driving distance of a library and compare these visually.
 
 <figure>
     <img src="{{site.url}}/images/libraries_plymouth.png" alt="Displaying a map with Plymouth Central Library at the centre and walking travel distances around it"/>
     <figcaption>Population within 5 minute walking intervals around Plymouth Central Library.</figcaption>
 </figure>
 
-The application also uses opening hours to show libraries open at the current time, and event data to search for libraries that host certain types of events. All these aspects of data are proposed for this core schema, and the tool could be updated to a national one.
+The application also uses opening hours to show libraries open at the current time, and event data to search for libraries that host certain types of events.
+
+It was built using library listings from Plymouth, event listings, and open map data from open street map. To try it out see the [Plymouth Library Finder](https://plymouth.librarydata.uk).
 
 ### Future enhancements
 
 ---
 
-#### Staff and unstaffed hours
+#### Staffed and unstaffed hours
 
-Many libraries will have a mix of 'types' of opening hours, often when the library is accessible by using a library card and PIN at times when there are no staff. This can be described in different ways, such as extended access.
+Many libraries will have a mix of 'types' of opening hours, such as when the library can be entered using a library card and PIN when there are no staff. This can be described in different ways, such as extended access.
 
 Different ways of handling these hours could be:
 
 1. Separate out staffed/non-staffed into separate columns
 2. Decide on set guidance about what hours should be included (e.g. the opening hours MUST be staffed hours where the building is open to all)
-3. Leave it up to the services to decide what hours to use, but encourage use of the notes field for additional details (e.g. a service may say "Our opening hours include extended access use, for which members must...'" (edited)
+3. Leave it up to the services to decide what hours to use, but encourage use of the notes field for additional details (e.g. a service may say "Our opening hours include extended access use, for which members must...")
 
 Before deciding on this, more research should be conducted with a wider group of services. It will likely be important to capture additional information about unstaffed hours, such as:
 
 - Who is able to access
-- Training or authorisation required for access
+- Training required for access
 - Facilities available during these hours
 
 #### Library floor space and building
