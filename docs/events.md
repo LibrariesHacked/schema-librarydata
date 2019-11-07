@@ -81,11 +81,11 @@ Depending on how many events the service holds, a new file may be easier to mana
 
 Having comprehensive data on events alongside traditional usage data such as loans will be a long-overdue tool for analysis of library impact.
 
-Even as a simple visualisation, the Barnet events data, filtered by events so far held in 2019 shows the scale of attendance at library events. Particularly the impact and popularity of those such as Rhyme Time.
+The Barnet events data, filtered by events so far held in 2019 (where the total attendees are over 1000) shows the scale of attendance at library events. Particularly the impact and popularity of those such as Rhyme Time.
 
 <figure>
     <img src="{{site.url}}/images/events_barnet.png" alt="Bubble chart displaying barnet events by type." width="100%"/>
-    <figcaption>Total attendees at Barnet library events held grouped by event type.</figcaption>
+    <figcaption>2019 attendees at Barnet library events held grouped by event type.</figcaption>
 </figure>
 
 ### Future enhancements

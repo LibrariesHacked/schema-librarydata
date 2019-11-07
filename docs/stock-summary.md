@@ -36,9 +36,9 @@ The type will be the item type the item has been categorised under in the librar
 
 This should ideally be a human readable value rather than a code. For example 'Adult Fiction' rather than 'ADU_FIC'. The set of item types will be those that are used by the library service.
 
----
-
 ### Potential problems
+
+---
 
 #### Non-standardised item types
 
