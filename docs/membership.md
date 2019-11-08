@@ -63,32 +63,36 @@ As the data is a 'snapshot' of the current count of members, it would be easiest
 
 The natural usage for data that includes geographic areas would be to map these against other statistics for those areas. One of these is population counts, another is indices of deprivation.
 
-For example, in the sample data row, we have the following:
+For example, in the sample data row, we have the following are.
 
 | Local authority | Count date | Area code | Members |
 | --------------- | ---------- | --------- | ------- |
 | Bristol City Council | 2018-10-23 | E01014486 | 557 |
 
-This shows that there were 557 library members in [LSOA area E01014486](https://mapit.mysociety.org/area/115005.html), which is St Agnes in Bristol. Looking at other data for the area, for deprivation the area is ranked 3,573 out of 32,844 in England, which puts it in the 20% most deprived neighbourhoods in England. The population of the area was estimated in mid-2018 to be 2,435, so we can estimate a library membership of about 25%.
+This shows that there were 557 library members in [LSOA area E01014486](https://mapit.mysociety.org/area/115005.html), which is St Agnes in Bristol. Looking at other data sources, the area is ranked 3,573 out of 32,844 for deprivation in England, which puts it in the 20% most deprived neighbourhoods. The population of the area was estimated in mid-2018 to be 2,435, so we can estimate a library membership of about 25%.
 
-Mapping and analysing this data provides all sorts of local uses in terms of outreach programmes, seeing why certain areas don't use the library, looking at the particular needs of existing members, etc. Nationally, if we had detailed library membership data, that would become something that would be of use for many other agencies such as those looking at digital exlcusion, or social engagement.
+Mapping and analysing this data provides all sorts of local uses in terms of outreach programmes, seeing why certain areas don't use the library, looking at the particular needs of existing members, etc. Nationally, if we had detailed library membership data, that would become a dataset that would be of use for many other agencies, such as those looking at digital exclusion, or use of public services.
 
 The map on [librarieswest.github.io](https://librarieswest.github.io/map/) shows detailed membership data for all lirbary services in Libraries West. 
 
 <figure>
-    <img src="{{site.url}}/images/membership_bristol.png" alt="Map displaying shading of LSOAs to represent membership level." width="100%"/>
-    <figcaption>Membership mapped for Bristol libraries, showing popup for area with 23% library membership.</figcaption>
+    <img src="{{site.url}}/images/membership_bristol.png" alt="Map displaying shading of LSOAs to represent membership levels across Bristol" width="100%"/>
+    <figcaption>Membership mapped for Bristol libraries, showing information popup for area with 23% library membership.</figcaption>
 </figure>
+
+The map was created using ONS population estimates merged with library membership and Office for National Statistics map boundaries.
 
 ### Future enhancements
 
 ---
 
-An additional level of detail would be to include the library that the member is registered at. 
+#### Library
+
+An additional level of detail would be to include the library that the member is registered at.
 
 #### Usage type
 
-It would be interested to be able to group the members into the type of library usage. For example, those that use PCs, that borrow books, that use the WiFi (and any combinations of those).
+It would be interesting to be able to group the members into the type of library usage. For example, those that use PCs, that borrow books, or use the WiFi (and any combinations of those).
 
 ---
 
