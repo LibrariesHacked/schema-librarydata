@@ -63,7 +63,7 @@ As the data is a 'snapshot' of the current count of members, it would be easiest
 
 The natural usage for data that includes geographic areas would be to map these against other statistics for those areas. One of these is population counts, another is indices of deprivation.
 
-For example, in the sample data row, we have the following are.
+For example, in the sample data row, we have the following area.
 
 | Local authority | Count date | Area code | Members |
 | --------------- | ---------- | --------- | ------- |
@@ -73,7 +73,7 @@ This shows that there were 557 library members in [LSOA area E01014486](https://
 
 Mapping and analysing this data provides all sorts of local uses in terms of outreach programmes, seeing why certain areas don't use the library, looking at the particular needs of existing members, etc. Nationally, if we had detailed library membership data, that would become a dataset that would be of use for many other agencies, such as those looking at digital exclusion, or use of public services.
 
-The map on [librarieswest.github.io](https://librarieswest.github.io/map/) shows detailed membership data for all lirbary services in Libraries West. 
+The map on [librarieswest.github.io](https://librarieswest.github.io/map/) shows detailed membership data for all services in Libraries West. 
 
 <figure>
     <img src="{{site.url}}/images/membership_bristol.png" alt="Map displaying shading of LSOAs to represent membership levels across Bristol" width="100%"/>
