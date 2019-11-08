@@ -10,7 +10,7 @@ description: Library location opening hours and contact details
 
 ---
 
-A library is a static service point which allows access to library services for the general public. This does not include mobile library services which are covered in a separate dataset.
+A library is a static service point which allows access to library services for the general public. This does not include mobile library services, which are covered in a separate dataset.
 
 ### How the data can be collected
 

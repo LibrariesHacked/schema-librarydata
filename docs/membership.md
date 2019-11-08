@@ -22,7 +22,7 @@ Library management systems will have the means of extracting and reporting data 
 
 | Local authority | Count date | Area code | Members |
 | --------------- | ---------- | --------- | ------- |
-| Bristol City Council | 2018-10-23 | E01014370 | 395 |
+| Bristol City Council | 2018-10-23 | E01014486 | 557 |
 
 A full sample can be viewed at [Bristol membership](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/membership_bristol.csv).
 
@@ -61,17 +61,23 @@ As the data is a 'snapshot' of the current count of members, it would be easiest
 
 ---
 
-The natural usage for data that includes geographic areas would be to map these against other statistics for those areas. One of these is population counts.
+The natural usage for data that includes geographic areas would be to map these against other statistics for those areas. One of these is population counts, another is indices of deprivation.
 
+For example, in the sample data row, we have the following:
+
+| Local authority | Count date | Area code | Members |
+| --------------- | ---------- | --------- | ------- |
+| Bristol City Council | 2018-10-23 | E01014486 | 557 |
+
+This shows that there were 557 library members in the area E01014486. [Area E01014486](https://mapit.mysociety.org/area/115005.html), which is St Agnes in Bristol. Looking at other data for the area, for deprivation the area is ranked 3,573 out of 32,844 in England, which puts it in the 20% most deprived neighbourhoods in England. The population of the area was estimated in mid-2018 to be 2435, so we can estimate a library membership of about 25%.
+
+Mapping and analysing this data provides all sorts of uses in terms of outreach programmes, seeing why certain areas don't use the library, looking at the particular needs of existing members, etc. Nationally, if we had detailed library membership data, that would become something that would be of use for many other agencies such as those looking at digital exlcusion, or social engagement.
 
 ### Future enhancements
 
 ---
 
-#### Library
-
-An additional level of detail would be to include the library that the 
-
+An additional level of detail would be to include the library that the member is registered at. 
 
 #### Usage type
 
