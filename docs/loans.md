@@ -74,7 +74,6 @@ Accurate loans data, by item type will be able to show patterns in what type of 
     <figcaption>Items of stock in Barnet with markers to show count of loans of those item types.</figcaption>
 </figure>
 
-
 ### Future enhancements
 
 ---

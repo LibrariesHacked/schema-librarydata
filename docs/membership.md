@@ -69,9 +69,16 @@ For example, in the sample data row, we have the following:
 | --------------- | ---------- | --------- | ------- |
 | Bristol City Council | 2018-10-23 | E01014486 | 557 |
 
-This shows that there were 557 library members in the area E01014486. [Area E01014486](https://mapit.mysociety.org/area/115005.html), which is St Agnes in Bristol. Looking at other data for the area, for deprivation the area is ranked 3,573 out of 32,844 in England, which puts it in the 20% most deprived neighbourhoods in England. The population of the area was estimated in mid-2018 to be 2435, so we can estimate a library membership of about 25%.
+This shows that there were 557 library members in [LSOA area E01014486](https://mapit.mysociety.org/area/115005.html), which is St Agnes in Bristol. Looking at other data for the area, for deprivation the area is ranked 3,573 out of 32,844 in England, which puts it in the 20% most deprived neighbourhoods in England. The population of the area was estimated in mid-2018 to be 2,435, so we can estimate a library membership of about 25%.
 
-Mapping and analysing this data provides all sorts of uses in terms of outreach programmes, seeing why certain areas don't use the library, looking at the particular needs of existing members, etc. Nationally, if we had detailed library membership data, that would become something that would be of use for many other agencies such as those looking at digital exlcusion, or social engagement.
+Mapping and analysing this data provides all sorts of local uses in terms of outreach programmes, seeing why certain areas don't use the library, looking at the particular needs of existing members, etc. Nationally, if we had detailed library membership data, that would become something that would be of use for many other agencies such as those looking at digital exlcusion, or social engagement.
+
+The map on [librarieswest.github.io](https://librarieswest.github.io/map/) shows detailed membership data for all lirbary services in Libraries West. 
+
+<figure>
+    <img src="{{site.url}}/images/membership_bristol.png" alt="Map displaying shading of LSOAs to represent membership level." width="100%"/>
+    <figcaption>Membership mapped for Bristol libraries, showing popup for area with 23% library membership.</figcaption>
+</figure>
 
 ### Future enhancements
 
