@@ -44,7 +44,7 @@ The outcomes are taken from the Libraries Taskforce Ambition document: [outcomes
 | Helping everyone achieve their full potential |
 | Healthier and happier lives |
 | Greater prosperity |
-| C |
+| Stronger more resilient communities |
 
 ### Potential problems
 
@@ -56,7 +56,7 @@ It could be difficult for a library service to assign an outcome to each event. 
 
 We should investigate options to:
 
-- Assign multiple outcomes (e.g. "Healthier and happier lives|Healthier and happier lives")
+- Assign multiple outcomes (e.g. "Healthier and happier lives,Stronger more resilient communities")
 - Have an option for leaving this empty or unknown
 - Have guidance for common events that suggests the outcome(s) to use
 
