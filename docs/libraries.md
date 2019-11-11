@@ -10,13 +10,13 @@ description: Library location opening hours and contact details
 
 ---
 
-A library is a static service point which allows access to library services for the general public. This does not include mobile library services, which are covered in a separate dataset.
+A library is a static service point which provides access to library services for the general public. This does not include mobile libraries, which are covered in a separate dataset.
 
 ### How the data can be collected
 
 ---
 
-Manual collection. Library services will be able to use the [library locations survey 2016](https://www.gov.uk/government/publications/public-libraries-in-england-basic-dataset) as a starting point, which includes similar fields.
+Library services will be able to use the [library locations survey 2016](https://www.gov.uk/government/publications/public-libraries-in-england-basic-dataset) as a starting point, which includes similar fields.
 
 If starting from scratch, [this template file](https://github.com/LibrariesHacked/schema-librarydata/blob/master/templates/libraries.csv) can be downloaded and opened using spreadsheet software.
 
@@ -34,7 +34,7 @@ A full sample can be viewed at [Plymouth libraries](https://github.com/Libraries
 
 #### Statutory
 
-All statutory libraries should be listed. For libraries that are not statutory it is up to the service to include them or not.
+All statutory libraries should be listed. For libraries that are not statutory it is up to the service whether to include them.
 
 #### Type of library
 
@@ -56,21 +56,21 @@ These columns should allow for new libraries, closures, and replacement librarie
 
 Currently, opening hours should be the hours in which the library is open and available to all members of the public.
 
-There is a column for each day. Hours are in 24 hour clock and include start and end e.g. **09:00-17:00**. If there are multiple opening hours in a day these can be separated by commas e.g. **09:00-12:00,13:00-17:00** would accommodate a lunch break.
+There is a column for each day. Hours are in 24-hour clock and include start and end e.g. **09:00-17:00**. If there are multiple opening hours in a day these can be separated by commas e.g. **09:00-12:00,13:00-17:00** would accommodate a lunch break.
 
-This is a format used by Google for listing opening hours. For more info see [these Google support pages](https://support.google.com/business/answer/3370250?#hours)
+This is a format used by Google for listing opening hours. For more info see [these Google support pages](https://support.google.com/business/answer/3370250?#hours).
 
 #### Special hours
 
-This column allows for adding dates that are different to normal. This could be public holidays when the library is closed, or other special situations. The format is to specify the date, include a colon, and then the opening hours. Each date is separated with commas. For example, **2019-12-25: X, 2019-12-26: X,2019-12-27: 10:00-13:00**. This would say that the library is closed on the 25th and 26th December, and open from 10am to 1pm on the 27th December.
+This column allows for adding dates that are different to normal. This could be public holidays when the library is closed, or other exceptional situations. The format is to specify the date, include a colon, and then the opening hours. Instances of special hours are then separated by commas. For example, **2019-12-25: X, 2019-12-26: X,2019-12-27: 10:00-13:00**. This would describe that the library is closed on the 25th and 26th December, and open from 10am to 1pm on the 27th December.
 
 For more info see [these Google support pages](https://support.google.com/business/answer/6303076).
 
 #### Unique property reference number
 
-Unique property refence numbers (UPRNs) are administered centrally to local authorities. These are then used by the adddress custodians within local authorities when creating new properties, and are assigned to the property until demolition. For more info see these [UPRN pages on the GeoPlace website](https://www.geoplace.co.uk/addresses/uprn).
+Unique property refence numbers (UPRNs) are administered centrally to local authorities. These are used by the adddress custodians within local authorities when creating new properties, and are assigned to the property until demolition. For more information see these [UPRN pages on the GeoPlace website](https://www.geoplace.co.uk/addresses/uprn).
 
-If you do not know the UPRNs of your library it is likely that the Geographic Information System (GIS) department will know, or the street naming and numbering department.
+If you do not know the UPRNs of your library, it is likely that the Geographic Information System (GIS) team will know, or the street naming and numbering team.
 
 ### Potential problems
 
@@ -78,7 +78,7 @@ If you do not know the UPRNs of your library it is likely that the Geographic In
 
 #### UPRN
 
-Excel can tend to be tricky when holding big numbers, and it may transform them to scientific notation (e.g. 1.23E+10). UPRNs are also difficult as they are sometimes stored as 'zero padded' to ensure they are all the same length e.g. '00000199356' rather than '199356'. We will likely get a mix of both styles.
+Excel can do odd things when holding big numbers, and it may transform them to scientific notation (e.g. 1.23E+10). UPRNs are also sometimes stored as 'zero padded' to ensure they are all the same length e.g. '00000199356' rather than '199356'. We will likely get a mix of both styles.
 
 ### How the data is updated
 

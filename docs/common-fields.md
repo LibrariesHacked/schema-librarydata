@@ -10,7 +10,7 @@ description: Guidelines for common fields between datasets
 
 ---
 
-This page describes some common guidelines for fields that will be used in multiple datasets.
+This page describes fields that will be used in multiple datasets.
 
 #### Local authority
 
@@ -31,7 +31,7 @@ An exception to this is Northern Ireland, as Libraries NI have statutory respons
 
 It is recommended to be consistent as to whether the word 'Library' is included in the name.
 
-The name must also be consistent wherever it is listed. This is essential to link data between datasets. For example, the physical visists dataset does not say whether the library is colocated with other services. That data is held in the libraries dataset. Using both datasets together relies on the two datasets sharing the same names.
+The name should be consistent wherever it is listed. This is important to link data between datasets. For example, the physical visits dataset does not say whether the library is colocated with other services. That data is held in the libraries dataset. Using both datasets relies on the two datasets sharing the same library names.
 
 #### Date fields
 
@@ -45,9 +45,9 @@ At the moment, dates should be specified using the International Standard [ISO 8
 
 ### Potential problems
 
-#### Date standards
+#### Dates
 
-There can be a recurring problem of software 'auto-correcting' dates to another format. This will often use settings on the user's computer. Data validation will ensure that the format is enforced, but clear guidance can be provided for data publishers on how to tackle these software issues.
+There can be a recurring problem of software 'auto-correcting' dates to another format. This will often use settings on the user's computer. Data validation will ensure that the format is enforced, but guidance can be provided for data publishers on how to tackle these software issues.
 
 It could also be that an online tool could detect the date format, and convert it to the standard.
 

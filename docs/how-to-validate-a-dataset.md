@@ -20,11 +20,13 @@ It does not guarantee the data is **accurate**. Data could still be factually wr
 
 These instructions use the tool, [Good Tables](https://goodtables.io), developed by the [Open Knowledge Foundation](https://okfn.org/).
 
-1. In your browser, navigate to [https://try.goodtables.io](http://try.goodtables.io/)
-2. In the **Source** text field, select the option to 'Upload File'.
+1. In your web browser, navigate to [https://try.goodtables.io](http://try.goodtables.io/)
+2. In the **Source** field, select the option to 'Upload File'
 3. Using the **Browse** button, upload your CSV file
-4. In the **Schema** text field, enter the URL of the schema that you want to validate the data against. These are listed in the table further down this page.
-5. Click the **Validate** button. The tool will report whether the table is valid.
+4. In the **Schema** field, enter the URL of the schema that you want to validate the data against. Options for these are listed in the table further down this page
+5. Click the **Validate** button
+
+The tool will report whether the table is valid.
 
 <figure>
     <img src="{{site.url}}/images/how-to-validate-a-dataset-valid.png" alt="Example of successful data validation" />
@@ -47,9 +49,9 @@ These instructions use the tool, [Good Tables](https://goodtables.io), developed
 
 ---
 
-The data validation may tell you you don't have a valid table.
+The data validation may tell you the table isn't valid.
 
-In these cases, it will display the things that are incorrect. In the example shown below, the data has failed validation because some mandatory columns have no values in them (reported as a 'required constraint'). Another error reported is an 'enumerable constraint', which means a column value does not match what the schema is expecting. In this case, 'Mon' has been used instead of 'Monday'. Although it often seems overly picky, it's important we use consistent values for our data.
+In these cases, it will display what is wrong. In the example shown below, the data has failed validation because some required columns have no values in them (reported as a 'required constraint'). Another error reported is an 'enumerable constraint', which means a column value does not match what the schema is expecting. In this case, 'Mon' has been used instead of 'Monday'. Although it often seems pedantic, it's important we use consistent values for the data to be useful.
 
 It may not be clear what is wrong with the data. This documentation should give guidance of the data expected. The [sample files](https://github.com/LibrariesHacked/schema-librarydata/tree/master/data) have all successfully passed validation, and can also be used as reference.
 
