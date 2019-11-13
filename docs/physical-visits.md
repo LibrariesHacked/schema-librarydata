@@ -40,11 +40,11 @@ Template metadata - accompanying text which explains the fields used and provide
 
 The count start and end is the report period the count is for.
 
-Detailed reporting is encouraged. For example, the reporting could be on a daily basis, in which case the start and end would be the same. This would be good for analysis, such as comparing library use on different days of the week.
+Detailed reporting is encouraged. For example, the reporting could be on a daily basis, in which case the start and end dates would be the same. This would be good for analysis, such as comparing library use on different days of the week.
 
 #### Count type
 
-At the moment we are not prescribing a standard way to report count type. It is up to each library service to describe their method in their own words. We recommend using concise wording in this field. If details about the count type(s) are needed they should be added to the dataset metadata.
+At the moment we are not prescribing a standard way to report count type. It is up to each library service to describe their method in their own words. We recommend using concise and consistent wording in this field. If details about the count type(s) are needed they should be added to the dataset metadata.
 
 ### Potential problems
 
@@ -76,7 +76,7 @@ To be added later: an example of what could be done with the data.
 ---
 
 #### Same count period for everyone
-Depending on what testers and parties consulted prefer, we could adopt a count period (week, month) as part of the schema instead of the Count start and Count end. The disadvantage would be that in places that do not have an automatic counter the number may not be the actual data anymore but an extrapolated number. The advantage would be that figures can be easily compared between libraries and library services.
+Depending on what testers and consulted parties prefer, we could adopt a count period (week, month) as part of the schema instead of the Count start and Count end. The disadvantage would be that in places that do not have an automatic counter the number may not be the actual data anymore but an extrapolated number. The advantage would be that figures can be easily compared between libraries and library services.
 
 
 ---
