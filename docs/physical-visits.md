@@ -34,29 +34,49 @@ You can view a bigger [sample from Newcastle Libraries](https://github.com/Libra
 
 ---
 
+Template metadata - accompanying text which explains the fields used and provides additional details on the data - will be provided for this dataset at a later stage.
+
 #### Count start / Count end
 
 The count start and end is the report period the count is for.
 
 Detailed reporting is encouraged. For example, the reporting could be on a daily basis, in which case the start and end would be the same. This would be good for analysis, such as comparing library use on different days of the week.
 
+#### Count type
+
+At the moment we are not prescribing a standard way to report count type. It is up to each library service to describe their method in their own words. We recommend using concise wording in this field. If details about the count type(s) are needed they should be added to the dataset metadata.
+
 ### Potential problems
 
 ---
+
+#### Count type
+
+Each service may need to explain their method of manual counting in their metadata.
+
+#### Date format
+
+Recurring problem of software “auto-correcting” dates to another format.
 
 ### How the data is updated
 
 ---
 
+To update their physical visits data, library services can:
+- update the existing published file with the additional visits data added as new rows.
 
 ### How the data could be used
 
 ---
 
+To be added later: an example of what could be done with the data.
 
 ### Future enhancements
 
 ---
+
+#### Same count period for everyone
+Depending on what testers and parties consulted prefer, we could adopt a count period (week, month) as part of the schema instead of the Count start and Count end. The disadvantage would be that in places that do not have an automatic counter the number may not be the actual data anymore but an extrapolated number. The advantage would be that figures can be easily compared between libraries and library services.
 
 
 ---
