@@ -54,7 +54,14 @@ As the data is a 'snapshot' of the current count of items in a library catalogue
 
 ---
 
-As with the [loans dataset](./loans), combining this data would be useful as a means of comparing local use of stock with other authorities.
+Tools can be created that aim to analyse stock alongside loans, to provide local and national insight into stock and demand.
+
+<figure>
+    <img src="{{site.url}}/images/loans_barnet.png" alt="Bar chart displaying count of items of stock in Barnet with markers for loan counts per type." width="100%"/>
+    <figcaption>Items of stock in Barnet with markers to show count of loans of those item types.</figcaption>
+</figure>
+
+The above graph was created using Tableau, and used Barnet stock summary and loans to compare the two. In this example, note the particular high use of Children's Fiction items.
 
 It is also a first step to publishing more detailed catalogue data, which could be used for more powerful purposes. Such as an open source inter-library loans and cross-catalogue single platform.
 

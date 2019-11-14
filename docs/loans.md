@@ -67,14 +67,16 @@ To update their loans data, library services can either:
 
 ---
 
-Accurate loans data, by item type will be able to show patterns in what type of items are loaned between different authorities. As stock summary by item type will also be published, tools can be created that aim to analyse stock alongside loans, to provide local and national insight into stock and demand.
+There are various types of dashboards that could be created to monitor loans either across libraries within an authority, or across authorities.
+
+The following image shows a tool created by Richard Lynch to display Barnet loans data. It would also support data from other authorities and would allow people to filter or mix data for comparison.
+
+The tool is available at [UK Library Issues](https://0sumrich.github.io/lib-issues/).
 
 <figure>
-    <img src="{{site.url}}/images/loans_barnet.png" alt="Bar chart displaying count of items of stock in Barnet with markers for loan counts per type." width="100%"/>
-    <figcaption>Items of stock in Barnet with markers to show count of loans of those item types.</figcaption>
+    <img src="{{site.url}}/images/loans_uk.png" alt="A example of a bar chart displaying count of loans across different Barnet libraries." width="100%"/>
+    <figcaption>Loans across a selection of libraries, with options to choose authority, date range, and library.</figcaption>
 </figure>
-
-The above graph was created using Tableau, and used Barnet stock summary and loans to compare the two. In this example, note the high use of Children's Fiction items.
 
 ### Future enhancements
 
@@ -82,7 +84,7 @@ The above graph was created using Tableau, and used Barnet stock summary and loa
 
 #### Each loan
 
-To make the data more detailed, and to provide greater insight, each individual loan could be reported.
+To make the data more detailed, and to provide greater insight, each individual loan could be reported. This could allow for details such as popular titles and genres in different areas.
 
 ---
 
