@@ -22,19 +22,29 @@ If starting from scratch, [this template file](https://github.com/LibrariesHacke
 
 ### Sample data row
 
-| Local authority | Library name | Event date | Name | Outcome | Attendees |
-| --------------- | ------------ | ---------- | ---- | ------- | --------- |
-| Barnet | Burnt Oak | 2018-01-12 | Toddler Read and Rhyme | Stronger more resilient communities | 11 |
+| Local authority | Library name | Event date | Name | Main outcome | Secondary outcome | Attendees |
+| --------------- | ------------ | ---------- | ---- | ------------ | ----------------- | --------- |
+| Barnet | Burnt Oak | 2018-01-12 | Toddler Read and Rhyme | Stronger more resilient communities | Increased reading and literacy | 11 |
 
-A full sample can be viewed at [Barnet events](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/events_barnet.csv).
+An example for an earlier version of this dataset can be viewed at [Barnet events](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/events_barnet.csv).
 
 ### Field notes
 
 ---
 
-#### Outcome
+#### Library name
 
-The outcomes are taken from the Libraries Taskforce Ambition document: [outcomes libraries deliver for their communities](https://www.gov.uk/government/publications/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021#the-outcomes-libraries-deliver-for-their-communities). One outcome should be selected for each event.
+If the event is not held in a library: use "Outreach" in this column and add the location to the event name.
+See an example below.
+
+| Local authority | Library name | Event date | Name | Main outcome | Secondary outcome | Attendees |
+| --------------- | ------------ | ---------- | ---- | ------------ | ----------------- | --------- |
+| Newcastle | Outreach | 2019-07-23 | Copyright for Newcastle City Learning tutors at Westgate College | Helping everyone achieve their full potential | Greater prosperity | 5 |
+
+
+#### Main outcome
+
+The outcomes are taken from the Libraries Taskforce Ambition document: [outcomes libraries deliver for their communities](https://www.gov.uk/government/publications/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021#the-outcomes-libraries-deliver-for-their-communities). A main outcome should be selected for each event.
 
 | Outcome |
 | ------- |
@@ -45,6 +55,11 @@ The outcomes are taken from the Libraries Taskforce Ambition document: [outcomes
 | Healthier and happier lives |
 | Greater prosperity |
 | Stronger more resilient communities |
+
+#### Secondary outcome
+
+The secondary outcome is optional. Some events will clearly fit under one outcome; this column should be used for events that fit under multiple outcomes.
+See related "multiple or unknown outcomes" problem below.
 
 ### Potential problems
 
