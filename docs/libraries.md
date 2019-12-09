@@ -32,6 +32,18 @@ A full sample can be viewed at [Plymouth libraries](https://github.com/Libraries
 
 ---
 
+#### Library name
+
+You should list all libraries managed by your service. Independent libraries such as community-managed are not expected to be included.
+
+If however you are updating the dataset and a library that used to be listed as managed by your service has since become independent, we recommend you still include it. In this case use the Type of library as IL for Independent Library. You may then omit this library from your list in future updates.
+
+#### Unique Property Reference Number
+
+The Unique Property Reference Number (UPRN) is a unique number that identifies a property. A UPRN is assigned by the local authority to each building.
+
+If you do not know the UPRN of your libraries, it is likely that the Geographic Information System (GIS) team or the planning or property departments within your local council will know.
+
 #### Statutory
 
 All statutory libraries should be listed. For libraries that are not statutory it is up to the service whether to include them.
@@ -65,12 +77,6 @@ This is a format used by Google for listing opening hours. For more info see [th
 This column allows for adding dates that are different to normal. This could be public holidays when the library is closed, or other exceptional situations. The format is to specify the date, include a colon, and then the opening hours. Instances of special hours are then separated by commas. For example, **2019-12-25: X, 2019-12-26: X,2019-12-27: 10:00-13:00**. This would describe that the library is closed on the 25th and 26th December, and open from 10am to 1pm on the 27th December.
 
 For more info see [these Google support pages](https://support.google.com/business/answer/6303076).
-
-#### Unique property reference number
-
-Unique property refence numbers (UPRNs) are administered centrally to local authorities. These are used by the adddress custodians within local authorities when creating new properties, and are assigned to the property until demolition. For more information see these [UPRN pages on the GeoPlace website](https://www.geoplace.co.uk/addresses/uprn).
-
-If you do not know the UPRNs of your library, it is likely that the Geographic Information System (GIS) team will know, or the street naming and numbering team.
 
 ### Potential problems
 
