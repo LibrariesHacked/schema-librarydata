@@ -10,7 +10,7 @@ description: Locations of mobile library stops and when they are visited
 
 ---
 
-A mobile library stop is a location visited by a mobile library vehicle. It should be open to all members of the public. This will exclude locations that are for home deliveries, or locations that have other access restrictions (such as school-only).
+A mobile library stop is a location visited by a mobile library vehicle. It should be part of the public timetable.
 
 ### How the data can be collected
 
@@ -22,15 +22,26 @@ If starting from scratch, [this template file](https://github.com/LibrariesHacke
 
 ### Sample data row
 
-| Organisation | Mobile name | Route | Community | Stop | Address | Postcode | GeoX | GeoY | Day | Arrival | Departure | Frequency | Start | End | Timetable |
-| ------------ | ----------- | ----- | --------- | ---- | ------- | -------- | ---- | ---- | --- | ------- | --------- | --------- | ----- | --- | --------- |
-| Somerset | Mobile | A | Brompton Regis | Wimbleball Lake | Wimbleball Lake, Brompton Regis | TA22 9NU | -3.47537 | 51.064823 | Tuesday | 10:05 | 10:20 | FREQ=WEEKLY;INTERVAL=4 | 2019-11-12 | | Link to webpage |
+| Organisation | Mobile name | Route | Community | Stop | Address | Postcode | GeoX | GeoY | Day | Type | Arrival | Departure | Frequency | Start | End | Exceptions | Timetable |
+| ------------ | ----------- | ----- | --------- | ---- | ------- | -------- | ---- | ---- | --- | ---- | ------- | --------- | --------- | ----- | --- | ---------- | --------- |
+| Somerset | Mobile | A | Brompton Regis | Wimbleball Lake | Wimbleball Lake, Brompton Regis | TA22 9NU | -3.47537 | 51.064823 | Tuesday | Public | 10:05 | 10:20 | FREQ=WEEKLY;INTERVAL=4 | 2019-11-12 |  | Link to webpage |
 
 A full sample can be viewed at [Somerset mobile stops](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/mobile_library_stops_somerset.csv).
 
 ### Field notes
 
 ---
+
+#### Type
+
+This describes the type of stop. It should be one of the following values.
+
+| Type | Description |
+| ---- | ----------- |
+| Public | The vast majority will be this type. A stop available to all members of the public |
+| Private | In some situations it may be necessary to mark stops as Private. For example, home visits in the middle of mobile routes |
+| Dynamic | Time set aside for stops where the time could be used dynamically by the mobile van. For example, to allow for request stops |
+| Other | Any other situations where a stop is included in the list. This could be to include maintenance such as refuelling, or lunch breaks |
 
 #### Frequency 
 
@@ -46,6 +57,10 @@ This should be the first date at which the stop will be visited. It will then be
 
 This field is optional, and describes the last date at which the stop will be visited. This could be used if timetables are planned for set periods in advance only.
 
+#### Exceptions
+
+These are dates when the mobile library is not running for the particular stop. This will likely include public holidays where the mobile library would otherwise have visited the stop. It may also include maintenance days such as servicing and MOT. It could also be used to cancel stops at short notice when the mobile van is taken off the road. The format for this field is a comma separated list of dates. For example, **2019-12-26,2020-01-01** would exclude Christmas Day and New Years Day. A likely situation for a weekly mobile stop.
+
 #### Timetable
 
 This field should provide a web address at which a citizen can find details of the mobile library stop, or the mobile library in general. This should not link to a PDF file, as these are less likely to fulfill [accessibility requirements](https://gds.blog.gov.uk/2018/07/16/why-gov-uk-content-should-be-published-in-html-and-not-pdf/).
@@ -53,10 +68,6 @@ This field should provide a web address at which a citizen can find details of t
 ### Potential problems
 
 ---
-
-#### Private stops
-
-In some cases mobile library routes alternate between public and private stops (e.g. home visits). This currently restricts them from publicising their routes. This dataset should encourage services to take the chance to publish their public stops, so the data can be used to provide public information.
 
 #### Coordinates (GeoX and GeoY)
 
@@ -84,14 +95,6 @@ For an example usage see this [mobile library dashboard](https://www.mobilelibra
 ### Future enhancements
 
 ---
-
-#### Vehicle stops
-
-Some services publish details such as lunch breaks, or the time mobile vehicles leave and arrive at the depot. This could add interesting possibilities for providing more information about how the mobile library is operated.
-
-#### Cancellations
-
-If the data were updated in real-time it would be possible to add last-minute cancellations of the service and provide these to users as notifications.
 
 #### Real-time GPS data
 
