@@ -177,6 +177,16 @@
             }
         },
         {
+            "name": "exceptions",
+            "title": "Exception Dates",
+            "type": "string",
+            "format": "default",
+            "description": "A comma separated list of exception dates for this stop and timetable",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
             "name": "timetable",
             "title": "Timetable Link",
             "type": "string",
