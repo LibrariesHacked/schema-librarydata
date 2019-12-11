@@ -10,7 +10,8 @@ description: Lending of items in libraries
 
 ---
 
-A loan is the issuing of an item of stock to a member of the library service. A renewal of a item already on loan is counted as an additional loan.
+A loan is the issuing of an item of stock to a member of the library service. A renewal of an item already on loan is counted as an additional loan.
+Loans of both physical and electronic materials are included.
 
 ### How the data can be collected
 
@@ -20,21 +21,19 @@ Library management systems will have the means of extracting and reporting data,
 
 ### Sample data row
 
-| Local authority | Library name | Count start | Count end | Type | Loans |
-| --------------- | ------------ | ----------- | --------- | ---- | ----- |
-| Barnet | Barnet Book Club | 2019-04-01 | 2019-06-30 | Adult audiobook | 9 |
+| Local authority | Library name | Month | Type | Loans |
+| --------------- | ------------ | ----------- | ---- | ----- |
+| Barnet | Barnet Book Club | 2019-04 | Adult audiobook | 9 |
 
-A full sample can be viewed at [Barnet loans](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/loans_barnet.csv).
+An example for an earlier version of this dataset can be viewed at [Barnet loans](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/loans_barnet.csv).
 
 ### Field notes
 
 ---
 
-#### Count start/end
+#### Month
 
-The count start and end is the report period the count is for.
-
-Detailed reporting is encouraged. For example, the reporting could be on a daily basis, in which case the start and end would be the same. This would be good for analysis, such as comparing library use on different days of the week.
+Use the format YYYY-MM for the month for which the data is reported.
 
 #### Type
 
@@ -81,6 +80,13 @@ The tool is available at [UK Library Issues](https://0sumrich.github.io/lib-issu
 ### Future enhancements
 
 ---
+
+#### Count start/end
+
+A count start/end has been considered instead of the monthly reporting period.
+The count start and end would be the report period the count is for. Detailed reporting would be encouraged. For example, the reporting could be on a daily basis, in which case the start and end would be the same. This would be good for analysis, such as comparing library use on different days of the week.
+
+The proposal to test a monthly reporting was made at the early testers meeting in November 2019. We look forward to comments on the new column.
 
 #### Each loan
 
