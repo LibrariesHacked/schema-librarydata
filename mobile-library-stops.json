@@ -78,7 +78,7 @@
             "type": "number",
             "format": "default",
             "constraints": {
-                "required": true
+                "required": false
             }
         },
         {
@@ -88,7 +88,7 @@
             "type": "number",
             "format": "default",
             "constraints": {
-                "required": true
+                "required": false
             }
         },
         {
@@ -107,6 +107,22 @@
                     "Friday",
                     "Saturday",
                     "Sunday"
+                ]
+            }
+        },
+        {
+            "name": "type",
+            "title": "Type",
+            "description": "The type of stop this is",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    "Public",
+                    "Private",
+                    "Dynamic",
+                    "Other"
                 ]
             }
         },
