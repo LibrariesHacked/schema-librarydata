@@ -78,7 +78,7 @@ It is likely that the enhancements to this dataset would need an additional sche
 - ISBN (where applicable)
 - Date acquired
 - Date published
-- Checkout status
+- Checkout status or item status (missing, withdrawn, on loan...)
 - Count of loans
 
 As well as providing detailed insight into catalogues across the country, workshops could be held on cleaning and refining the data held in library catalogues.
