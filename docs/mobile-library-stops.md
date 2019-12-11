@@ -18,7 +18,7 @@ Library services will often already hold mobile library stops in spreadsheets. T
 
 The most likely method for compiling this data will be to rearrange existing spreadsheets or documents into this data format.
 
-If starting from scratch, [this template file](https://github.com/LibrariesHacked/schema-librarydata/blob/master/templates/mobile-library-stops.csv) can be downloaded and opened using spreadsheet software.
+If starting from scratch, [this template file](https://raw.githubusercontent.com/LibrariesHacked/schema-librarydata/master/templates/mobile_library_stops.csv) can be downloaded and opened using spreadsheet software.
 
 ### Sample data row
 
