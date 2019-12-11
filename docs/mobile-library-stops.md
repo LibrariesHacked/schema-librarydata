@@ -41,7 +41,7 @@ This describes the type of stop. It should be one of the following values.
 | Public | The vast majority will be this type. A stop available to all members of the public |
 | Private | In some situations it may be necessary to mark stops as Private. For example, home visits in the middle of mobile routes |
 | Dynamic | Time set aside for stops where the time could be used dynamically by the mobile van. For example, to allow for request stops |
-| Other | Any other situations where a stop is included in the list. This could be to include maintenance such as refuelling, or lunch breaks |
+| Other | Any other situation where a stop is included in the timetable. This could be to include maintenance such as refuelling, or lunch breaks |
 
 #### Frequency 
 
@@ -59,7 +59,7 @@ This field is optional, and describes the last date at which the stop will be vi
 
 #### Exceptions
 
-These are dates when the mobile library is not running for the particular stop. This will likely include public holidays where the mobile library would otherwise have visited the stop. It may also include maintenance days such as servicing and MOT. It could also be used to cancel stops at short notice when the mobile van is taken off the road. The format for this field is a comma separated list of dates. For example, **2019-12-26,2020-01-01** would exclude Christmas Day and New Years Day. A likely situation for a weekly mobile stop.
+These will be dates when the mobile library is not running for the particular stop. This will include public holidays where the mobile library would otherwise have visited the stop. It may also include maintenance days such as servicing and MOT. It could also be used to cancel stops at short notice when the mobile van is taken off the road. The format for this field is a comma separated list of dates. For example, **2019-12-26,2020-01-01** would exclude Christmas Day and New Years Day (a likely situation for a weekly mobile library).
 
 #### Timetable
 
