@@ -52,7 +52,7 @@ At the moment we are not prescribing a standard way to report count type. It is 
 
 #### Count type
 
-Each service may need to explain their method of manual counting in their metadata.
+Each service will need to explain their method of manual counting in their metadata.
 
 #### Date format
 
@@ -77,6 +77,8 @@ To be added later: an example of what could be done with the data.
 
 #### Same count period for everyone
 Depending on what testers and consulted parties prefer, we could adopt a count period (week, month) as part of the schema instead of the Count start and Count end. The disadvantage would be that in places that do not have an automatic counter the number may not be the actual data anymore but an extrapolated number. The advantage would be that figures can be easily compared between libraries and library services.
+
+After discussions with an early group of testers in November 2019, it was decided to continue using count start / count end rather than a prescribed period for all libraries. It was felt that the data would be more accurate with a count start / end system.
 
 
 ---
