@@ -1,2 +1,2 @@
-organisation,mobile,route,community,stop,address,postcode,geox,geoy,day,arrival,departure,frequency,start,end,timetable
-Aberdeenshire,North,North Monday Weeks 1 and 3,Fetterangus,North Place,"North Place, Fetterangus",,-2.0238940999999997,57.54863559999999,Monday,09:20,09:45,FREQ=WEEKLY;INTERVAL=2,2019-01-21,,https://www.livelifeaberdeenshire.org.uk/media/2808/mobile-north-timetable-160119.pdf
+organisation,mobile,route,community,stop,address,postcode,geox,geoy,day,type,arrival,departure,frequency,start,end,exceptions,timetable
+Aberdeenshire,North,North Monday Weeks 1 and 3,Fetterangus,North Place,"North Place, Fetterangus",,-2.0238940999999997,57.54863559999999,Monday,Public,09:20,09:45,FREQ=WEEKLY;INTERVAL=2,2019-01-21,,,https://www.livelifeaberdeenshire.org.uk/media/2808/mobile-north-timetable-160119.pdf
