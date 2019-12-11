@@ -24,7 +24,7 @@ If starting from scratch, [this template file](https://github.com/LibrariesHacke
 
 | Organisation | Mobile name | Route | Community | Stop | Address | Postcode | GeoX | GeoY | Day | Type | Arrival | Departure | Frequency | Start | End | Exceptions | Timetable |
 | ------------ | ----------- | ----- | --------- | ---- | ------- | -------- | ---- | ---- | --- | ---- | ------- | --------- | --------- | ----- | --- | ---------- | --------- |
-| Somerset | Mobile | A | Brompton Regis | Wimbleball Lake | Wimbleball Lake, Brompton Regis | TA22 9NU | -3.47537 | 51.064823 | Tuesday | Public | 10:05 | 10:20 | FREQ=WEEKLY;INTERVAL=4 | 2019-11-12 |  | Link to webpage |
+| Somerset | Mobile | A | Brompton Regis | Wimbleball Lake | Wimbleball Lake, Brompton Regis | TA22 9NU | -3.47537 | 51.064823 | Tuesday | Public | 10:05 | 10:20 | FREQ=WEEKLY;INTERVAL=4 | 2019-11-12 |  |  | Link to webpage |
 
 A full sample can be viewed at [Somerset mobile stops](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/mobile_library_stops_somerset.csv).
 
