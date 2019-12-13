@@ -10,7 +10,7 @@ description: Library event attendance and outcomes
 
 ---
 
-A library event is an event held at a library, and facilitated or organised by the library service. Each event should be listed.
+A library event is an event facilitated or organised by the library service. Each event should be listed.
 
 ### How the data can be collected
 
