@@ -22,11 +22,11 @@ If starting from scratch, [this template file](https://github.com/LibrariesHacke
 
 ### Sample data row
 
-| Local authority | Library name | Address 1 | Address 2 | Address 3 | Postcode | Unique Property Reference Number | Statutory | Type of Library | Year opened | Year closed | Monday hours | Tuesday hours | Wednesday hours | Thursday hours | Friday hours | Saturday hours | Sunday hours | Special hours | Colocated | Colocated with | Notes | URL | Email address |
-| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
-| Plymouth  | Crownhill | Cross Park Road | Crownhill | | PL6 5AN | 100041062012 | Yes | LAL | 1991 | | 08:30-18:00| 08:30-18:00 | 08:30-18:00 | 08.30-20:00 | 08:30-18:00 | 09:00-17:00 | | | No | | | https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/crownhilllibrary | library@plymouth.gov.uk
+| Local authority | Library name | Address 1 | Address 2 | Address 3 | Postcode | Statutory | Type of Library | Year opened | Year closed | Monday staffed hours | Tuesday staffed hours | Wednesday staffed hours | Thursday staffed hours | Friday staffed hours | Saturday staffed hours | Sunday staffed hours | Monday unstaffed hours | Tuesday unstaffed hours | Wednesday unstaffed hours | Thursday unstaffed hours | Friday unstaffed hours | Saturday unstaffed hours | Sunday unstaffed hours |Special hours | Colocated | Colocated with | Notes | URL | Email address |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| Plymouth  | Crownhill | Cross Park Road | Crownhill | | PL6 5AN | Yes | LAL | 1991 | | 08:30-18:00| 08:30-18:00 | 08:30-18:00 | 08.30-20:00 | 08:30-18:00 | 09:00-17:00 | | | | | | | | | | No | | | https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/crownhilllibrary | library@plymouth.gov.uk
 
-A full sample can be viewed at [Plymouth libraries](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/libraries_plymouth.csv).
+An example for an earlier version of this dataset  can be viewed at [Plymouth libraries](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/libraries_plymouth.csv).
 
 ### Field notes
 
@@ -37,12 +37,6 @@ A full sample can be viewed at [Plymouth libraries](https://github.com/Libraries
 You should list all libraries managed by your service. Independent libraries such as community-managed are not expected to be included.
 
 If however you are updating the dataset and a library that used to be listed as managed by your service has since become independent, we recommend you still include it. In this case use the Type of library as IL for Independent Library. You may then omit this library from your list in future updates.
-
-#### Unique Property Reference Number
-
-The Unique Property Reference Number (UPRN) is a unique number that identifies a property. A UPRN is assigned by the local authority to each building.
-
-If you do not know the UPRN of your libraries, it is likely that the Geographic Information System (GIS) team or the planning or property departments within your local council will know.
 
 #### Statutory
 
@@ -64,13 +58,21 @@ The type of library is a code that describes how the library is run.
 
 These columns should allow for new libraries, closures, and replacement libraries to be recorded.
 
-#### Opening hours
+#### Staffed hours
 
-Currently, opening hours should be the hours in which the library is open and available to all members of the public.
+Staffed hours are the hours during which individuals with responsibility for library services are present and are able to assist visitors.
 
 There is a column for each day. Hours are in 24-hour clock and include start and end e.g. **09:00-17:00**. If there are multiple opening hours in a day these can be separated by commas e.g. **09:00-12:00,13:00-17:00** would accommodate a lunch break.
 
 This is a format used by Google for listing opening hours. For more info see [these Google support pages](https://support.google.com/business/answer/3370250?#hours).
+
+#### Unstaffed hours
+
+Unstaffed hours are the hours during which the library space can be accessed and used by visitors without the presence of individuals with responsibility for library services or anyone else trained to assist visitors in using those services.
+
+The conditions of access during unstaffed hours should be specified in the metadata / additional information accompanying the dataset.
+
+There is a column for each day. Hours are in 24-hour clock and include start and end e.g. **09:00-17:00**. If there are multiple opening hours in a day these can be separated by commas e.g. **07:00-10:00,17:00-22:00** would accommodate staffed hours 10:00-17:00 that day and unstaffed hours before and after.
 
 #### Special hours
 
@@ -113,19 +115,26 @@ It was built using library listings from Plymouth, event listings, and open map 
 
 #### Staffed and unstaffed hours
 
-Many libraries will have a mix of 'types' of opening hours, such as when the library can be entered using a library card and PIN when there are no staff. This can be described in different ways, such as extended access.
+Paragraph below superseded by discussions from November 2019 meeting, when testers decided to include unstaffed hours in the January 2020 testing phase.
 
-Different ways of handling these hours could be:
+*Many libraries will have a mix of 'types' of opening hours, such as when the library can be entered using a library card and PIN when there are no staff. This can be described in different ways, such as extended access.*
 
-1. Separate out staffed/non-staffed into separate columns
-2. Decide on set guidance about what hours should be included (e.g. the opening hours MUST be staffed hours where the building is open to all)
-3. Leave it up to the services to decide what hours to use, but encourage use of the notes field for additional details (e.g. a service may say "Our opening hours include extended access use, for which members must...")
+*Different ways of handling these hours could be:*
 
-Before deciding on this, more research should be conducted with a wider group of services. It will likely be important to capture additional information about unstaffed hours, such as:
+1. *Separate out staffed/non-staffed into separate columns*
+2. *Decide on set guidance about what hours should be included (e.g. the opening hours MUST be staffed hours where the building is open to all)*
+3. *Leave it up to the services to decide what hours to use, but encourage use of the notes field for additional details (e.g. a service may say "Our opening hours include extended access use, for which members must...")*
 
-- Who is able to access
-- Training required for access
-- Facilities available during these hours
+*Before deciding on this, more research should be conducted with a wider group of services. It will likely be important to capture additional information about unstaffed hours, such as:*
+- *Who is able to access*
+- *Training required for access*
+- *Facilities available during these hours*
+
+#### Unique Property Reference Number
+
+The Unique Property Reference Number (UPRN) is a unique number that identifies a property. A UPRN is assigned by the local authority to each building.
+
+Discussions on Slack December 2019 on IP rights claimed over UPRN and coordinates led to the removal of the UPRN field for the January 2020 testing phase for this dataset.
 
 #### Library floor space and building
 
