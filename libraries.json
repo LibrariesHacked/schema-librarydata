@@ -56,15 +56,6 @@
             }
         },
         {
-            "name": "Unique property reference number",
-            "description": "Unique property reference number for the building unit the library is located in",
-            "type": "integer",
-            "format": "default",
-            "constraints": {
-                "required": false
-            }
-        },
-        {
             "name": "Statutory",
             "description": "Whether the library is part of the statutory service",
             "type": "string",
@@ -112,8 +103,8 @@
             }
         },
         {
-            "name": "Monday hours",
-            "description": "Opening hours for Monday",
+            "name": "Monday staffed hours",
+            "description": "Staffed opening hours for Monday",
             "type": "string",
             "format": "default",
             "constraints": {
@@ -121,8 +112,8 @@
             }
         },
         {
-            "name": "Tuesday hours",
-            "description": "Opening hours for Tuesday",
+            "name": "Tuesday staffed hours",
+            "description": "Staffed opening hours for Tuesday",
             "type": "string",
             "format": "default",
             "constraints": {
@@ -130,8 +121,8 @@
             }
         },
         {
-            "name": "Wednesday hours",
-            "description": "Opening hours for Wednesday",
+            "name": "Wednesday staffed hours",
+            "description": "Staffed opening hours for Wednesday",
             "type": "string",
             "format": "default",
             "constraints": {
@@ -139,8 +130,8 @@
             }
         },
         {
-            "name": "Thursday hours",
-            "description": "Opening hours for Thursday",
+            "name": "Thursday staffed hours",
+            "description": "Staffed opening hours for Thursday",
             "type": "string",
             "format": "default",
             "constraints": {
@@ -148,8 +139,8 @@
             }
         },
         {
-            "name": "Friday hours",
-            "description": "Opening hours for Friday",
+            "name": "Friday staffed hours",
+            "description": "Staffed opening hours for Friday",
             "type": "string",
             "format": "default",
             "constraints": {
@@ -157,8 +148,8 @@
             }
         },
         {
-            "name": "Saturday hours",
-            "description": "Opening hours for Saturday",
+            "name": "Saturday staffed hours",
+            "description": "Staffed opening hours for Saturday",
             "type": "string",
             "format": "default",
             "constraints": {
@@ -166,8 +157,71 @@
             }
         },
         {
-            "name": "Sunday hours",
-            "description": "Opening hours for Sunday",
+            "name": "Sunday staffed hours",
+            "description": "Staffed opening hours for Sunday",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Monday unstaffed hours",
+            "description": "Unstaffed opening hours for Monday",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Tuesday unstaffed hours",
+            "description": "Unstaffed opening hours for Tuesday",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Wednesday unstaffed hours",
+            "description": "Unstaffed opening hours for Wednesday",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Thursday unstaffed hours",
+            "description": "Unstaffed opening hours for Thursday",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Friday unstaffed hours",
+            "description": "Unstaffed opening hours for Friday",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Saturday unstaffed hours",
+            "description": "Unstaffed opening hours for Saturday",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "Sunday unstaffed hours",
+            "description": "Unstaffed opening hours for Sunday",
             "type": "string",
             "format": "default",
             "constraints": {
@@ -176,7 +230,7 @@
         },
         {
             "name": "Special hours",
-            "description": "Changes to normal opening hours such as public holidays",
+            "description": "Changes to normal opening hours such as for public holidays",
             "type": "string",
             "format": "default",
             "constraints": {
@@ -184,7 +238,7 @@
             }
         },
         {
-            "name": "Colocated",
+            "name": "Co-located",
             "description": "Whether the library is stand-alone or co-located within the building property unit",
             "type": "string",
             "format": "default",
@@ -197,7 +251,7 @@
             }
         },
         {
-            "name": "Colocated with",
+            "name": "Co-located with",
             "description": "What the library is co-located with if applicable",
             "type": "string",
             "format": "default",

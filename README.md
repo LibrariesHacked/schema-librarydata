@@ -27,14 +27,14 @@ Descriptive documentation for these schemas is held in the ```docs``` directory 
 | Physical visits | physical-visits.json | The number of visits made to library buildings |
 | Stock summary | stock-summary.json | Summary of the stock held in libraries |
 
-## Sample data
+## Test data
 
-For each schema, sample data is held in the *samples* folder. This is to enable easy testing of the schema using tools such as [CSVLint](https://csvlint.io/). These files could also be used for automated testing, when making any schema updates.
+For each schema, test data is held in the *tests* folder. This is to enable easy testing of the schema using tools such as [CSVLint](https://csvlint.io/) and [Good Tables](https://try.goodtables.io). These files could also be used for automated testing, when making any schema updates.
 
-For each schema, sample files will be provided:
+For each schema, test files will be provided:
 
 - Each will have one example row of data
-- Files with the name _success will provide a successful test against CSVLint
+- Files with the name _success will provide a successful test
 - Files with the the name _fail should fail validation.
 
 ## Real data

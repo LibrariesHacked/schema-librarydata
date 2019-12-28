@@ -19,19 +19,10 @@
             }
         },
         {
-            "name": "Count start",
-            "description": "The start date of the count.",
+            "name": "Month",
+            "description": "The month of the count in the format YYYY-MM",
             "type": "date",
-            "format": "default",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Count end",
-            "description": "The end date of the count.",
-            "type": "date",
-            "format": "default",
+            "format": "%Y-%m",
             "constraints": {
                 "required": true
             }
