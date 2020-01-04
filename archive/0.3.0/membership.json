@@ -1,0 +1,41 @@
+{
+    "fields": [
+        {
+            "name": "Local authority",
+            "description": "Local authority responsible for the library service",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Count date",
+            "description": "The date this count was completed",
+            "type": "date",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Area code",
+            "description": "Office for National Statistics geographic area code. Use Unknown where the area code is not known.",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Members",
+            "description": "Count of active members (active in the last year) with address located in the specified area.",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "pattern": "^x$|^[5-9]{1}$|^[1-9]\\d{1,}$"
+            }
+        }
+    ]
+}

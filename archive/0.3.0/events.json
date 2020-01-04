@@ -1,0 +1,85 @@
+{
+    "fields": [
+        {
+            "name": "Local authority",
+            "description": "Local authority responsible for the library service",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Library name",
+            "description": "Full public name by which the library is known. If the event is not held in a library use Outreach.",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Event date",
+            "description": "The date the event was held",
+            "type": "date",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Name",
+            "description": "The name of the event.If an outreach event add the location in to this column.",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        },
+        {
+            "name": "Main outcome",
+            "description": "The intended outcome from the event. One of a set of predefined outcomes.",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "enum": [
+                    "Cultural and creative enrichment",
+                    "Increased reading and literacy",
+                    "Increased digital access and literacy",
+                    "Helping everyone achieve their full potential",
+                    "Healthier and happier lives",
+                    "Greater prosperity",
+                    "Stronger more resilient communities"
+                ]
+            }
+        },
+        {
+            "name": "Secondary outcome",
+            "description": "Optional secondary outcome from the event. One of a set of predefined outcomes.",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": false,
+                "enum": [
+                    "Cultural and creative enrichment",
+                    "Increased reading and literacy",
+                    "Increased digital access and literacy",
+                    "Helping everyone achieve their full potential",
+                    "Healthier and happier lives",
+                    "Greater prosperity",
+                    "Stronger more resilient communities"
+                ]
+            }
+        },
+        {
+            "name": "Attendees",
+            "description": "The number of attendees in total.",
+            "type": "integer",
+            "format": "default",
+            "constraints": {
+                "required": true
+            }
+        }
+    ]
+}
