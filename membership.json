@@ -20,7 +20,7 @@
         },
         {
             "name": "Area code",
-            "description": "Office for National Statistics geographic area code.",
+            "description": "Office for National Statistics geographic area code. Use Unknown where the area code is not known.",
             "type": "string",
             "format": "default",
             "constraints": {
@@ -30,10 +30,11 @@
         {
             "name": "Members",
             "description": "Count of active members (active in the last year) with address located in the specified area.",
-            "type": "integer",
+            "type": "string",
             "format": "default",
             "constraints": {
-                "required": true
+                "required": true,
+                "pattern": "^x$|^[5-9]{1}$|^[1-9]\\d{1,}$"
             }
         }
     ]

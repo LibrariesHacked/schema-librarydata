@@ -43,13 +43,25 @@ A benefit of reporting membership data using LSOAs is that they also hold all ki
 
 As long as the library service can report counts of members by postcode, they should be able to report members by LSOA. The ONS publish [postcode to LSOA lookup tables](https://geoportal.statistics.gov.uk/datasets/postcode-to-output-area-hierarchy-with-classifications-august-2019-lookup-in-the-uk).
 
+If address data is unavailable, or for any other reason the LSOA is not known, an "Unknown" value can be placed in the column to group together members without a specified LSOA.
+
+#### Members
+
+The members column specifies the count of membership in each LSOA.
+
+If this count is less than 5 members, the data should be suppressed. This protects the confidentiality of members, and avoids chances of identifying individuals within the data.
+
+For example, the following would be used if 3 members were identified to be in LSOA E01014486.
+
+| Bristol City Council | 2018-10-23 | E01014486 | x |
+
 ---
 
 ### Potential problems
 
 #### Area codes
 
-There are lookup files that will convert from postcode to LSOA area code. So as long as the library service can report on membership by postcode, then they can also report on membership by LSOA
+There are lookup files that will convert from postcode to LSOA area code. So as long as the library service can report on membership by postcode, then they can also report on membership by LSOA.
 
 ### How the data is updated
 
@@ -73,7 +85,7 @@ This shows that there were 557 library members in [LSOA area E01014486](https://
 
 Mapping and analysing this data provides all sorts of local uses in terms of outreach programmes, seeing why certain areas don't use the library, looking at the particular needs of existing members, etc. Nationally, if we had detailed library membership data, that would become a dataset that would be of use for many other agencies, such as those looking at digital exclusion, or use of public services.
 
-The map on [librarieswest.github.io](https://librarieswest.github.io/map/) shows detailed membership data for all services in Libraries West. 
+The map on [librarieswest.github.io](https://librarieswest.github.io/map/) shows detailed membership data for all services in Libraries West.
 
 <figure>
     <img src="{{site.url}}/images/membership_bristol.png" alt="Map displaying shading of LSOAs to represent membership levels across Bristol" width="100%"/>
