@@ -22,7 +22,7 @@ A description of how the data can be collected, based upon our knowledge and wha
 
 Here we include a single row of data taken from one of our real sample files. All fields in the dataset should be included, and ideally there should be an example value for each one.
 
-| Field name 1 | Field name 2 | 
+| Field name 1 | Field name 2 |
 | ------------ | ------------ |
 | Example value for field 1 | Example value for field 2 |
 

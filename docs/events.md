@@ -41,7 +41,6 @@ See an example below.
 | --------------- | ------------ | ---------- | ---- | ------------ | ----------------- | --------- |
 | Newcastle | Outreach | 2019-07-23 | Copyright for Newcastle City Learning tutors at Westgate College | Helping everyone achieve their full potential | Greater prosperity | 5 |
 
-
 #### Main outcome
 
 The outcomes are taken from the Libraries Taskforce Ambition document: [outcomes libraries deliver for their communities](https://www.gov.uk/government/publications/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021#the-outcomes-libraries-deliver-for-their-communities). A main outcome should be selected for each event.
@@ -59,6 +58,7 @@ The outcomes are taken from the Libraries Taskforce Ambition document: [outcomes
 #### Secondary outcome
 
 The secondary outcome is optional. Some events will clearly fit under one outcome; this column should be used for events that fit under multiple outcomes.
+
 See related "multiple or unknown outcomes" problem below.
 
 ### Potential problems
@@ -94,14 +94,22 @@ Depending on how many events the service holds, a new file may be easier to mana
 
 ---
 
+#### Locally
+
 Having comprehensive data on events alongside traditional usage data such as loans will be a long-overdue tool for analysis of library impact.
 
-The Barnet events data, filtered by events so far held in 2019 (where the total attendees are over 1000) shows the scale of attendance at library events. Particularly the impact and popularity of those such as Rhyme Time.
+The Barnet events data, filtered by events held in 2019 shows the scale of attendance at different types of library events. Particularly the impact and popularity of those such as Rhyme Time.
 
 <figure>
     <img src="{{site.url}}/images/events_barnet.png" alt="Bubble chart displaying barnet events by type." width="100%"/>
     <figcaption>2019 attendees at Barnet library events held grouped by event type.</figcaption>
 </figure>
+
+#### Nationally
+
+Having a standard for event data becomes very useful when used to list and publicise events that are happening across library services.
+
+People are not always interested in what is happening in their local authority. They want to know what is happening near to them, or near to where they are at a particular time. If local authorities can publish standard event data we can begin to list events ahead of time. This would be especially powerful during times of combined events, such as World Book Day, and the Summer Reading Challenge (see future enhancements, below).
 
 ### Future enhancements
 
@@ -109,9 +117,7 @@ The Barnet events data, filtered by events so far held in 2019 (where the total 
 
 #### Publishing in advance
 
-With a couple of additional columns (start time, end time), this dataset could be used as a way of publishing future events. The count of attendees would be updated once the event had finished.
-
-This would provide the potential for national event listings, allowing services and websites to use that data to promote upcoming events.
+With a couple of additional columns (start time, end time), this dataset could be used as a way of publishing future events and publicising these across library services. The count of attendees would be updated once the event had finished.
 
 #### Additional columns
 

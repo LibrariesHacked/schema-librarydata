@@ -10,7 +10,7 @@ description: Library location opening hours and contact details
 
 ---
 
-A library is a static service point which provides access to library services for the general public. This does not include mobile libraries, which are covered in a separate dataset.
+A library is a static service point which provides access to library services for the general public. This does not include mobile libraries, which are covered separately.
 
 ### How the data can be collected
 
@@ -86,7 +86,7 @@ For more info see [these Google support pages](https://support.google.com/busine
 
 #### UPRN
 
-Excel can do odd things when holding big numbers, and it may transform them to scientific notation (e.g. 1.23E+10). UPRNs are also sometimes stored as 'zero padded' to ensure they are all the same length e.g. '00000199356' rather than '199356'. We will likely get a mix of both styles.
+UPRN (Unique property reference number) is not currently part of the schema. If we include this it is worth nothing that Excel can do odd things when holding big numbers, and it may transform them to scientific notation (e.g. 1.23E+10). UPRNs are also sometimes stored as 'zero padded' to ensure they are all the same length e.g. '00000199356' rather than '199356'. We would likely get a mix of both styles.
 
 ### How the data is updated
 
@@ -94,9 +94,11 @@ Excel can do odd things when holding big numbers, and it may transform them to s
 
 Each service can maintain a single data file that is updated whenever the details change, including changes to opening hours. As the data contains closed libraries, there is no need to remove these if a library is closed, the file can be updated by adding the year of closure. If there are new libraries, they can be added as an additional row.
 
-### How the data could be used
+### How the data could be used {#usage}
 
 ---
+
+#### Locally
 
 Accurate data on libraries is useful to analyse library provision, especially at a local level. For example, a tool to display Plymouth library locations uses location data to assess the population within walking, cycling, or driving distance of a library and compare these visually.
 
@@ -105,9 +107,15 @@ Accurate data on libraries is useful to analyse library provision, especially at
     <figcaption>Population within 5 minute walking intervals around Plymouth Central Library.</figcaption>
 </figure>
 
-The application also uses opening hours to show libraries open at the current time, and event data to search for libraries that host certain types of events.
+The application also uses opening hours to show libraries open at the current time, and event data to search for libraries hosting certain types of events.
 
 It was built using library listings from Plymouth, event listings, and open map data from open street map. To try it out see the [Plymouth Library Finder](https://plymouth.librarydata.uk).
+
+#### Nationally
+
+Nationally, combined with the mobile library stops dataset, we can use this data to identify particular areas that are without libraries, and that would be in particular need of a library service.
+
+This can be harder to assess with only local data, as many libraries and mobile library stops serve people between authority boundaries.
 
 ### Future enhancements
 
@@ -126,6 +134,7 @@ Paragraph below superseded by discussions from November 2019 meeting, when teste
 3. *Leave it up to the services to decide what hours to use, but encourage use of the notes field for additional details (e.g. a service may say "Our opening hours include extended access use, for which members must...")*
 
 *Before deciding on this, more research should be conducted with a wider group of services. It will likely be important to capture additional information about unstaffed hours, such as:*
+
 - *Who is able to access*
 - *Training required for access*
 - *Facilities available during these hours*

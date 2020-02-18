@@ -66,16 +66,22 @@ To update their loans data, library services can either:
 
 ---
 
-There are various types of dashboards that could be created to monitor loans either across libraries within an authority, or across authorities.
+#### Locally
 
-The following image shows a tool created by Richard Lynch to display Barnet loans data. It would also support data from other authorities and would allow people to filter or mix data for comparison.
+There are various types of dashboards that could be created to monitor loans within an authority.
 
-The tool is available at [UK Library Issues](https://0sumrich.github.io/lib-issues/).
+The following image shows a tool created by Richard Lynch to display Barnet loans data. The tool is available at [UK Library Issues](https://0sumrich.github.io/lib-issues/).
 
 <figure>
     <img src="{{site.url}}/images/loans_uk.png" alt="A example of a bar chart displaying count of loans across different Barnet libraries." width="100%"/>
     <figcaption>Loans across a selection of libraries, with options to choose authority, date range, and library.</figcaption>
 </figure>
+
+#### Nationally
+
+The tool described above would also support data from other authorities, and would allow people to filter or mix data for comparison.
+
+Being able to publish standardised loans data would also allow libraries to in future use their data to enable the paying of authors through Public Lending Right (PLR). Currently PLR is delivered through a sample set of services, along with CIPFA returns to allow for estimating full figures. With each library service publishing detailed loans data, this could become a lot simpler.
 
 ### Future enhancements
 

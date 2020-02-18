@@ -10,7 +10,7 @@ description: Summary counts of the stock held by libraries
 
 ---
 
-An item of stock is any item held by the library that is available to the public, and catalogued in the library management system. This dataset is a summary of the number of different types of items held by libraries.
+An item of stock is any item held by the library that is available to the public, and catalogued in the library management system. This dataset is a summary of the different types of items held by libraries.
 
 ### How the data can be collected
 
@@ -42,7 +42,7 @@ This should ideally be a human readable value rather than a code. For example 'A
 
 #### Non-standardised item types
 
-Using item types as used by each library service will mean a lot of variation between similar types of items. For example one service may write 'Child Fiction' and another 'Fiction - Child'.
+Using item types as used by each library service will mean variation between similar types of items. For example one service may write 'Child Fiction' and another 'Fiction - Child'.
 
 ### How the data is updated
 
@@ -54,7 +54,9 @@ As the data is a 'snapshot' of the current count of items in a library catalogue
 
 ---
 
-Tools can be created that aim to analyse stock alongside loans, to provide local and national insight into stock and demand.
+#### Locally
+
+Tools can be created that aim to analyse stock alongside loans, to provide insight into stock and demand.
 
 <figure>
     <img src="{{site.url}}/images/loans_barnet.png" alt="Bar chart displaying count of items of stock in Barnet with markers for loan counts per type." width="100%"/>
@@ -63,7 +65,13 @@ Tools can be created that aim to analyse stock alongside loans, to provide local
 
 The above graph was created using Tableau, and used Barnet stock summary and loans to compare the two. In this example, note the particular high use of Children's Fiction items.
 
-It is also a first step to publishing more detailed catalogue data, which could be used for more powerful purposes. Such as an open source inter-library loans and cross-catalogue single platform.
+#### Nationally
+
+The summary data is powerful enough to compare the breadth of stock within different services. Combined with the loans dataset it will also allow library services to see how some stock may perform that they currently do not have many of.
+
+This is also a first step to publishing more detailed catalogue data, which could be used for more powerful purposes if a number of authorities are publishing data.
+
+A detailed stock dataset could be used for an openly available inter-library loans catalogue, and single platform for searching for items in libraries.
 
 ### Future enhancements
 

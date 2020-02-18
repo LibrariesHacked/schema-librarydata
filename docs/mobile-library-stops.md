@@ -52,7 +52,7 @@ In the majority of the cases, mobile library stops are visited at weekly interva
 #### Start
 
 This should be the first date at which the stop will be visited. It will then be possible to calculate future dates based upon the frequency field.
- 
+
 #### End
 
 This field is optional, and describes the last date at which the stop will be visited. This could be used if timetables are planned for set periods in advance only.
@@ -83,7 +83,18 @@ Updates to the data should be made when there are any changes to the stops. The 
 
 ---
 
-This data provides full timetable information for mobile library stops. It would be possible to create a national view of mobile libraries that displayed where they were at any time, and where a citizen's nearest stop was.
+#### Locally
+
+Current mobile library information provided online is poor, inaccessible, hard to read, and difficult to maintain. Many mobile library timetables are still published in PDF format, and while these are good for printing, they often make accessibility mistakes such as using colour coding to convey information. PDF is also a poor format in general for accessibililty [as detailed on GOV.UK](https://www.gov.uk/guidance/how-to-publish-on-gov-uk/accessible-pdfs), and it is now a legal requirement to address these issues.
+
+By collecting and publishing just the data for mobile libraries, the task of presenting this information can be shared and made available to services locally.
+
+- A single, accessible format for PDF timetables could be automatically generated from the data.
+- The option to embed HTML stop lists on local authority websites could also be provided from the data
+
+#### Nationally
+
+This data provides full timetable information for mobile library stops. It will be possible to create a national view of mobile libraries that displayed where they are at any time, and where a citizen's nearest stop is.
 
 For an example usage see this [mobile library dashboard](https://www.mobilelibraries.org).
 

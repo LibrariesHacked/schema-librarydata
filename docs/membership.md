@@ -75,6 +75,8 @@ As the data is a 'snapshot' of the current count of members, it would be easiest
 
 ---
 
+#### Locally
+
 One usage for the data would be to map the areas along with other statistics. One of these is population counts, another is indices of deprivation.
 
 For example, in the sample data row, we have the following area.
@@ -96,6 +98,14 @@ The map on [librarieswest.github.io](https://librarieswest.github.io/map/) shows
 
 The map was created using ONS population estimates merged with library membership and Office for National Statistics map boundaries.
 
+#### Nationally
+
+Having data nationally, or even just between neighbouring services, allows for services to access membership data that is not their own, but that includes the populations they serve.
+
+For example, between Plymouth and Cornwall, there are likely to be plenty of people who use both or either service, and who may not use the same service that they are resident in.
+
+Access to this data will allow services to see whether an area of their authority really has low levels of library usage, or if that area are simply using another library service. This shared data is essential for full assessment of libraries within the boundaries of an authority.
+
 ### Future enhancements
 
 ---
@@ -106,7 +116,7 @@ An additional level of detail would be to include the particular library that th
 
 #### Usage type
 
-It would be interesting to be able to group the members by type of library usage. For example, those that use PCs, that borrow books, or use the WiFi (and any combinations of those).
+It would be useful to be able to group the members by type of library usage. For example, those that use PCs, that borrow books, or use the WiFi (and any combinations of those).
 
 ---
 

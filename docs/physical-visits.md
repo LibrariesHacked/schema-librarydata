@@ -4,7 +4,6 @@ title: Physical visits
 description: People counters and manual surveys of library visitors
 ---
 
-
 [&lt; Back to home](./)
 
 ### Definition
@@ -40,7 +39,7 @@ Template metadata - accompanying text which explains the fields used and provide
 
 The count start and end is the report period the count is for.
 
-Detailed reporting is encouraged. For example, the reporting could be on a daily basis, in which case the start and end dates would be the same. This would be good for analysis, such as comparing library use on different days of the week.
+Detailed reporting is encouraged. For example, the reporting could be on a daily basis, in which case the start and end dates would be the same. This would be good for analysis, and b a level of detail that allowed for comparing library use on different days of the week.
 
 #### Count type
 
@@ -63,23 +62,42 @@ Recurring problem of software “auto-correcting” dates to another format.
 ---
 
 To update their physical visits data, library services can:
+
 - update the existing published file with the additional visits data added as new rows.
 
 ### How the data could be used
 
 ---
 
-To be added later: an example of what could be done with the data.
+#### Locally
+
+It would be interesting to explore tools for physical visits that went beyond simply reporting a visit as a performance metric.
+
+If a library service has automatic counters, that data can be published in 'real-time'. This would allow for people to see how busy the library currently is - useful for deciding when to visit. Additional future datasets such as usage of computers, and desks, could provide more detailed information such as whether there are currently any free working spaces.
+
+Even manual data can be used retrospectively in data analysis to predict footfall and to gain a better understanding of how this can be affected. Such as weather, events, school holidays, etc.
+
+#### Nationally
+
+At a National level, a better understanding of visits into libraries is essential.
+
+In 2019, Ordance Survey and the Office for National Statistics [released data on the High Streets of Great Britain](https://www.ordnancesurvey.co.uk/business-government/sectors/public-sector/high-streets). This included defining what a high street was, as well as analysing population and retail growth in high street areas, compared to other areas.
+
+Combined with a completed [libraries](/libraries) dataset, this data should be used to answer questions such as:
+
+- How many libraries are 'on' the high street, or in other areas?
+- Does physical visits data differ between libraries that are on the high street and those that are not?
+- Is declining (or rising) use of retail in different areas match that of visits to the local library?
 
 ### Future enhancements
 
 ---
 
 #### Same count period for everyone
+
 Depending on what testers and consulted parties prefer, we could adopt a count period (week, month) as part of the schema instead of the Count start and Count end. The disadvantage would be that in places that do not have an automatic counter the number may not be the actual data anymore but an extrapolated number. The advantage would be that figures can be easily compared between libraries and library services.
 
 After discussions with an early group of testers in November 2019, it was decided to continue using count start / count end rather than a prescribed period for all libraries. It was felt that the data would be more accurate with a count start / end system.
-
 
 ---
 

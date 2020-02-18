@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Common field standards
-description: Guidelines for common fields between datasets
+description: Guidelines for fields that are shared between datasets
 ---
 
 [&lt; Back to home](./)
@@ -14,7 +14,7 @@ This page describes fields that will be used in multiple datasets.
 
 #### Local authority
 
-This should be the local authority name as listed in the relevant register on gov.uk.
+In the UK, this should be the local authority name as listed in the relevant register on gov.uk.
 
 | Area | Local authority register |
 | ---- | ------------------------ |
@@ -23,25 +23,25 @@ This should be the local authority name as listed in the relevant register on go
 | Northern Ireland | [LibrariesNI](https://www.librariesni.org.uk) |
 | England | [Local authorities in England](https://www.registers.service.gov.uk/registers/local-authority-eng) |
 
-Although the organisation running the library service may not be a local authority (e.g. a commissioned library service), it's the authority that has statutory responsibility for the library service and should be listed.
+Although the organisation running the library service may not be a local authority (e.g. they may be a commissioned library service), it's the authority that has statutory responsibility for the library service, and should be listed.
 
 An exception to this is Northern Ireland, as Libraries NI have statutory responsibility for libraries.
 
 #### Library name
 
-It is recommended to be consistent as to whether the word 'Library' is included in the name.
+It is recommended for each authority to be consistent as to whether the word 'Library' is included in the library name in their own data.
 
-The name should be consistent wherever it is listed. This is important to link data between datasets. For example, the physical visits dataset does not say whether the library is colocated with other services. That data is held in the libraries dataset. Using both datasets relies on the two datasets sharing the same library names.
+The name should be consistent wherever it is listed. This is important to link data between datasets. For example, the physical visits dataset does not include data to show whether the library is colocated with other services. That data is held in the libraries dataset. Combining both datasets relies on the two datasets sharing the same library names.
 
 #### Date fields
 
 The 25th December 2019 could be written in multiple ways.
 
+- 2019-12-25
 - 25/12/2019
 - 12/25/2019
-- 2019-12-25
 
-At the moment, dates should be specified using the International Standard [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) (e.g. **2019-12-25**, or described as YYYY-MM-DD). This option provides a widely recognised and unambiguous solution.
+Dates should be specified using the International Standard [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) (e.g. **2019-12-25**, described as YYYY-MM-DD). This provides a widely recognised and unambiguous solution.
 
 ### Potential problems
 

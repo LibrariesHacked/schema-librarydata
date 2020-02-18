@@ -20,7 +20,7 @@ We've also made the website text as simple as possible to understand.
 
 ### Technical information about this website's accessibility
 
-This website has been tested using the guide published by the Government Digital Service, [Doing a basic accessibility check](https://www.gov.uk/government/publications/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one).
+This website has been tested manually using the guide published by the Government Digital Service, [Doing a basic accessibility check](https://www.gov.uk/government/publications/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one).
 
 Each page on the site has also been checked using WAVE, an online web accessibility evaluation tool.
 
