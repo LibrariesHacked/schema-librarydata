@@ -35,6 +35,7 @@ An example for an earlier version of this dataset can be viewed at [Barnet event
 #### Library name
 
 If the event is not held in a library: use "Outreach" in this column and add the location to the event name.
+
 See an example below.
 
 | Local authority | Library name | Event date | Name | Main outcome | Secondary outcome | Attendees |
@@ -90,26 +91,28 @@ To update their event data, library services can either:
 
 Depending on how many events the service holds, a new file may be easier to manage.
 
-### How the data could be used
+### How the data could be used {#usage}
 
 ---
 
 #### Locally
 
-Having comprehensive data on events alongside traditional usage data such as loans will be a long-overdue tool for analysis of library impact.
+Comprehensive data on events, alongside usage data such as loans, will be a long-overdue tool for reporting on the full impact of libraries.
 
-The Barnet events data, filtered by events held in 2019 shows the scale of attendance at different types of library events. Particularly the impact and popularity of those such as Rhyme Time.
+The Barnet events data, filtered by those held in 2019 shows the scale of attendance at different types of library events. Particularly the popularity of those such as Rhyme Time.
 
 <figure>
     <img src="{{site.url}}/images/events_barnet.png" alt="Bubble chart displaying barnet events by type." width="100%"/>
     <figcaption>2019 attendees at Barnet library events held grouped by event type.</figcaption>
 </figure>
 
+Reporting events alongside loans provides a way to recognise different aspects of library usage as being equally valid.
+
 #### Nationally
 
-Having a standard for event data becomes very useful when used to list and publicise events that are happening across library services.
+Having a standard for event data becomes useful when used to list and publicise events that are happening across library services.
 
-People are not always interested in what is happening in their local authority. They want to know what is happening near to them, or near to where they are at a particular time. If local authorities can publish standard event data we can begin to list events ahead of time. This would be especially powerful during times of combined events, such as World Book Day, and the Summer Reading Challenge (see future enhancements, below).
+People may not be particularly interested in what is happening in their local authority. They want to know what is happening near to them. If services can publish standard event data we can begin to list events ahead of time, and show these by library, regardless of authority. This would be especially useful during times of national events, such as World Book Day, and the Summer Reading Challenge (see future enhancements, below).
 
 ### Future enhancements
 

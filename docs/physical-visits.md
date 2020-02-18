@@ -65,29 +65,29 @@ To update their physical visits data, library services can:
 
 - update the existing published file with the additional visits data added as new rows.
 
-### How the data could be used
+### How the data could be used {#usage}
 
 ---
 
 #### Locally
 
-It would be interesting to explore tools for physical visits that went beyond simply reporting a visit as a performance metric.
+It would be interesting to explore tools for physical visits that went beyond reporting a visit as a performance metric.
 
-If a library service has automatic counters, that data can be published in 'real-time'. This would allow for people to see how busy the library currently is - useful for deciding when to visit. Additional future datasets such as usage of computers, and desks, could provide more detailed information such as whether there are currently any free working spaces.
+If a library service has automatic counters, that data could eventually be published in 'real-time'. This would allow for people to see how busy the library currently is - useful for deciding when to visit. Additional future datasets such as usage of computers, and desks, could provide more detailed information such as whether there are any free working spaces.
 
-Even manual data can be used retrospectively in data analysis to predict footfall and to gain a better understanding of how this can be affected. Such as weather, events, school holidays, etc.
+Even manual data can be used retrospectively in data analysis. Through machine learning techniques this could be combined with other local data to predict visits and to gain a better understanding of how this can be affected by external factors. Such as weather, events, school holidays, etc.
 
 #### Nationally
 
 At a National level, a better understanding of visits into libraries is essential.
 
-In 2019, Ordance Survey and the Office for National Statistics [released data on the High Streets of Great Britain](https://www.ordnancesurvey.co.uk/business-government/sectors/public-sector/high-streets). This included defining what a high street was, as well as analysing population and retail growth in high street areas, compared to other areas.
+In 2019, Ordance Survey and the Office for National Statistics [released data on the High Streets of Great Britain](https://www.ordnancesurvey.co.uk/business-government/sectors/public-sector/high-streets). This included defining what a high street was, as well as analysing population and retail growth in those high streets, compared to other areas.
 
-Combined with a completed [libraries](/libraries) dataset, this data should be used to answer questions such as:
+Combined with a completed [libraries](/libraries) dataset, this data could be used to answer questions such as:
 
 - How many libraries are 'on' the high street, or in other areas?
-- Does physical visits data differ between libraries that are on the high street and those that are not?
-- Is declining (or rising) use of retail in different areas match that of visits to the local library?
+- Do physical visits differ between libraries that are on the high street and those that are not?
+- Does declining (or rising) use of retail in different areas match that of visits to the local library?
 
 ### Future enhancements
 

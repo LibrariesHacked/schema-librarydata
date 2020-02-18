@@ -71,13 +71,13 @@ There are lookup files that can be used to convert from postcode to LSOA area co
 
 As the data is a 'snapshot' of the current count of members, it would be easiest for the library services to publish a new file every time they do this count.
 
-### How the data could be used
+### How the data could be used {#usage}
 
 ---
 
 #### Locally
 
-One usage for the data would be to map the areas along with other statistics. One of these is population counts, another is indices of deprivation.
+Membership areas can be mapped along with other statistics. One of these is population counts, another is indices of deprivation.
 
 For example, in the sample data row, we have the following area.
 
@@ -85,9 +85,9 @@ For example, in the sample data row, we have the following area.
 | --------------- | ---------- | --------- | ------- |
 | Bristol City Council | 2018-10-23 | E01014486 | 557 |
 
-This shows that there were 557 library members in [LSOA area E01014486](https://mapit.mysociety.org/area/115005.html), which is St Agnes in Bristol. Looking at other data sources, the area is ranked 3,573 out of 32,844 for deprivation in England, which puts it in the 20% most deprived neighbourhoods. The population of the area was estimated in mid-2018 to be 2,435, so we can estimate a library membership of about 25% in that area.
+This shows that there were 557 library members in [LSOA area E01014486](https://mapit.mysociety.org/area/115005.html) (St Agnes in Bristol). Looking at other data sources, the area is ranked 3,573 out of 32,844 for deprivation in England, which puts it in the 20% most deprived neighbourhoods. The population of the area was estimated in mid-2018 to be 2,435, so we can estimate a library membership of about 25% in that area.
 
-Mapping and analysing this data provides many local uses such as seeing why certain areas don't use the library, looking at the particular needs of existing members, etc. Nationally, if we had detailed library membership data, that would become a dataset that would be of use for other agencies, such as those looking at digital exclusion, or use of public services.
+Analysing this data provides many local uses such as seeing why certain areas don't use the library, looking at the particular needs of existing members, etc.
 
 The map on [librarieswest.github.io](https://librarieswest.github.io/map/) shows detailed membership data for all services in Libraries West in 2018.
 
@@ -100,11 +100,20 @@ The map was created using ONS population estimates merged with library membershi
 
 #### Nationally
 
-Having data nationally, or even just between neighbouring services, allows for services to access membership data that is not their own, but that includes the populations they serve.
+Data between neighbouring authorities allows for services to access data that is not their own, but that includes the populations they serve.
 
 For example, between Plymouth and Cornwall, there are likely to be plenty of people who use both or either service, and who may not use the same service that they are resident in.
 
 Access to this data will allow services to see whether an area of their authority really has low levels of library usage, or if that area are simply using another library service. This shared data is essential for full assessment of libraries within the boundaries of an authority.
+
+<figure>
+    <img src="{{site.url}}/images/membership_plymouth.png" alt="Map displaying shading of LSOAs to represent membership levels across Plymouth" width="100%"/>
+    <figcaption>Membership mapped for Plymouth libraries, showing Devon area with 19% Plymouth libraries membership.</figcaption>
+</figure>
+
+In one example, an area of Devon (named E01020185) has 19% of the population who are active members of Plymouth libraries. Although the data is held by Plymouth, this is essential information for Devon to have available.
+
+Nationally, library membership data would also be a dataset that would be of use for other agencies, such as those looking at digital exclusion, or use of public services. This could make libraries a key provider of data to agencies such as the Office for National Statistics.
 
 ### Future enhancements
 

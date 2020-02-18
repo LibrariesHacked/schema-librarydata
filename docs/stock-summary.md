@@ -50,28 +50,30 @@ Using item types as used by each library service will mean variation between sim
 
 As the data is a 'snapshot' of the current count of items in a library catalogue, it would be easiest for the library services to publish a new file every time they do this count.
 
-### How the data could be used
+### How the data could be used {#usage}
 
 ---
 
 #### Locally
 
-Tools can be created that aim to analyse stock alongside loans, to provide insight into stock and demand.
+Tools can be created that analyse stock alongside loans data, to provide insight into stock and demand.
 
 <figure>
     <img src="{{site.url}}/images/loans_barnet.png" alt="Bar chart displaying count of items of stock in Barnet with markers for loan counts per type." width="100%"/>
     <figcaption>Items of stock in Barnet with markers to show count of loans of those item types.</figcaption>
 </figure>
 
-The above graph was created using Tableau, and used Barnet stock summary and loans to compare the two. In this example, note the particular high use of Children's Fiction items.
+The above graph was created using Tableau, and used Barnet stock summary and loans to compare the two. This particular example highlights the high usage of Children's Fiction items compared to stock held.
+
+Collection intelligence tools and analysis techniques can be shared between library services where they meet with success in one.
 
 #### Nationally
 
-The summary data is powerful enough to compare the breadth of stock within different services. Combined with the loans dataset it will also allow library services to see how some stock may perform that they currently do not have many of.
+The summary data is powerful enough to compare the range of stock within different services. Combined with the loans dataset it will also allow library services to see how some stock may perform that they currently have many of.
 
-This is also a first step to publishing more detailed catalogue data, which could be used for more powerful purposes if a number of authorities are publishing data.
+Seeing the range of item types in different services will also be useful for comparing what library services stock. Prevoius statistical collection methods have attempted to standardise stock into set categories, which removes this information.
 
-A detailed stock dataset could be used for an openly available inter-library loans catalogue, and single platform for searching for items in libraries.
+This is also a first step to publishing more detailed catalogue data, which could be used for more powerful purposes. A detailed stock dataset could be used for an openly available inter-library loans catalogue, and single platform for searching for items in libraries.
 
 ### Future enhancements
 

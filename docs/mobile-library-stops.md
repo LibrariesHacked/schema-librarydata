@@ -79,29 +79,35 @@ Some services will not currently hold coordinates (latitude and longitude) for t
 
 Updates to the data should be made when there are any changes to the stops. The data can then be revalidated and published to replace the previous data.
 
-### How the data could be used
+### How the data could be used {#usage}
 
 ---
 
 #### Locally
 
-Current mobile library information provided online is poor, inaccessible, hard to read, and difficult to maintain. Many mobile library timetables are still published in PDF format, and while these are good for printing, they often make accessibility mistakes such as using colour coding to convey information. PDF is also a poor format in general for accessibililty [as detailed on GOV.UK](https://www.gov.uk/guidance/how-to-publish-on-gov-uk/accessible-pdfs), and it is now a legal requirement to address these issues.
+Current mobile library information provided online is poor, inaccessible, hard to understand, and difficult to maintain. Many mobile library timetables are still published only in PDF format, and they often make accessibility mistakes such as using colour coding to convey information. PDF is a poor format in general for accessibililty [as detailed on GOV.UK](https://www.gov.uk/guidance/how-to-publish-on-gov-uk/accessible-pdfs). It is now a legal requirement to address these issues.
 
-By collecting and publishing just the data for mobile libraries, the task of presenting this information can be shared and made available to services locally.
+By collecting and publishing data for mobile libraries, the task of presenting this information can be shared and tools made available to services to display the information.
 
-- A single, accessible format for PDF timetables could be automatically generated from the data.
 - The option to embed HTML stop lists on local authority websites could also be provided from the data
+- A single, accessible format for PDF timetables could be automatically generated from the data.
 
 #### Nationally
 
-This data provides full timetable information for mobile library stops. It will be possible to create a national view of mobile libraries that displayed where they are at any time, and where a citizen's nearest stop is.
+This data provides full timetable information for mobile library stops. It will be possible to create a national view of mobile libraries showing where they are at any time, and where a citizen's nearest stop is.
 
-For an example usage see this [mobile library dashboard](https://www.mobilelibraries.org).
+For an example usage see the [mobile library dashboard](https://www.mobilelibraries.org).
 
 <figure>
     <img src="{{site.url}}/images/mobile_library_stops_somerset.png" alt="Somerset mobile library on a map"/>
     <figcaption>The Somerset Mobile library on it's route towards Higher Chillington stop.</figcaption>
 </figure>
+
+Having this data also allows us to spot opportunities for collaboration that were previously difficult for anyone to manually detect.
+
+For example, with mobile library stops mapped we can see stops that are either side of the borders of local authorities. By displaying visit dates we can then also see where these could allow for collaboration for efficiency. Such as one authority visiting another's mobile library stop when in the area.
+
+We can also use route information to show where a neighbouring mobile library may pass by or through a community within a neighbouring local authority.
 
 ### Future enhancements
 

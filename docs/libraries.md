@@ -100,7 +100,7 @@ Each service can maintain a single data file that is updated whenever the detail
 
 #### Locally
 
-Accurate data on libraries is useful to analyse library provision, especially at a local level. For example, a tool to display Plymouth library locations uses location data to assess the population within walking, cycling, or driving distance of a library and compare these visually.
+A tool to display Plymouth library locations uses location data to assess the population within walking, cycling, or driving distance of a library, and compare these visually.
 
 <figure>
     <img src="{{site.url}}/images/libraries_plymouth.png" alt="Displaying a map with Plymouth Central Library at the centre and walking travel distances around it"/>
@@ -109,11 +109,11 @@ Accurate data on libraries is useful to analyse library provision, especially at
 
 The application also uses opening hours to show libraries open at the current time, and event data to search for libraries hosting certain types of events.
 
-It was built using library listings from Plymouth, event listings, and open map data from open street map. To try it out see the [Plymouth Library Finder](https://plymouth.librarydata.uk).
+It was built using open data of libraries and their events from Plymouth Libraries, and map data from OpenStreetMap. To try it out see the [Plymouth Library Finder](https://plymouth.librarydata.uk).
 
 #### Nationally
 
-Nationally, combined with the mobile library stops dataset, we can use this data to identify particular areas that are without libraries, and that would be in particular need of a library service.
+Nationally, combined with the mobile library stops dataset, we can use this data to identify particular areas that are without library provision, and that would be in particular need of a library service.
 
 This can be harder to assess with only local data, as many libraries and mobile library stops serve people between authority boundaries.
 
