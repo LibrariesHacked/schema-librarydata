@@ -34,7 +34,7 @@ A full sample can be viewed at [Bristol membership](https://github.com/Libraries
 
 We cannot publish membership by postcode, as postcodes can identify individuals. An alternative option would be to use postcode area (e.g. 'BA1' rather than 'BA1 6AX'). However, this does not have much use for data analysis, and will have a great variation in the number of people in each area.
 
-The area code in this datset is the Office for National Statistics 9-character code for the Lower super output area (LSOA). The dataset will count members by the LSOA they live in. If members have multiple addresses, the primary addresses should be used.
+The area code in this dataset is the Office for National Statistics 9-character code for the Lower super output area (LSOA). The data holds counts of members by the LSOA they live in. If members have multiple addresses, the primary addresses should be used.
 
 An LSOA is a small geographic area used in statistics. More detail and a beginner's guide are available
 at the [Oxford Consultants for Social Inclusion](https://ocsi.uk/2019/03/18/lsoas-leps-and-lookups-a-beginners-guide-to-statistical-geographies/) website.
@@ -77,7 +77,7 @@ As the data is a 'snapshot' of the current count of members, it would be easiest
 
 #### Locally
 
-Membership areas can be mapped along with other statistics. One of these is population counts, another is indices of deprivation.
+Membership can be mapped along with other statistics. One of these is population counts, another is indices of deprivation.
 
 For example, in the sample data row, we have the following area.
 
@@ -85,9 +85,9 @@ For example, in the sample data row, we have the following area.
 | --------------- | ---------- | --------- | ------- |
 | Bristol City Council | 2018-10-23 | E01014486 | 557 |
 
-This shows that there were 557 library members in [LSOA area E01014486](https://mapit.mysociety.org/area/115005.html) (St Agnes in Bristol). Looking at other data sources, the area is ranked 3,573 out of 32,844 for deprivation in England, which puts it in the 20% most deprived neighbourhoods. The population of the area was estimated in mid-2018 to be 2,435, so we can estimate a library membership of about 25% in that area.
+This shows 557 library members in [LSOA area E01014486](https://mapit.mysociety.org/area/115005.html) (St Agnes in Bristol). Looking at other data sources, the area is ranked 3,573 out of 32,844 for deprivation in England, which puts it in the 20% most deprived neighbourhoods. The population of the area was estimated in mid-2018 to be 2,435, so we can estimate a library membership of about 25% in that area.
 
-Analysing this data provides many local uses such as seeing why certain areas don't use the library, looking at the particular needs of existing members, etc.
+This data provides many local uses such as seeing why certain areas don't use the library, looking at the particular needs of existing membership, etc.
 
 The map on [librarieswest.github.io](https://librarieswest.github.io/map/) shows detailed membership data for all services in Libraries West in 2018.
 
@@ -100,11 +100,9 @@ The map was created using ONS population estimates merged with library membershi
 
 #### Nationally
 
-Data between neighbouring authorities allows for services to access data that is not their own, but that includes the populations they serve.
+Sharing data between authorities allows for services to access data that is not their own, but that includes the populations they serve.
 
-For example, between Plymouth and Cornwall, there are likely to be plenty of people who use both or either service, and who may not use the same service that they are resident in.
-
-Access to this data will allow services to see whether an area of their authority really has low levels of library usage, or if that area are simply using another library service. This shared data is essential for full assessment of libraries within the boundaries of an authority.
+For example, between Plymouth and Cornwall, there will be many people who use both or either service, and who may not use the same service that they are resident in.
 
 <figure>
     <img src="{{site.url}}/images/membership_plymouth.png" alt="Map displaying shading of LSOAs to represent membership levels across Plymouth" width="100%"/>

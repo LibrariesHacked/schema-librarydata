@@ -11,6 +11,7 @@ description: Lending of items in libraries
 ---
 
 A loan is the issuing of an item of stock to a member of the library service. A renewal of an item already on loan is counted as an additional loan.
+
 Loans of both physical and electronic materials are included.
 
 ### How the data can be collected
@@ -81,7 +82,7 @@ The following image shows a tool created by Richard Lynch to display Barnet loan
 
 The tool described above would also support data from other authorities, allowing people to filter or mix data for comparison.
 
-Being able to publish standardised loans data would also allow libraries to in future use their data to enable the paying of authors through Public Lending Right (PLR). Currently PLR is delivered through a sample set of services, along with CIPFA returns, to allow for estimating full figures. With each library service publishing detailed loans open data, the British Library team could collect this information directly from library services only.
+Loans data would also allow libraries to in future use their data to enable the paying of authors through Public Lending Right (PLR). Currently PLR is delivered through a sample set of services, along with CIPFA returns, to allow for estimating full figures. With each library service publishing detailed loans open data (see Future enhancements), the British Library team could collect this information directly from library services only.
 
 The possibility for tools and analysis to see what the nation is reading from libraries would also be an advocacy opportunity.
 

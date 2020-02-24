@@ -43,7 +43,7 @@ This describes the type of stop. It should be one of the following values.
 | Dynamic | Time set aside for stops where the time could be used dynamically by the mobile van. For example, to allow for request stops |
 | Other | Any other situation where a stop is included in the timetable. This could be to include maintenance such as refuelling, or lunch breaks |
 
-#### Frequency 
+#### Frequency
 
 This describes when the stop will be visited. This uses the [iCalendar RRule specification](https://icalendar.org/iCalendar-RFC-5545/3-8-5-3-recurrence-rule.html). This is an open standard for communicating when recurring events happen.
 
@@ -85,7 +85,7 @@ Updates to the data should be made when there are any changes to the stops. The 
 
 #### Locally
 
-Current mobile library information provided online is poor, inaccessible, hard to understand, and difficult to maintain. Many mobile library timetables are still published only in PDF format, and they often make accessibility mistakes such as using colour coding to convey information. PDF is a poor format in general for accessibililty [as detailed on GOV.UK](https://www.gov.uk/guidance/how-to-publish-on-gov-uk/accessible-pdfs). It is now a legal requirement to address these issues.
+Current mobile library information provided online is inaccessible, hard to understand, and difficult to maintain. Many mobile library timetables are still published only in PDF format, and include accessibility mistakes such as using colour coding to convey information. PDF is a poor format in general for accessibililty [as detailed on GOV.UK](https://www.gov.uk/guidance/how-to-publish-on-gov-uk/accessible-pdfs). It is now a legal requirement to address these issues.
 
 By collecting and publishing data for mobile libraries, the task of presenting this information can be shared and tools made available to services to display the information.
 
@@ -105,7 +105,7 @@ For an example usage see the [mobile library dashboard](https://www.mobilelibrar
 
 Having this data also allows us to spot opportunities for collaboration that were previously difficult for anyone to manually detect.
 
-For example, with mobile library stops mapped we can see stops that are either side of the borders of local authorities. By displaying visit dates we can then also see where these could allow for collaboration for efficiency. Such as one authority visiting another's mobile library stop when in the area.
+For example, with mobile library stops mapped we can see stops that are either side of the borders of local authorities. By displaying visit dates we can then also see where these could allow for collaboration. Such as one authority visiting another's mobile library stop when in the area.
 
 We can also use route information to show where a neighbouring mobile library may pass by or through a community within a neighbouring local authority.
 

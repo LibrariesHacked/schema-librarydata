@@ -99,7 +99,7 @@ Depending on how many events the service holds, a new file may be easier to mana
 
 Comprehensive data on events, alongside usage data such as loans, will be a long-overdue tool for reporting on the full impact of libraries.
 
-The Barnet events data, filtered by those held in 2019 shows the scale of attendance at different types of library events. Particularly the popularity of those such as Rhyme Time.
+The Barnet events data, filtered by those in 2019, shows the scale of attendance at different types of library events. Particularly the popularity of those such as Rhyme Time.
 
 <figure>
     <img src="{{site.url}}/images/events_barnet.png" alt="Bubble chart displaying barnet events by type." width="100%"/>
@@ -110,9 +110,9 @@ Reporting events alongside loans provides a way to recognise different aspects o
 
 #### Nationally
 
-Having a standard for event data becomes useful when used to list and publicise events that are happening across library services.
+Event data could be used to list and publicise events that are happening across library services.
 
-People may not be particularly interested in what is happening in their local authority. They want to know what is happening near to them. If services can publish standard event data we can begin to list events ahead of time, and show these by library, regardless of authority. This would be especially useful during times of national events, such as World Book Day, and the Summer Reading Challenge (see future enhancements, below).
+People may not be particularly interested in what is happening in their local authority. They want to know what is happening near to them. If services can publish standard event data we can list events ahead of time, and show these by library, regardless of authority. This would be especially useful during times of national events, such as World Book Day, and the Summer Reading Challenge (see future enhancements, below).
 
 ### Future enhancements
 
@@ -124,7 +124,7 @@ With a couple of additional columns (start time, end time), this dataset could b
 
 #### Additional columns
 
-Barnet [publish data on events](https://open.barnet.gov.uk/dataset/barnet-libraries-events), including extra detail such as core/partnership events, target audience, charge, and counts of both adult and child attendees.
+Barnet [publish data on events](https://open.barnet.gov.uk/dataset/barnet-libraries-events), including extra detail such as core/partnership events, target audience, charge, and counts of adult and child attendees.
 
 ---
 

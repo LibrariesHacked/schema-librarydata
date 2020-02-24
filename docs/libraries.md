@@ -10,7 +10,7 @@ description: Library location opening hours and contact details
 
 ---
 
-A library is a static service point which provides access to library services for the general public. This does not include mobile libraries, which are covered separately.
+A library is a static service point which provides access to library services for the general public. This does not include mobile libraries, which are covered in the [mobile library stops dataset](/mobile-library-stops).
 
 ### How the data can be collected
 
@@ -100,7 +100,7 @@ Each service can maintain a single data file that is updated whenever the detail
 
 #### Locally
 
-A tool to display Plymouth library locations uses location data to assess the population within walking, cycling, or driving distance of a library, and compare these visually.
+A tool to display Plymouth library locations displays the population within walking, cycling, or driving distance of a library, and compares these visually.
 
 <figure>
     <img src="{{site.url}}/images/libraries_plymouth.png" alt="Displaying a map with Plymouth Central Library at the centre and walking travel distances around it"/>
@@ -109,11 +109,11 @@ A tool to display Plymouth library locations uses location data to assess the po
 
 The application also uses opening hours to show libraries open at the current time, and event data to search for libraries hosting certain types of events.
 
-It was built using open data of libraries and their events from Plymouth Libraries, and map data from OpenStreetMap. To try it out see the [Plymouth Library Finder](https://plymouth.librarydata.uk).
+It was built using open data on libraries and their events from Plymouth Libraries, and map data from OpenStreetMap. To try it out see the [Plymouth Library Finder](https://plymouth.librarydata.uk).
 
 #### Nationally
 
-Nationally, combined with the mobile library stops dataset, we can use this data to identify particular areas that are without library provision, and that would be in particular need of a library service.
+Nationally, combined with the mobile library stops dataset, we can use this data to identify areas that are without library provision, and that would be in particular need of additional library services.
 
 This can be harder to assess with only local data, as many libraries and mobile library stops serve people between authority boundaries.
 

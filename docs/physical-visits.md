@@ -75,7 +75,7 @@ It would be interesting to explore tools for physical visits that went beyond re
 
 If a library service has automatic counters, that data could eventually be published in 'real-time'. This would allow for people to see how busy the library currently is - useful for deciding when to visit. Additional future datasets such as usage of computers, and desks, could provide more detailed information such as whether there are any free working spaces.
 
-Even manual data can be used retrospectively in data analysis. Through machine learning techniques this could be combined with other local data to predict visits and to gain a better understanding of how this can be affected by external factors. Such as weather, events, school holidays, etc.
+Manual data can be used retrospectively in data analysis. Through machine learning techniques this could be combined with other local data to predict visits and to gain a better understanding of how visits are affected by external factors. Such as weather, events, school holidays, etc.
 
 #### Nationally
 
@@ -86,7 +86,7 @@ In 2019, Ordance Survey and the Office for National Statistics [released data on
 Combined with a completed [libraries](/libraries) dataset, this data could be used to answer questions such as:
 
 - How many libraries are 'on' the high street, or in other areas?
-- Do physical visits differ between libraries that are on the high street and those that are not?
+- Do physical visits differ between libraries that are on the high street, and those that are not?
 - Does declining (or rising) use of retail in different areas match that of visits to the local library?
 
 ### Future enhancements
