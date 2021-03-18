@@ -22,11 +22,11 @@ If starting from scratch, [this template file](https://github.com/LibrariesHacke
 
 ### Sample data row
 
-| Local authority | Library name | Address 1 | Address 2 | Address 3 | Postcode | Statutory | Type of Library | Year opened | Year closed | Monday staffed hours | Tuesday staffed hours | Wednesday staffed hours | Thursday staffed hours | Friday staffed hours | Saturday staffed hours | Sunday staffed hours | Monday unstaffed hours | Tuesday unstaffed hours | Wednesday unstaffed hours | Thursday unstaffed hours | Friday unstaffed hours | Saturday unstaffed hours | Sunday unstaffed hours |Special hours | Co-located | Co-located with | Notes | URL | Email address |
-| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
-| Plymouth  | Crownhill | Cross Park Road | Crownhill | | PL6 5AN | Yes | LAL | 1991 | | 08:30-18:00| 08:30-18:00 | 08:30-18:00 | 08.30-20:00 | 08:30-18:00 | 09:00-17:00 | | | | | | | | | | No | | | https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/crownhilllibrary | library@plymouth.gov.uk
+| Local authority | Library name | Address 1 | Address 2 | Address 3 | Postcode | Unique property reference number | Statutory | Type of Library | Year opened | Year closed | Monday staffed hours | Tuesday staffed hours | Wednesday staffed hours | Thursday staffed hours | Friday staffed hours | Saturday staffed hours | Sunday staffed hours | Monday unstaffed hours | Tuesday unstaffed hours | Wednesday unstaffed hours | Thursday unstaffed hours | Friday unstaffed hours | Saturday unstaffed hours | Sunday unstaffed hours |Special hours | Co-located | Co-located with | Notes | URL | Email address |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| Plymouth  | Crownhill | Cross Park Road | Crownhill | | PL6 5AN | 0100041062012 | Yes | LAL | 1991 | | 08:30-18:00| 08:30-18:00 | 08:30-18:00 | 08.30-20:00 | 08:30-18:00 | 09:00-17:00 | | | | | | | | | | No | | | https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/crownhilllibrary | library@plymouth.gov.uk
 
-An example for an earlier version of this dataset  can be viewed at [Plymouth libraries](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/libraries_plymouth.csv).
+An example of this dataset  can be viewed at [Plymouth libraries](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/libraries_plymouth.csv).
 
 ### Field notes
 
@@ -37,6 +37,10 @@ An example for an earlier version of this dataset  can be viewed at [Plymouth li
 You should list all libraries managed by your service. Independent libraries such as community-managed are not expected to be included.
 
 If however you are updating the dataset and a library that used to be listed as managed by your service has since become independent, we recommend you still include it. In this case use the Type of library as IL for Independent Library. You may then omit this library from your list in future updates.
+
+#### Unique Property Reference Number
+
+The Unique Property Reference Number (UPRN) is a unique number that identifies a property. A UPRN is assigned by the local authority to each building. An external open dataset provides coordinates for all UPRNs.
 
 #### Statutory
 
@@ -76,7 +80,7 @@ There is a column for each day. Hours are in 24-hour clock and include start and
 
 #### Special hours
 
-This column allows for adding dates that are different to normal. This could be public holidays when the library is closed, or other exceptional situations. The format is to specify the date, include a colon, and then the opening hours. Instances of special hours are then separated by commas. For example, **2019-12-25: X, 2019-12-26: X,2019-12-27: 10:00-13:00**. This would describe that the library is closed on the 25th and 26th December, and open from 10am to 1pm on the 27th December.
+This column allows for adding dates where the opening hours are different to normal. This could be public holidays when the library is closed, or other exceptional situations. The format is to specify the date, include a colon, and then the opening hours. Instances of special hours are then separated by commas. For example, **2019-12-25: X,2019-12-26: X,2019-12-27: 10:00-13:00**. This would describe that the library is closed on the 25th and 26th December, and open from 10am to 1pm on the 27th December.
 
 For more info see [these Google support pages](https://support.google.com/business/answer/6303076).
 
@@ -86,13 +90,13 @@ For more info see [these Google support pages](https://support.google.com/busine
 
 #### UPRN
 
-UPRN (Unique property reference number) is not currently part of the schema. If we include this it is worth nothing that Excel can do odd things when holding big numbers, and it may transform them to scientific notation (e.g. 1.23E+10). UPRNs are also sometimes stored as 'zero padded' to ensure they are all the same length e.g. '00000199356' rather than '199356'. We would likely get a mix of both styles.
+Excel can do odd things when holding big numbers, and it may transform UPRNs to scientific notation (e.g. 1.23E+10). UPRNs are also sometimes stored as 'zero padded' to ensure they are all the same length e.g. '00000199356' rather than '199356'. It is likely get a mix of both styles.
 
 ### How the data is updated
 
 ---
 
-Each service can maintain a single data file that is updated whenever the details change, including changes to opening hours. As the data contains closed libraries, there is no need to remove these if a library is closed, the file can be updated by adding the year of closure. If there are new libraries, they can be added as an additional row.
+Each service can maintain a single data file that is updated whenever the details change, including changes to opening hours. As the data contains closed libraries, there is no requirement to remove these if a library is closed, the file can be updated by adding the year of closure. If there are new libraries, they can be added as an additional row.
 
 ### How the data could be used {#usage}
 
@@ -138,12 +142,6 @@ Paragraph below superseded by discussions from November 2019 meeting, when teste
 - *Who is able to access*
 - *Training required for access*
 - *Facilities available during these hours*
-
-#### Unique Property Reference Number
-
-The Unique Property Reference Number (UPRN) is a unique number that identifies a property. A UPRN is assigned by the local authority to each building.
-
-Discussions on Slack December 2019 on IP rights claimed over UPRN and coordinates led to the removal of the UPRN field for the January 2020 testing phase for this dataset.
 
 #### Library floor space and building
 

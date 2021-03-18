@@ -53,7 +53,7 @@ The data validation may tell you the table isn't valid.
 
 In these cases, it will display what is wrong. In the example shown below, the data has failed validation because some required columns have no values in them (reported as a 'required constraint'). Another error reported is an 'enumerable constraint', which means a column value does not match what the schema is expecting. In this case, 'Mon' has been used instead of 'Monday'. Although it often seems pedantic, it's important we use consistent values for the data to be useful.
 
-It may not be clear what is wrong with the data. This documentation should give guidance of the data expected. The [sample files](https://github.com/LibrariesHacked/schema-librarydata/tree/master/data) have all successfully passed validation, and can also be used as reference.
+It may not be clear what is wrong with the data. This documentation should give guidance of the data expected. The [sample files](https://github.com/LibrariesHacked/schema-librarydata/tree/master/data) have all successfully passed validation, and can be used as reference.
 
 <figure>
     <img src="{{site.url}}/images/how-to-validate-a-dataset-invalid.png" alt="A screenshot of the Good Tables tool reporting an error."/>

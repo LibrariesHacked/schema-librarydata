@@ -23,7 +23,7 @@ Library management systems will have the means of extracting and reporting data,
 ### Sample data row
 
 | Local authority | Library name | Month | Type | Loans |
-| --------------- | ------------ | ----------- | ---- | ----- |
+| --------------- | ------------ | ----- | ---- | ----- |
 | Barnet | Barnet Book Club | 2019-04 | Adult audiobook | 9 |
 
 An example for an earlier version of this dataset can be viewed at [Barnet loans](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/loans_barnet.csv).

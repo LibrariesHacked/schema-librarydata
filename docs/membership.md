@@ -10,7 +10,7 @@ description: Active membership of libraries by area
 
 ---
 
-A library member is any user registered with the library service. The user does not need to have borrowed a library item within any timescale to be considered a member. It is assumed inactive users are removed from the library system after an appropriate period of time, in accordance with GDPR.
+A library member is any user registered with the library service. The user does not need to have borrowed a library item within any timescale to be considered a member. It is assumed inactive users are removed from the library system after an appropriate period of time, in accordance with General data protection regulations (GDPR).
 
 ### How the data can be collected
 
@@ -46,6 +46,8 @@ As long as the library service can extract member postcodes, they should be able
 A [postcode to LSOA converter](https://create.librarydata.uk) has been published to help services to create this dataset.
 
 If address data is unavailable for a member, or for any other reason the LSOA is not known, an "Unknown" value can be placed in the column to group together members with no specified LSOA.
+
+If using a different area code this should be specified in the dataset metadata.
 
 #### Members
 

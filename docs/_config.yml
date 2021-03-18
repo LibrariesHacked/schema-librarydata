@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
-title: Library open data
-description: A core dataset for public libraries
+title: Public library open data
+description: Providing details of the data involved in a core dataset for public libraries
 show_downloads: false
 plugins:
   - jekyll-sitemap

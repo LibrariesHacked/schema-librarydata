@@ -23,7 +23,7 @@ In the UK, this should be the local authority name as listed in the relevant reg
 | Northern Ireland | [LibrariesNI](https://www.librariesni.org.uk) |
 | England | [Local authorities in England](https://www.registers.service.gov.uk/registers/local-authority-eng) |
 
-Although the organisation running the library service may not be a local authority (e.g. they may be a commissioned library service), it's the authority that has statutory responsibility for the library service, and should be listed.
+Although the organisation running the library service may be different (e.g. they may be a commissioned library service), it's the local authority that has statutory responsibility for the library service, and should be listed.
 
 An exception to this is Northern Ireland, as Libraries NI have statutory responsibility for libraries.
 
@@ -31,7 +31,7 @@ An exception to this is Northern Ireland, as Libraries NI have statutory respons
 
 It is recommended for each authority to be consistent as to whether the word 'Library' is included in their library names.
 
-The name should be consistent wherever it is listed. This is important to link data between datasets. For example, the physical visits dataset does not include data to show whether the library is colocated with other services. That data is held in the libraries dataset. Combining both datasets relies on the two datasets sharing the same library names.
+The name should be consistent wherever it is listed. This is important for linking data between datasets. For example, the physical visits dataset does not include data to show whether the library is colocated with other services. That data is held in the libraries dataset. Combining both datasets relies on the two datasets sharing the same library names.
 
 #### Date fields
 
@@ -49,7 +49,7 @@ Dates should be specified using the International Standard [ISO 8601](https://ww
 
 There can be a recurring problem of software 'auto-correcting' dates to another format. This will often use settings on the user's computer. Data validation will ensure that the format is enforced, but guidance can be provided for data publishers on how to tackle these software issues.
 
-It could also be that an online tool could detect the date format, and convert it to the standard.
+It could also be that online tools detect the date format, and convert it to the standard.
 
 ---
 

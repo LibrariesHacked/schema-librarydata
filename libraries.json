@@ -56,6 +56,15 @@
             }
         },
         {
+            "name": "Unique property reference number",
+            "description": "Unique property reference number for the building unit the library is located in",
+            "type": "integer",
+            "format": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
             "name": "Statutory",
             "description": "Whether the library is part of the statutory service",
             "type": "string",
