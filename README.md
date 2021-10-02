@@ -52,3 +52,4 @@ All completed schemas will be held in the archived folder in this repository and
 ## Authors
 
 See the list of [contributors](https://github.com/librarieshacked/schema-librarydata/contributors) who participated in this project.
+
