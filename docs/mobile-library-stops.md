@@ -22,9 +22,9 @@ If starting from scratch, [this template file](https://raw.githubusercontent.com
 
 ### Sample data row
 
-| Organisation | Local authority code | Mobile name | Route | Community | Stop | Address | Postcode | GeoX | GeoY | Day | Type | Arrival | Departure | Frequency | Start | End | Exceptions | Timetable |
-| ------------ | -------------------- | ----------- | ----- | --------- | ---- | ------- | -------- | ---- | ---- | --- | ---- | ------- | --------- | --------- | ----- | --- | ---------- | --------- |
-| Somerset | E06000066 | Mobile | A | Brompton Regis | Wimbleball Lake | Wimbleball Lake, Brompton Regis | TA22 9NU | -3.47537 | 51.064823 | Tuesday | Public | 10:05 | 10:20 | FREQ=WEEKLY;INTERVAL=4 | 2019-11-12 |  |  | Link to webpage |
+| Local authority | Local authority code | Mobile name | Route | Community | Stop | Address | Postcode | GeoX | GeoY | Day | Type | Arrival | Departure | Frequency | Start | End | Exceptions | Timetable |
+| --------------- | -------------------- | ----------- | ----- | --------- | ---- | ------- | -------- | ---- | ---- | --- | ---- | ------- | --------- | --------- | ----- | --- | ---------- | --------- |
+| Somerset | E06000066 | Mobile | A | Brompton Regis | Wimbleball Lake | Wimbleball Lake, Brompton Regis | TA22 9NU | -3.47537 | 51.064823 | Tuesday | Public | 10:05 | 10:20 | FREQ=WEEKLY;INTERVAL=4 | 2019-11-12 | | | https://www.somerset.gov.uk/libraries-leisure-and-communities/libraries/library-facilities/mobile-library/ |
 
 A full sample can be viewed at [Somerset mobile stops](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/mobile_library_stops_somerset.csv).
 
@@ -32,9 +32,17 @@ A full sample can be viewed at [Somerset mobile stops](https://github.com/Librar
 
 ---
 
+#### Local authority
+
+The local authority responsible for the library service. In the UK, this should be the local authority name as listed on gov.uk (see [common field standards](./common-fields)).
+
 #### Local authority code
 
 The Government Statistical Service (GSS / ONS) 9-character code for the local authority (e.g. `E06000066` for Somerset). This links directly to the parent [library services dataset](./library-services).
+
+#### Mobile name
+
+A name or identifier for the mobile library vehicle or service point (e.g. 'Mobile A', 'Supermobile').
 
 #### Type
 
@@ -57,6 +65,10 @@ In the majority of the cases, mobile library stops are visited at weekly interva
 
 This should be the first date at which the stop will be visited. It will then be possible to calculate future dates based upon the frequency field.
 
+#### End
+
+This field is optional, and describes the last date at which the stop will be visited. This could be used if timetables are planned for set periods in advance only.
+
 #### Exceptions
 
 Comma separated list of ISO-8601 dates (e.g. YYYY-MM-DD) on which this stop is not visited (for example bank holidays or maintenance days).
@@ -64,6 +76,20 @@ Comma separated list of ISO-8601 dates (e.g. YYYY-MM-DD) on which this stop is n
 #### Timetable
 
 Link to a webpage, timetable PDF, or service webpage for the route or stop.
+
+### Potential problems
+
+---
+
+#### Coordinates (GeoX and GeoY)
+
+Some services will not currently hold coordinates (longitude and latitude) for their stops. These are recommended for this dataset to allow mapping and proximity searching.
+
+### How the data is updated
+
+---
+
+Updates to the data should be made when there are any changes to timetables or stops. The data can then be revalidated and published to replace the previous data.
 
 ---
 

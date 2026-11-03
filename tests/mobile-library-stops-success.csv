@@ -1,2 +1,2 @@
-organisation,local_authority_code,mobile,route,community,stop,address,postcode,geox,geoy,day,type,arrival,departure,frequency,start,end,exceptions,timetable
+Local authority,Local authority code,Mobile name,Route,Community,Stop,Address,Postcode,GeoX,GeoY,Day,Type,Arrival,Departure,Frequency,Start,End,Exceptions,Timetable
 Aberdeenshire,S12000034,North,North Monday Weeks 1 and 3,Fetterangus,North Place,"North Place, Fetterangus",,-2.0238940999999997,57.54863559999999,Monday,Public,09:20,09:45,FREQ=WEEKLY;INTERVAL=2,2019-01-21,,,https://www.livelifeaberdeenshire.org.uk/media/2808/mobile-north-timetable-160119.pdf
