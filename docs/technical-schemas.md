@@ -4,7 +4,7 @@ title: Technical schemas
 description: Formal definitions of what the data should look like
 ---
 
-[&lt; Back to home](./)
+[< Back to home](./)
 
 ### Schema definitions
 
@@ -14,16 +14,28 @@ description: Formal definitions of what the data should look like
 
 This allows us to validate data with tools that can check whether files match the specified schema.
 
-For our public library data, each dataset has it's own schema definition file. These can be viewed using the links below.
+For our public library data, each dataset has its own schema definition file. All schemas include the official ONS/GSS Local Authority Code, linking relationally to the master Library Services registry. Current schemas in development can be viewed using the links below.
 
-- [Events](https://raw.githubusercontent.com/LibrariesHacked/schema-librarydata/master/events.json)
+- [Library services](https://raw.githubusercontent.com/LibrariesHacked/schema-librarydata/master/library-services.json)
 - [Libraries](https://raw.githubusercontent.com/LibrariesHacked/schema-librarydata/master/libraries.json)
+- [Events](https://raw.githubusercontent.com/LibrariesHacked/schema-librarydata/master/events.json)
 - [Loans](https://raw.githubusercontent.com/LibrariesHacked/schema-librarydata/master/loans.json)
 - [Membership](https://raw.githubusercontent.com/LibrariesHacked/schema-librarydata/master/membership.json)
 - [Mobile library stops](https://raw.githubusercontent.com/LibrariesHacked/schema-librarydata/master/mobile-library-stops.json)
 - [Physical visits](https://raw.githubusercontent.com/LibrariesHacked/schema-librarydata/master/physical_visits.json)
 - [Stock summary](https://raw.githubusercontent.com/LibrariesHacked/schema-librarydata/master/stock_summary.json)
 
+### Version archive
+
 ---
 
-[&lt; Back to home](./)
+Completed releases are archived by semantic version in the [archive folder](https://github.com/LibrariesHacked/schema-librarydata/tree/master/archive):
+
+- [v0.4.0](https://github.com/LibrariesHacked/schema-librarydata/tree/master/archive/0.4.0): Added master `library-services.json` registry with all 208 UK authorities, extended `libraries.json` to 51 fields with coordinates, operational status, ACE co-locations, WiFi breakdown, and accessibility facilities, and standardized `Local authority code` with foreign keys across all schemas.
+- [v0.3.0](https://github.com/LibrariesHacked/schema-librarydata/tree/master/archive/0.3.0): Added `events.json`, `libraries.json`, `loans.json`, `membership.json`, `physical_visits.json`, and `stock_summary.json`.
+- [v0.2.0](https://github.com/LibrariesHacked/schema-librarydata/tree/master/archive/0.2.0): Added `library-locations-survey.json`.
+- [v0.1.0](https://github.com/LibrariesHacked/schema-librarydata/tree/master/archive/0.1.0): Initial release with `mobile-library-stops.json`.
+
+---
+
+[< Back to home](./)

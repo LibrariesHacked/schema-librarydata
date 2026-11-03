@@ -4,7 +4,7 @@ title: Common field standards
 description: Guidelines for fields that are shared between datasets
 ---
 
-[&lt; Back to home](./)
+[< Back to home](./)
 
 ### Field notes
 
@@ -26,6 +26,12 @@ In the UK, this should be the local authority name as listed in the relevant reg
 Although the organisation running the library service may be different (e.g. they may be a commissioned library service), it's the local authority that has statutory responsibility for the library service, and should be listed.
 
 An exception to this is Northern Ireland, as Libraries NI have statutory responsibility for libraries.
+
+#### Local authority code
+
+The official Government Statistical Service (GSS / ONS) 9-character code for the local authority (e.g. `E06000026` for Plymouth, `E09000003` for Barnet).
+
+This standard 9-character code (matching `^[ENSW][0-9]{8}$`) uniquely identifies the statutory local authority across England (E), Northern Ireland (N), Scotland (S), and Wales (W). It serves as a relational foreign key across all library datasets, linking directly to the central [library services dataset](./library-services).
 
 #### Library name
 
@@ -53,4 +59,4 @@ It could also be that online tools detect the date format, and convert it to the
 
 ---
 
-[&lt; Back to home](./)
+[< Back to home](./)

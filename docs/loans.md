@@ -1,36 +1,38 @@
 ---
 layout: default
 title: Loans
-description: Lending of items in libraries
+description: Number of items borrowed from libraries
 ---
 
-[&lt; Back to home](./)
+[< Back to home](./)
 
 ### Definition
 
 ---
 
-A loan is the issuing of an item of stock to a member of the library service. A renewal of an item already on loan is counted as an additional loan.
-
-Loans of both physical and electronic materials are included.
+A loan is the issuing or renewal of an item from a library to a borrower.
 
 ### How the data can be collected
 
----
+This data will be recorded in the library service's Library Management System (LMS).
 
 Library management systems will have the means of extracting and reporting data, and so this should be able to be automated. This may include automated publishing of the data at regular intervals.
 
 ### Sample data row
 
-| Local authority | Library name | Month | Type | Loans |
-| --------------- | ------------ | ----- | ---- | ----- |
-| Barnet | Barnet Book Club | 2019-04 | Adult audiobook | 9 |
+| Local authority | Local authority code | Library name | Month | Type | Loans |
+| --------------- | -------------------- | ------------ | ----- | ---- | ----- |
+| Barnet | E09000003 | Barnet Book Club | 2019-04 | Adult audiobook | 9 |
 
-An example for an earlier version of this dataset can be viewed at [Barnet loans](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/loans_barnet.csv).
+A full sample can be viewed at [Barnet loans](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/loans_barnet.csv).
 
 ### Field notes
 
 ---
+
+#### Local authority code
+
+The Government Statistical Service (GSS / ONS) 9-character code for the local authority (e.g. `E09000003` for Barnet). This links directly to the parent [library services dataset](./library-services).
 
 #### Month
 
@@ -50,57 +52,18 @@ Combining issues and renewals of items into a single count is a method of report
 
 ### Potential problems
 
-#### Non-standardised item types
+---
 
-Using item types as they are designed by each library service will mean a lot of variation between similar types of items. For example one service may write 'Child Fiction' and another 'Fiction - Child'.
+#### Lack of standard categories
 
-### How the data is updated
+Library services use different categorisations for their stock items, and there is no national standard. For example, some services may split children's stock into 'Board books', 'Picture books', 'Early readers', etc. Others may just use 'Children's fiction'.
+
+This means comparing data across services will require an agreed set of higher-level categories that service-specific types can be mapped into.
+
+#### Issues and renewals combined
+
+Combining issues and renewals loses the distinction between an item being borrowed for the first time and a loan being extended. Where possible, services should consider reporting these separately in future schemas.
 
 ---
 
-To update their loans data, library services can either:
-
-- Publish an additional file with the new set of loans
-- Update an existing file with the additional loans added as new rows
-
-### How the data could be used {#usage}
-
----
-
-#### Locally
-
-There are various types of dashboards that could monitor loans within an authority.
-
-The following image shows a tool created by Richard Lynch to display Barnet loans data. The tool is available at [UK Library Issues](https://0sumrich.github.io/lib-issues/).
-
-<figure>
-    <img src="{{site.url}}/images/loans_uk.png" alt="A example of a bar chart displaying count of loans across different Barnet libraries." width="100%"/>
-    <figcaption>Loans across a selection of libraries, with options to choose authority, date range, and library.</figcaption>
-</figure>
-
-#### Nationally
-
-The tool described above would also support data from other authorities, allowing people to filter or mix data for comparison.
-
-Loans data would also allow libraries to in future use their data to enable the paying of authors through Public Lending Right (PLR). Currently PLR is delivered through a sample set of services, along with CIPFA returns, to allow for estimating full figures. With each library service publishing detailed loans open data (see Future enhancements), the British Library team could collect this information directly from library services only.
-
-The possibility for tools and analysis to see what the nation is reading from libraries would also be an advocacy opportunity.
-
-### Future enhancements
-
----
-
-#### Count start/end
-
-A count start/end has been considered instead of the monthly reporting period.
-The count start and end would be the report period the count is for. Detailed reporting would be encouraged. For example, the reporting could be on a daily basis, in which case the start and end would be the same. This would be good for analysis, such as comparing library use on different days of the week.
-
-The proposal to test a monthly reporting was made at the early testers meeting in November 2019. We look forward to comments on the new column.
-
-#### Each loan
-
-To make the data more detailed, and to provide greater insight, each individual loan could be reported. This could allow for details such as popular titles and genres in different areas.
-
----
-
-[&lt; Back to home](./)
+[< Back to home](./)

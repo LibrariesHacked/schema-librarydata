@@ -1,36 +1,42 @@
 ---
 layout: default
 title: Events
-description: Library event attendance and outcomes
+description: Number of attendees at library events
 ---
 
-[&lt; Back to home](./)
+[< Back to home](./)
 
 ### Definition
 
 ---
 
-A library event is an event facilitated or organised by the library service. Each event should be listed.
+An event is a specific activity organised or facilitated by the library service.
+
+This includes events that happen within library buildings, online, or in outreach locations.
 
 ### How the data can be collected
 
----
+Library services will generally already keep records of events, usually for reporting to senior managers, or for marketing and communications purposes.
 
-Data collection on events is likely to be manual, but could be aided by reports from existing systems, such as Eventbrite. Or recorded in custom spreadsheets and databases. For example, Barnet collect event data using a Microsoft Access database, which can then be exported as CSV.
+The most likely method for compiling this data will be to rearrange existing spreadsheets or documents into this data format.
 
 If starting from scratch, [this template file](https://github.com/LibrariesHacked/schema-librarydata/blob/master/templates/events.csv) can be downloaded and opened using spreadsheet software.
 
 ### Sample data row
 
-| Local authority | Library name | Event date | Name | Main outcome | Secondary outcome | Attendees |
-| --------------- | ------------ | ---------- | ---- | ------------ | ----------------- | --------- |
-| Barnet | Burnt Oak | 2018-01-12 | Toddler Read and Rhyme | Stronger more resilient communities | Increased reading and literacy | 11 |
+| Local authority | Local authority code | Library name | Event date | Name | Main outcome | Secondary outcome | Attendees |
+| --------------- | -------------------- | ------------ | ---------- | ---- | ------------ | ----------------- | --------- |
+| Barnet | E09000003 | Burnt Oak | 2018-01-12 | Toddler Read and Rhyme | Stronger more resilient communities | Increased reading and literacy | 11 |
 
-An example for an earlier version of this dataset can be viewed at [Barnet events](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/events_barnet.csv).
+A full sample can be viewed at [Barnet events](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/events_barnet.csv).
 
 ### Field notes
 
 ---
+
+#### Local authority code
+
+The Government Statistical Service (GSS / ONS) 9-character code for the local authority (e.g. `E09000003` for Barnet). This links directly to the parent [library services dataset](./library-services).
 
 #### Library name
 
@@ -38,9 +44,9 @@ If the event is not held in a library: use "Outreach" in this column and add the
 
 See an example below.
 
-| Local authority | Library name | Event date | Name | Main outcome | Secondary outcome | Attendees |
-| --------------- | ------------ | ---------- | ---- | ------------ | ----------------- | --------- |
-| Newcastle | Outreach | 2019-07-23 | Copyright for Newcastle City Learning tutors at Westgate College | Helping everyone achieve their full potential | Greater prosperity | 5 |
+| Local authority | Local authority code | Library name | Event date | Name | Main outcome | Secondary outcome | Attendees |
+| --------------- | -------------------- | ------------ | ---------- | ---- | ------------ | ----------------- | --------- |
+| Newcastle | E08000021 | Outreach | 2019-07-23 | Copyright for Newcastle City Learning tutors at Westgate College | Helping everyone achieve their full potential | Greater prosperity | 5 |
 
 #### Main outcome
 
@@ -128,4 +134,4 @@ Barnet [publish data on events](https://open.barnet.gov.uk/dataset/barnet-librar
 
 ---
 
-[&lt; Back to home](./)
+[< Back to home](./)

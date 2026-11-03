@@ -10,6 +10,16 @@
             }
         },
         {
+            "name": "Local authority code",
+            "description": "Official Government Statistical Service (GSS/ONS) 9-character code for the local authority",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "pattern": "^[ENSW][0-9]{8}$"
+            }
+        },
+        {
             "name": "Count date",
             "description": "The date this count was completed",
             "type": "date",
@@ -35,6 +45,15 @@
             "constraints": {
                 "required": true,
                 "pattern": "^x$|^[5-9]{1}$|^[1-9]\\d{1,}$"
+            }
+        }
+    ],
+    "foreignKeys": [
+        {
+            "fields": "Local authority code",
+            "reference": {
+                "resource": "library-services.csv",
+                "fields": "Local authority code"
             }
         }
     ]

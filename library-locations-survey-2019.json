@@ -10,6 +10,16 @@
             }
         },
         {
+            "name": "Local authority code",
+            "description": "Official Government Statistical Service (GSS/ONS) 9-character code for the local authority",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "pattern": "^[ENSW][0-9]{8}$"
+            }
+        },
+        {
             "name": "Library name",
             "description": "Full public name by which the library is known",
             "type": "string",
@@ -320,6 +330,15 @@
             "format": "uri",
             "constraints": {
                 "required": true
+            }
+        }
+    ],
+    "foreignKeys": [
+        {
+            "fields": "Local authority code",
+            "reference": {
+                "resource": "library-services.csv",
+                "fields": "Local authority code"
             }
         }
     ]

@@ -18,14 +18,14 @@ Descriptive documentation for these schemas is held in the ```docs``` directory 
 
 | Name | File | Description |
 | ---- | ---- | ----------- |
+| Library services | library-services.json | Core details, systems, digital platforms, and operating models for UK library services |
+| Libraries | libraries.json | A listing of library locations, coordinates, facilities, and opening hours |
 | Membership | membership.json | The membership of a library service |
 | Events | events.json | The number of people attending library events |
 | Loans | loans.json | The number of items being issued in libraries |
-| Libraries | libraries.json | A listing of library locations and their details |
-| Library locations survey 2019 | library-locations-survey.json | A survey of library locations in England in 2019 |
 | Mobile library stops | mobile-library-stops.json | Mobile library stops with their timetabled visits |
-| Physical visits | physical-visits.json | The number of visits made to library buildings |
-| Stock summary | stock-summary.json | Summary of the stock held in libraries |
+| Physical visits | physical_visits.json | The number of visits made to library buildings |
+| Stock summary | stock_summary.json | Summary of the stock held in libraries |
 
 ## Test data
 
@@ -47,9 +47,8 @@ We use [SemVer](http://semver.org/) for versioning.
 
 Each schema will share a single version number, which will be updated on making any changes. If a new schema is added it will increment the version number of the current set, rather than start at 0.
 
-All completed schemas will be held in the archived folder in this repository and the file name will include the version number. Schemas in development are held in the root folder.
+All completed schemas will be held in versioned directories in the `archive` folder in this repository (e.g. `archive/0.4.0/`). Schemas in development are held in the root folder.
 
 ## Authors
 
 See the list of [contributors](https://github.com/librarieshacked/schema-librarydata/contributors) who participated in this project.
-

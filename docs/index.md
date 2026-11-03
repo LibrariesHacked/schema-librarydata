@@ -9,8 +9,9 @@ These pages describe a core dataset for public library open data. Having standar
 
 ### Datasets
 
-- [Events](./events). Event attendance and outcomes
+- [Library services](./library-services). Core details, digital platforms, systems, and operating models for UK public library services
 - [Libraries](./libraries). Location opening hours, types, and contact details
+- [Events](./events). Event attendance and outcomes
 - [Loans](./loans). Lending of library items
 - [Membership](./membership). Snapshot counts of membership of libraries by geographic area
 - [Mobile library stops](./mobile-library-stops). Locations of mobile library stops, and their frequency

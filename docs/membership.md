@@ -1,28 +1,32 @@
 ---
 layout: default
 title: Membership
-description: Active membership of libraries by area
+description: Count of active members with address located in an area
 ---
 
-[&lt; Back to home](./)
+[< Back to home](./)
 
 ### Definition
 
 ---
 
-A library member is any user registered with the library service. The user does not need to have borrowed a library item within any timescale to be considered a member. It is assumed inactive users are removed from the library system after an appropriate period of time, in accordance with General data protection regulations (GDPR).
+An active member is someone who has used the library service in the previous twelve months.
+
+This includes loans, using public computers, logging into online library services, or having library staff access their record on their behalf (e.g. to reset passwords).
 
 ### How the data can be collected
 
----
+This data will be recorded in the library service's Library Management System (LMS).
 
-Library management systems will be able to extract data about members. However, it's unlikely those systems will be able to report the area codes required in this dataset, so an additional [tool to convert from postcodes to LSOAs](https://create.librarydata.uk/postcode-to-lsoa) has been created to help. A list of postcodes is required to use this.
+Library management systems will have the means of extracting and reporting data, and so this should be able to be automated. This may include automated publishing of the data at regular intervals.
+
+If starting from scratch, [this template file](https://github.com/LibrariesHacked/schema-librarydata/blob/master/templates/membership.csv) can be downloaded and opened using spreadsheet software.
 
 ### Sample data row
 
-| Local authority | Count date | Area code | Members |
-| --------------- | ---------- | --------- | ------- |
-| Bristol City Council | 2018-10-23 | E01014486 | 557 |
+| Local authority | Local authority code | Count date | Area code | Members |
+| --------------- | -------------------- | ---------- | --------- | ------- |
+| Bristol City Council | E06000023 | 2018-10-23 | E01014486 | 557 |
 
 A full sample can be viewed at [Bristol membership](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/membership_bristol.csv).
 
@@ -30,14 +34,17 @@ A full sample can be viewed at [Bristol membership](https://github.com/Libraries
 
 ---
 
+#### Local authority code
+
+The Government Statistical Service (GSS / ONS) 9-character code for the local authority (e.g. `E06000023` for Bristol). This links directly to the parent [library services dataset](./library-services).
+
 #### Area code
 
 We cannot publish membership by postcode, as postcodes can identify individuals. An alternative option would be to use postcode area (e.g. 'BA1' rather than 'BA1 6AX'). However, this does not have much use for data analysis, and will have a great variation in the number of people in each area.
 
 The area code in this dataset is the Office for National Statistics 9-character code for the Lower super output area (LSOA). The data holds counts of members by the LSOA they live in. If members have multiple addresses, the primary addresses should be used.
 
-An LSOA is a small geographic area used in statistics. More detail and a beginner's guide are available
-at the [Oxford Consultants for Social Inclusion](https://ocsi.uk/2019/03/18/lsoas-leps-and-lookups-a-beginners-guide-to-statistical-geographies/) website.
+An LSOA is a small geographic area used in statistics. More detail and a beginner's guide are available at the [Oxford Consultants for Social Inclusion](https://ocsi.uk/2019/03/18/lsoas-leps-and-lookups-a-beginners-guide-to-statistical-geographies/) website.
 
 A benefit of reporting membership data using LSOAs is that many other datasets use these areas. For example, population counts, health, income, education, car ownership, etc.
 
@@ -49,84 +56,14 @@ If address data is unavailable for a member, or for any other reason the LSOA is
 
 If using a different area code this should be specified in the dataset metadata.
 
+#### Count date
+
+The date the count was taken.
+
 #### Members
 
-The members column specifies the count of membership in each LSOA.
-
-If this count is less than 5, the data should be suppressed. This protects confidentiality, and avoids identifying individuals.
-
-For example, the following would be used if only 3 members were identified to be in LSOA E01014486.
-
-| Bristol City Council | 2018-10-23 | E01014486 | x |
+The number of active members in the specified LSOA.
 
 ---
 
-### Potential problems
-
-#### Area codes
-
-There are lookup files that can be used to convert from postcode to LSOA area code. So as long as the library service can report on membership by postcode, then it will be possible to report on membership by LSOA.
-
-### How the data is updated
-
----
-
-As the data is a 'snapshot' of the current count of members, it would be easiest for the library services to publish a new file every time they do this count.
-
-### How the data could be used {#usage}
-
----
-
-#### Locally
-
-Membership can be mapped along with other statistics. One of these is population counts, another is indices of deprivation.
-
-For example, in the sample data row, we have the following area.
-
-| Local authority | Count date | Area code | Members |
-| --------------- | ---------- | --------- | ------- |
-| Bristol City Council | 2018-10-23 | E01014486 | 557 |
-
-This shows 557 library members in [LSOA area E01014486](https://mapit.mysociety.org/area/115005.html) (St Agnes in Bristol). Looking at other data sources, the area is ranked 3,573 out of 32,844 for deprivation in England, which puts it in the 20% most deprived neighbourhoods. The population of the area was estimated in mid-2018 to be 2,435, so we can estimate a library membership of about 25% in that area.
-
-This data provides many local uses such as seeing why certain areas don't use the library, looking at the particular needs of existing membership, etc.
-
-The map on [librarieswest.github.io](https://librarieswest.github.io/map/) shows detailed membership data for all services in Libraries West in 2018.
-
-<figure>
-    <img src="{{site.url}}/images/membership_bristol.png" alt="Map displaying shading of LSOAs to represent membership levels across Bristol" width="100%"/>
-    <figcaption>Membership mapped for Bristol libraries, showing information popup for area with 23% library membership.</figcaption>
-</figure>
-
-The map was created using ONS population estimates merged with library membership and Office for National Statistics map boundaries.
-
-#### Nationally
-
-Sharing data between authorities allows for services to access data that is not their own, but that includes the populations they serve.
-
-For example, between Plymouth and Cornwall, there will be many people who use both or either service, and who may not use the same service that they are resident in.
-
-<figure>
-    <img src="{{site.url}}/images/membership_plymouth.png" alt="Map displaying shading of LSOAs to represent membership levels across Plymouth" width="100%"/>
-    <figcaption>Membership mapped for Plymouth libraries, showing Devon area with 19% Plymouth libraries membership.</figcaption>
-</figure>
-
-In one example, an area of Devon (named E01020185) has 19% of the population who are active members of Plymouth libraries. Although the data is held by Plymouth, this is essential information for Devon to have available.
-
-Nationally, library membership data would also be a dataset that would be of use for other agencies, such as those looking at digital exclusion, or use of public services. This could make libraries a key provider of data to agencies such as the Office for National Statistics.
-
-### Future enhancements
-
----
-
-#### Library
-
-An additional level of detail would be to include the particular library that the member is registered at.
-
-#### Usage type
-
-It would be useful to be able to group the members by type of library usage. For example, those that use PCs, that borrow books, or use the WiFi (and any combinations of those).
-
----
-
-[&lt; Back to home](./)
+[< Back to home](./)

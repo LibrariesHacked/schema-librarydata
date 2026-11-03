@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Libraries
-description: Library location opening hours and contact details
+description: Library location opening hours, coordinates, facilities, and contact details
 ---
 
-[&lt; Back to home](./)
+[< Back to home](./)
 
 ### Definition
 
@@ -16,39 +16,61 @@ A library is a static service point which provides access to library services fo
 
 ---
 
-Library services will be able to use the [library locations survey 2016](https://www.gov.uk/government/publications/public-libraries-in-england-basic-dataset) as a starting point, which includes similar fields.
+Library services will be able to use the [public library basic dataset](https://www.gov.uk/government/publications/public-libraries-in-england-basic-dataset) (managed by Arts Council England / DCMS) and local authority records as a starting point, which includes similar fields.
 
 If starting from scratch, [this template file](https://github.com/LibrariesHacked/schema-librarydata/blob/master/templates/libraries.csv) can be downloaded and opened using spreadsheet software.
 
 ### Sample data row
 
-| Local authority | Library name | Address 1 | Address 2 | Address 3 | Postcode | Unique property reference number | Statutory | Type of Library | Year opened | Year closed | Monday staffed hours | Tuesday staffed hours | Wednesday staffed hours | Thursday staffed hours | Friday staffed hours | Saturday staffed hours | Sunday staffed hours | Monday unstaffed hours | Tuesday unstaffed hours | Wednesday unstaffed hours | Thursday unstaffed hours | Friday unstaffed hours | Saturday unstaffed hours | Sunday unstaffed hours |Special hours | Co-located | Co-located with | Notes | URL | Email address |
-| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
-| Plymouth  | Crownhill | Cross Park Road | Crownhill | | PL6 5AN | 0100041062012 | Yes | LAL | 1991 | | 08:30-18:00| 08:30-18:00 | 08:30-18:00 | 08.30-20:00 | 08:30-18:00 | 09:00-17:00 | | | | | | | | | | No | | | https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/crownhilllibrary | library@plymouth.gov.uk
+| Local authority | Local authority code | Library name | Library code | Address 1 | Address 2 | Address 3 | Postcode | Unique property reference number | Latitude | Longitude | Status | Statutory | Facility type | Type of library | Year opened | Year closed | Monday staffed hours | Tuesday staffed hours | Wednesday staffed hours | Thursday staffed hours | Friday staffed hours | Saturday staffed hours | Sunday staffed hours | Monday unstaffed hours | Tuesday unstaffed hours | Wednesday unstaffed hours | Thursday unstaffed hours | Friday unstaffed hours | Saturday unstaffed hours | Sunday unstaffed hours | Special hours | Weekly staffed hours | Weekly total hours | Automated access system | Co-located | Co-located with | Guest wifi | Member wifi | Public computers | Printing | Meeting rooms | Quiet study space | Step-free access | Accessible toilet | Hearing loop | Facilities and services | Phone number | Email address | URL | Notes |
+| --------------- | -------------------- | ------------ | ------------ | --------- | --------- | --------- | -------- | -------------------------------- | -------- | --------- | ------ | --------- | ------------- | --------------- | ----------- | ----------- | -------------------- | --------------------- | ----------------------- | ---------------------- | ------------------- | --------------------- | -------------------- | ---------------------- | ----------------------- | ------------------------- | ------------------------ | ---------------------- | ------------------------ | ---------------------- | ------------- | -------------------- | ------------------ | ----------------------- | ---------- | --------------- | ---------- | ----------- | ---------------- | -------- | ------------- | ----------------- | ---------------- | ----------------- | ------------ | ----------------------- | ------------ | ------------- | --- | ----- |
+| Plymouth | E06000026 | Crownhill Library | PLY-CRO | Cross Park Road | Crownhill | | PL6 5AN | 100041062012 | 50.4124 | -4.1345 | Open | Yes | Static library | LAL | 1991 | | 08:30-18:00 | 08:30-18:00 | 08:30-18:00 | 08:30-20:00 | 08:30-18:00 | 09:00-17:00 | | | | | | | | | | 57.5 | 57.5 | | No | | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Books; Free Wi-Fi; Public computers; Printing; Quiet study space | 01752 305900 | library@plymouth.gov.uk | https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/crownhilllibrary | |
 
-An example of this dataset  can be viewed at [Plymouth libraries](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/libraries_plymouth.csv).
+An example of this dataset can be viewed at [Plymouth libraries](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/libraries_plymouth.csv).
 
 ### Field notes
 
 ---
 
+#### Local authority code
+
+The Government Statistical Service (GSS / ONS) 9-character code for the local authority (e.g. `E06000026` for Plymouth). This links directly to the parent [library services dataset](./library-services).
+
 #### Library name
 
-You should list all libraries managed by your service. Independent libraries such as community-managed are not expected to be included.
+You should list all libraries managed by your service. Independent libraries such as community-managed are not expected to be included unless they are part of a transition or service agreement.
 
-If however you are updating the dataset and a library that used to be listed as managed by your service has since become independent, we recommend you still include it. In this case use the Type of library as IL for Independent Library. You may then omit this library from your list in future updates.
+If however you are updating the dataset and a library that used to be listed as managed by your service has since become independent, we recommend you still include it. In this case use the Type of library as ICL (Independent Community Library). You may then omit this library from your list in future updates.
 
-#### Unique Property Reference Number
+#### Status
 
-The Unique Property Reference Number (UPRN) is a unique number that identifies a property. A UPRN is assigned by the local authority to each building. An external open dataset provides coordinates for all UPRNs.
+The current operational status of the service point:
+- `Open`: Currently operational.
+- `Closed (permanent)`: Permanently closed.
+- `Closed (temporary)`: Temporarily closed (e.g. for refurbishment, relocation, or emergency).
+- `Planned`: Planned new library branch not yet opened.
+
+#### Coordinates and Spatial Identifiers
+
+- **Latitude and Longitude**: Coordinates in WGS84 decimal degrees (e.g. 50.4124, -4.1345). Enables immediate mapping in web map tools without requiring geocoding.
+- **Unique Property Reference Number (UPRN)**: The unique numeric identifier assigned by the local authority to the building unit, stored as an integer without leading zeros.
 
 #### Statutory
 
-All statutory libraries should be listed. For libraries that are not statutory it is up to the service whether to include them.
+All statutory libraries should be listed with `Yes`. Non-statutory service points are indicated with `No`.
+
+#### Facility type
+
+The physical type of service point (aligned with the Arts Council England taxonomy):
+- `Static library`: A permanent physical library building open to the public.
+- `Static local history library`: A dedicated physical local history or special collection library.
+- `Archive`: A public archive record office or heritage centre.
+- `Mobile library`: A mobile library vehicle base or stop coordination point.
+- `Prison library`: A library service operating within a prison or custodial establishment.
 
 #### Type of library
 
-The type of library is a code that describes how the library is run.
+The governance and operating model of the public library branch:
 
 | Code | Title | Description |
 | ---- | ----- | ----------- |
@@ -56,97 +78,68 @@ The type of library is a code that describes how the library is run.
 | LAL- | Local authority library (-) | As LAL, but unstaffed, for example, a book drop |
 | CL | Commissioned library | Running of the library building/service has been transferred from the council to a separate trust or organisation. The local authority are still accountable for the service.|
 | CRL | Community run library | Library with some level of ongoing support from the council. Work according to a joint agreement such as a Service Level Agreement, Memorandum of Understanding or contract. Staff are volunteers, but some form of support is available. May or may not be counted as part of the statutory service. |
-| IL | Independent library | Library that has been transferred to the management of a non local authority body, either community group or third party, which is outside the local authority network. |
+| ICL | Independent community library | Library that has been transferred to the management of a non local authority body, either community group or third party, which is outside the local authority network. |
 
-#### Year opened/closed
+#### Staffed and Unstaffed hours
 
-These columns should allow for new libraries, closures, and replacement libraries to be recorded.
+- **Staffed hours**: Hours when library staff or trained personnel are present to assist visitors.
+- **Unstaffed hours**: Extended access hours where visitors access the space using automated systems (e.g. Open+ card and PIN access) without library staff present.
+- Hours are specified in 24-hour clock format (e.g. `09:00-17:00`), with split sessions separated by commas (e.g. `09:00-12:00,13:00-17:00`).
+- **Weekly staffed hours / Weekly total hours**: Numerical sum of regular hours open each week, providing rapid metrics for national benchmarking.
+- **Automated access system**: The automated access technology used to support visitors during unstaffed hours (e.g. `Open+`, `Lyngsoe`, `Self-service kiosk`).
 
-#### Staffed hours
+#### Co-location
 
-Staffed hours are the hours during which individuals with responsibility for library services are present and are able to assist visitors.
+Libraries that share buildings with other community or public services should be indicated with `Co-located: Yes`.
 
-There is a column for each day. Hours are in 24-hour clock and include start and end e.g. **09:00-17:00**. If there are multiple opening hours in a day these can be separated by commas e.g. **09:00-12:00,13:00-17:00** would accommodate a lunch break.
+In **`Co-located with`**, separate multiple co-located partners with a **semicolon (`;`)**. To promote standardisation across services, use the Arts Council England categories as a controlled vocabulary, augmented with specific organisation names:
+* `Archives`
+* `Arts centre`
+* `Care home / hostel`
+* `Catering / bars / pub`
+* `Civic` (e.g. council customer services, town hall, registry office)
+* `Community` (e.g. community centre, village hall)
+* `Faith buildings`
+* `Health` (e.g. GP surgery, clinic)
+* `Hotel`
+* `Industrial / business` (e.g. enterprise centre)
+* `Library` (e.g. academic or partner library)
+* `Museum` / Gallery
+* `Retail` (e.g. post office, shop)
+* `Schools & colleges`
+* `Universities & higher education`
+* `Other` (e.g. police contact point, nursery)
 
-This is a format used by Google for listing opening hours. For more info see [these Google support pages](https://support.google.com/business/answer/3370250?#hours).
+*Example*: `"Civic; Community; Council customer services; Pre-school nursery"`
 
-#### Unstaffed hours
+#### Wi-Fi Access
 
-Unstaffed hours are the hours during which the library space can be accessed and used by visitors without the presence of individuals with responsibility for library services or anyone else trained to assist visitors in using those services.
+- **Guest wifi**: Whether free public Wi-Fi is accessible to any visitor immediately without needing a library card/membership (`Yes`/`No`).
+- **Member wifi**: Whether Wi-Fi is provided that requires library membership (card number and PIN login) (`Yes`/`No`).
 
-The conditions of access during unstaffed hours should be specified in the metadata / additional information accompanying the dataset.
+#### Facilities and Amenities
 
-There is a column for each day. Hours are in 24-hour clock and include start and end e.g. **09:00-17:00**. If there are multiple opening hours in a day these can be separated by commas e.g. **07:00-10:00,17:00-22:00** would accommodate staffed hours 10:00-17:00 that day and unstaffed hours before and after.
+- **Public computers**: Whether public access desktop PCs with internet are available for visitors (`Yes`/`No`).
+- **Printing**: Whether printing, photocopying, or document scanning is available for public use (`Yes`/`No`).
+- **Meeting rooms**: Whether meeting rooms, study rooms, or hireable community spaces are available (`Yes`/`No`).
+- **Quiet study space**: Whether dedicated quiet study spaces or desk carrels with power outlets are available (`Yes`/`No`).
 
-#### Special hours
+#### Physical Accessibility
 
-This column allows for adding dates where the opening hours are different to normal. This could be public holidays when the library is closed, or other exceptional situations. The format is to specify the date, include a colon, and then the opening hours. Instances of special hours are then separated by commas. For example, **2019-12-25: X,2019-12-26: X,2019-12-27: 10:00-13:00**. This would describe that the library is closed on the 25th and 26th December, and open from 10am to 1pm on the 27th December.
+- **Step-free access**: Level access or ramp/lift access for wheelchairs and pushchairs (`Yes`/`No`/`Partial`).
+- **Accessible toilet**: Whether an accessible wheelchair-friendly public toilet or Changing Places facility is available (`Yes`/`No`).
+- **Hearing loop**: Whether an induction loop / hearing loop system is installed for hearing aid users (`Yes`/`No`).
 
-For more info see [these Google support pages](https://support.google.com/business/answer/6303076).
+#### Facilities and Services
 
-### Potential problems
-
----
-
-#### UPRN
-
-Excel can do odd things when holding big numbers, and it may transform UPRNs to scientific notation (e.g. 1.23E+10). UPRNs are also sometimes stored as 'zero padded' to ensure they are all the same length e.g. '00000199356' rather than '199356'. It is likely get a mix of both styles.
+- **Facilities and services**: A semicolon-separated list of all public amenities, services, and digital subscriptions available at the branch, directly supporting digital discovery platforms like LibraryOn (e.g. `Books; Printing; Free Wi-Fi; Public computers; Findmypast; British Newspaper Archive; BFI Replay; Meeting rooms`).
 
 ### How the data is updated
 
 ---
 
-Each service can maintain a single data file that is updated whenever the details change, including changes to opening hours. As the data contains closed libraries, there is no requirement to remove these if a library is closed, the file can be updated by adding the year of closure. If there are new libraries, they can be added as an additional row.
-
-### How the data could be used {#usage}
+Each service can maintain a single data file that is updated whenever details change. Closed libraries can be retained with Status `Closed (permanent)` and `Year closed` to preserve historical continuity.
 
 ---
 
-#### Locally
-
-A tool to display Plymouth library locations displays the population within walking, cycling, or driving distance of a library, and compares these visually.
-
-<figure>
-    <img src="{{site.url}}/images/libraries_plymouth.png" alt="Displaying a map with Plymouth Central Library at the centre and walking travel distances around it"/>
-    <figcaption>Population within 5 minute walking intervals around Plymouth Central Library.</figcaption>
-</figure>
-
-The application also uses opening hours to show libraries open at the current time, and event data to search for libraries hosting certain types of events.
-
-It was built using open data on libraries and their events from Plymouth Libraries, and map data from OpenStreetMap. To try it out see the [Plymouth Library Finder](https://plymouth.librarydata.uk).
-
-#### Nationally
-
-Nationally, combined with the mobile library stops dataset, we can use this data to identify areas that are without library provision, and that would be in particular need of additional library services.
-
-This can be harder to assess with only local data, as many libraries and mobile library stops serve people between authority boundaries.
-
-### Future enhancements
-
----
-
-#### Staffed and unstaffed hours
-
-Paragraph below superseded by discussions from November 2019 meeting, when testers decided to include unstaffed hours in the January 2020 testing phase.
-
-*Many libraries will have a mix of 'types' of opening hours, such as when the library can be entered using a library card and PIN when there are no staff. This can be described in different ways, such as extended access.*
-
-*Different ways of handling these hours could be:*
-
-1. *Separate out staffed/non-staffed into separate columns*
-2. *Decide on set guidance about what hours should be included (e.g. the opening hours MUST be staffed hours where the building is open to all)*
-3. *Leave it up to the services to decide what hours to use, but encourage use of the notes field for additional details (e.g. a service may say "Our opening hours include extended access use, for which members must...")*
-
-*Before deciding on this, more research should be conducted with a wider group of services. It will likely be important to capture additional information about unstaffed hours, such as:*
-
-- *Who is able to access*
-- *Training required for access*
-- *Facilities available during these hours*
-
-#### Library floor space and building
-
-Adding data about the library building would give a useful context to the library, particularly as there can be a big difference between the facilities offered by a central library to a branch library. Some indicative data could be available through Ordnance Survey, as the UPRN identifier for the building would allow us to lookup building footprint and height.
-
----
-
-[&lt; Back to home](./)
+[< Back to home](./)

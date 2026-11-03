@@ -11,6 +11,17 @@
             }
         },
         {
+            "name": "local_authority_code",
+            "title": "Local authority code",
+            "description": "Official Government Statistical Service (GSS/ONS) 9-character code for the local authority",
+            "type": "string",
+            "format": "default",
+            "constraints": {
+                "required": true,
+                "pattern": "^[ENSW][0-9]{8}$"
+            }
+        },
+        {
             "name": "mobile",
             "title": "Mobile Name",
             "description": "A name for the mobile library",
@@ -194,6 +205,15 @@
             "description": "A link to a web page, or PDF for the stop, route, mobile or service timetable",
             "constraints": {
                 "required": false
+            }
+        }
+    ],
+    "foreignKeys": [
+        {
+            "fields": "local_authority_code",
+            "reference": {
+                "resource": "library-services.csv",
+                "fields": "Local authority code"
             }
         }
     ]
