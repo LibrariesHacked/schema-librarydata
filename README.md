@@ -47,7 +47,7 @@ We use [SemVer](http://semver.org/) for versioning.
 
 Each schema will share a single version number, which will be updated on making any changes. If a new schema is added it will increment the version number of the current set, rather than start at 0.
 
-All completed schemas will be held in versioned directories in the `archive` folder in this repository (e.g. `archive/0.4.0/`). Schemas in development are held in the root folder.
+All completed schemas will be held in versioned directories in the `archive` folder in this repository (e.g. `archive/1.0.0/`). Schemas in development are held in the root folder.
 
 ## Authors
 

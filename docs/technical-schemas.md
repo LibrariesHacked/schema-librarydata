@@ -31,7 +31,7 @@ For our public library data, each dataset has its own schema definition file. Al
 
 Completed releases are archived by semantic version in the [archive folder](https://github.com/LibrariesHacked/schema-librarydata/tree/master/archive):
 
-- [v0.4.0](https://github.com/LibrariesHacked/schema-librarydata/tree/master/archive/0.4.0): Added master `library-services.json` registry with all 208 UK authorities, extended `libraries.json` to 51 fields with coordinates, operational status, ACE co-locations, WiFi breakdown, and accessibility facilities, and standardized `Local authority code` with foreign keys across all schemas.
+- [v1.0.0](https://github.com/LibrariesHacked/schema-librarydata/tree/master/archive/1.0.0): Major release adding the master `library-services.json` registry with all 208 UK authorities, extending `libraries.json` to 51 fields with coordinates, operational status, ACE co-locations, WiFi breakdown, and accessibility facilities, standardizing `Local authority code` with foreign keys across all schemas, and fully aligning `mobile-library-stops.json`.
 - [v0.3.0](https://github.com/LibrariesHacked/schema-librarydata/tree/master/archive/0.3.0): Added `events.json`, `libraries.json`, `loans.json`, `membership.json`, `physical_visits.json`, and `stock_summary.json`.
 - [v0.2.0](https://github.com/LibrariesHacked/schema-librarydata/tree/master/archive/0.2.0): Added `library-locations-survey.json`.
 - [v0.1.0](https://github.com/LibrariesHacked/schema-librarydata/tree/master/archive/0.1.0): Initial release with `mobile-library-stops.json`.
