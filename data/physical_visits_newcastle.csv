@@ -1,4 +1,4 @@
-Local authority,Local authority code,Library name,Count start,Count end,Count type,Visits
+local_authority,local_authority_code,library_name,count_start,count_end,count_type,visits
 Newcastle City Council,E08000021,City,2019-01-01,2019-01-31,Automatic counter,56660
 Newcastle City Council,E08000021,City,2019-02-01,2019-02-28,Automatic counter,50793
 Newcastle City Council,E08000021,City,2019-03-01,2019-03-31,Automatic counter,56452

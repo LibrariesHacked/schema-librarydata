@@ -10,7 +10,7 @@ description: Library location opening hours, coordinates, facilities, and contac
 
 ---
 
-A library is a static service point which provides access to library services for the general public. This does not include mobile libraries, which are covered in the [mobile library stops dataset](/mobile-library-stops).
+A library is a static service point which provides access to library services for the general public. This does not include mobile libraries, which are covered in the [mobile library stops dataset](./mobile-library-stops).
 
 ### How the data can be collected
 
@@ -22,9 +22,9 @@ If starting from scratch, [this template file](https://github.com/LibrariesHacke
 
 ### Sample data row
 
-| Local authority | Local authority code | Library name | Library code | Address 1 | Address 2 | Address 3 | Postcode | Unique property reference number | Latitude | Longitude | Status | Statutory | Facility type | Type of library | Year opened | Year closed | Monday staffed hours | Tuesday staffed hours | Wednesday staffed hours | Thursday staffed hours | Friday staffed hours | Saturday staffed hours | Sunday staffed hours | Monday unstaffed hours | Tuesday unstaffed hours | Wednesday unstaffed hours | Thursday unstaffed hours | Friday unstaffed hours | Saturday unstaffed hours | Sunday unstaffed hours | Special hours | Weekly staffed hours | Weekly total hours | Automated access system | Co-located | Co-located with | Guest wifi | Member wifi | Public computers | Printing | Meeting rooms | Quiet study space | Step-free access | Accessible toilet | Hearing loop | Facilities and services | Phone number | Email address | URL | Notes |
-| --------------- | -------------------- | ------------ | ------------ | --------- | --------- | --------- | -------- | -------------------------------- | -------- | --------- | ------ | --------- | ------------- | --------------- | ----------- | ----------- | -------------------- | --------------------- | ----------------------- | ---------------------- | ------------------- | --------------------- | -------------------- | ---------------------- | ----------------------- | ------------------------- | ------------------------ | ---------------------- | ------------------------ | ---------------------- | ------------- | -------------------- | ------------------ | ----------------------- | ---------- | --------------- | ---------- | ----------- | ---------------- | -------- | ------------- | ----------------- | ---------------- | ----------------- | ------------ | ----------------------- | ------------ | ------------- | --- | ----- |
-| Plymouth | E06000026 | Crownhill Library | PLY-CRO | Cross Park Road | Crownhill | | PL6 5AN | 100041062012 | 50.4124 | -4.1345 | Open | Yes | Static library | LAL | 1991 | | 08:30-18:00 | 08:30-18:00 | 08:30-18:00 | 08:30-20:00 | 08:30-18:00 | 09:00-17:00 | | | | | | | | | | 57.5 | 57.5 | | No | | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Books; Free Wi-Fi; Public computers; Printing; Quiet study space | 01752 305900 | library@plymouth.gov.uk | https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/crownhilllibrary | |
+| local_authority | local_authority_code | library_name | library_code | address_1 | address_2 | address_3 | town | postcode | unique_property_reference_number | latitude | longitude | status | statutory | facility_type | type_of_library | year_opened | year_closed | temporary_closed_until | monday_staffed_hours | tuesday_staffed_hours | wednesday_staffed_hours | thursday_staffed_hours | friday_staffed_hours | saturday_staffed_hours | sunday_staffed_hours | monday_unstaffed_hours | tuesday_unstaffed_hours | wednesday_unstaffed_hours | thursday_unstaffed_hours | friday_unstaffed_hours | saturday_unstaffed_hours | sunday_unstaffed_hours | special_hours | weekly_staffed_hours | weekly_total_hours | automated_access_system | co_located | co_located_with | guest_wifi | member_wifi | public_computers | printing | meeting_rooms | cafe | quiet_study_space | makerspace | step_free_access | accessible_toilet | baby_changing | changing_places_toilet | hearing_loop | sensory_space | accessible_parking | facilities_and_services | phone_number | email_address | url | catalogue_url | join_online_url | virtual_tour_url | notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Plymouth | E06000026 | Crownhill Library | PLY-CRO | Cross Park Road | Crownhill |  |  | PL6 5AN | 100041062012 | 50.4124 | -4.1345 | Open | Yes | Static library | LAL | 1991 |  |  | 08:30-18:00 | 08:30-18:00 | 08:30-18:00 | 08:30-20:00 | 08:30-18:00 | 09:00-17:00 |  |  |  |  |  |  |  |  |  | 57.5 | 57.5 |  | No |  | Yes | Yes | Yes | Yes | No |  | Yes |  | Yes | Yes |  |  | Yes |  |  | Books; Free Wi-Fi; Public computers; Printing; Quiet study space | 01752 305900 | library@plymouth.gov.uk | https://www.plymouth.gov.uk/libraries/findlibraryandopeninghours/crownhilllibrary |  |  |  |  |
 
 An example of this dataset can be viewed at [Plymouth libraries](https://github.com/LibrariesHacked/schema-librarydata/blob/master/data/libraries_plymouth.csv).
 
@@ -32,17 +32,17 @@ An example of this dataset can be viewed at [Plymouth libraries](https://github.
 
 ---
 
-#### Local authority code
+#### Local authority code (`local_authority_code`)
 
 The Government Statistical Service (GSS / ONS) 9-character code for the local authority (e.g. `E06000026` for Plymouth). This links directly to the parent [library services dataset](./library-services).
 
-#### Library name
+#### Library name (`library_name`)
 
 You should list all libraries managed by your service. Independent libraries such as community-managed are not expected to be included unless they are part of a transition or service agreement.
 
 If however you are updating the dataset and a library that used to be listed as managed by your service has since become independent, we recommend you still include it. In this case use the Type of library as ICL (Independent Community Library). You may then omit this library from your list in future updates.
 
-#### Status
+#### Status (`status`)
 
 The current operational status of the service point:
 - `Open`: Currently operational.
@@ -50,16 +50,16 @@ The current operational status of the service point:
 - `Closed (temporary)`: Temporarily closed (e.g. for refurbishment, relocation, or emergency).
 - `Planned`: Planned new library branch not yet opened.
 
-#### Coordinates and Spatial Identifiers
+#### Coordinates and Spatial Identifiers (`latitude`, `longitude`, `unique_property_reference_number`)
 
 - **Latitude and Longitude**: Coordinates in WGS84 decimal degrees (e.g. 50.4124, -4.1345). Enables immediate mapping in web map tools without requiring geocoding.
 - **Unique Property Reference Number (UPRN)**: The unique numeric identifier assigned by the local authority to the building unit, stored as an integer without leading zeros.
 
-#### Statutory
+#### Statutory (`statutory`)
 
 All statutory libraries should be listed with `Yes`. Non-statutory service points are indicated with `No`.
 
-#### Facility type
+#### Facility type (`facility_type`)
 
 The physical type of service point (aligned with the Arts Council England taxonomy):
 - `Static library`: A permanent physical library building open to the public.
@@ -68,7 +68,7 @@ The physical type of service point (aligned with the Arts Council England taxono
 - `Mobile library`: A mobile library vehicle base or stop coordination point.
 - `Prison library`: A library service operating within a prison or custodial establishment.
 
-#### Type of library
+#### Type of library (`type_of_library`)
 
 The governance and operating model of the public library branch:
 
@@ -88,7 +88,7 @@ The governance and operating model of the public library branch:
 - **Weekly staffed hours / Weekly total hours**: Numerical sum of regular hours open each week, providing rapid metrics for national benchmarking.
 - **Automated access system**: The automated access technology used to support visitors during unstaffed hours (e.g. `Open+`, `Lyngsoe`, `Self-service kiosk`).
 
-#### Co-location
+#### Co-location (`co_located`, `co_located_with`)
 
 Libraries that share buildings with other community or public services should be indicated with `Co-located: Yes`.
 
@@ -112,7 +112,7 @@ In **`Co-located with`**, separate multiple co-located partners with a **semicol
 
 *Example*: `"Civic; Community; Council customer services; Pre-school nursery"`
 
-#### Wi-Fi Access
+#### Wi-Fi Access (`guest_wifi`, `member_wifi`)
 
 - **Guest wifi**: Whether free public Wi-Fi is accessible to any visitor immediately without needing a library card/membership (`Yes`/`No`).
 - **Member wifi**: Whether Wi-Fi is provided that requires library membership (card number and PIN login) (`Yes`/`No`).

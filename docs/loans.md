@@ -20,7 +20,7 @@ Library management systems will have the means of extracting and reporting data,
 
 ### Sample data row
 
-| Local authority | Local authority code | Library name | Month | Type | Loans |
+| local_authority | local_authority_code | library_name | month | type | loans |
 | --------------- | -------------------- | ------------ | ----- | ---- | ----- |
 | Barnet | E09000003 | Barnet Book Club | 2019-04 | Adult audiobook | 9 |
 
@@ -30,21 +30,21 @@ A full sample can be viewed at [Barnet loans](https://github.com/LibrariesHacked
 
 ---
 
-#### Local authority code
+#### Local authority code (`local_authority_code`)
 
 The Government Statistical Service (GSS / ONS) 9-character code for the local authority (e.g. `E09000003` for Barnet). This links directly to the parent [library services dataset](./library-services).
 
-#### Month
+#### Month (`month`)
 
 Use the format YYYY-MM for the month for which the data is reported.
 
-#### Type
+#### Type (`type`)
 
 The type will be the item type the item is categorised under in the library management system.
 
 This should ideally be a human readable value rather than a code. For example 'Adult Fiction' rather than 'ADU_FIC'. The set of types will be those that are used by each library service.
 
-#### Loans
+#### Loans (`loans`)
 
 Combining issues and renewals of items into a single count is a method of reporting that was historically used by CIPFA, and is currently used for Public Lending Right data reporting. This means it is most likely to match the current reports that libraries run.
 

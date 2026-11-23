@@ -1,345 +1,390 @@
 {
-    "fields": [
-        {
-            "name": "Local authority",
-            "description": "Local authority responsible for the library service",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Local authority code",
-            "description": "Official Government Statistical Service (GSS/ONS) 9-character code for the local authority",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": true,
-                "pattern": "^[ENSW][0-9]{8}$"
-            }
-        },
-        {
-            "name": "Library name",
-            "description": "Full public name by which the library is known",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Address 1",
-            "description": "Address line 1",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": false
-            }
-        },
-        {
-            "name": "Address 2",
-            "description": "Address line 2",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": false
-            }
-        },
-        {
-            "name": "Address 3",
-            "description": "Address line 3",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": false
-            }
-        },
-        {
-            "name": "Postcode",
-            "type": "string",
-            "description": "Postcode for the library",
-            "format": "default",
-            "constraints": {
-                "required": true,
-                "pattern": "^([A-Z][A-HJ-Y]?[0-9][A-Z0-9]? ?[0-9][A-Z]{2}|GIR ?0A{2})$"
-            }
-        },
-        {
-            "name": "Unique property reference number",
-            "description": "Unique property reference number for the building unit the library is located in",
-            "type": "integer",
-            "format": "default",
-            "constraints": {
-                "required": true,
-                "unique": true
-            }
-        },
-        {
-            "name": "Statutory 1 April 2010",
-            "description": "Whether the library was part of the statutory service on 1 April 2010",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": true,
-                "enum": [
-                    "Yes",
-                    "No"
-                ]
-            }
-        },
-        {
-            "name": "Statutory 1 July 2016",
-            "description": "Whether the library was part of the statutory service on 1 July 2016",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": true,
-                "enum": [
-                    "Yes",
-                    "No"
-                ]
-            }
-        },
-        {
-            "name": "Statutory 1 July 2019",
-            "description": "Whether the library was part of the statutory service on 1 July 2019",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": true,
-                "enum": [
-                    "Yes",
-                    "No"
-                ]
-            }
-        },
-        {
-            "name": "Type of library",
-            "description": "The category of public library",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": true,
-                "enum": [
-                    "LAL",
-                    "LAL-",
-                    "CL",
-                    "CRL",
-                    "ICL"
-                ]
-            }
-        },
-        {
-            "name": "Year closed",
-            "description": "Year the library closed",
-            "type": "year",
-            "format": "default",
-            "constraints": {
-                "required": false
-            }
-        },
-        {
-            "name": "Year opened",
-            "description": "Year the library opened if a new library since 2010",
-            "type": "year",
-            "format": "default",
-            "constraints": {
-                "required": false
-            }
-        },
-        {
-            "name": "Colocation",
-            "description": "Whether the library is stand-alone or co-located within the building property unit",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": true,
-                "enum": [
-                    "Yes",
-                    "No"
-                ]
-            }
-        },
-        {
-            "name": "Colocated with",
-            "description": "What the library is co-located with if applicable",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": false
-            }
-        },
-        {
-            "name": "Notes",
-            "description": "Notes about the library status or future changes",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": false
-            }
-        },
-        {
-            "name": "Monday open",
-            "description": "Opening time of the library on Mondays. If not open on that day use 00:00",
-            "type": "time",
-            "format": "%H:%M",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Monday close",
-            "description": "Closing time of the library on Mondays. If not open on that day use 00:00",
-            "type": "time",
-            "format": "%H:%M",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Tuesday open",
-            "description": "Opening time of the library on Tuesdays. If not open on that day use 00:00",
-            "type": "time",
-            "format": "%H:%M",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Tuesday close",
-            "description": "Closing time of the library on Tuesdays. If not open on that day use 00:00",
-            "type": "time",
-            "format": "%H:%M",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Wednesday open",
-            "description": "Opening time of the library on Wednesdays. If not open on that day use 00:00",
-            "type": "time",
-            "format": "%H:%M",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Wednesday close",
-            "description": "Closing time of the library on Wednesdays. If not open on that day use 00:00",
-            "type": "time",
-            "format": "%H:%M",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Thursday open",
-            "description": "Opening time of the library on Thursdays. If not open on that day use 00:00",
-            "type": "time",
-            "format": "%H:%M",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Thursday close",
-            "description": "Closing time of the library on Thursdays. If not open on that day use 00:00",
-            "type": "time",
-            "format": "%H:%M",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Friday open",
-            "description": "Opening time of the library on Fridays. If not open on that day use 00:00",
-            "type": "time",
-            "format": "%H:%M",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Friday close",
-            "description": "Closing time of the library on Fridays. If not open on that day use 00:00",
-            "type": "time",
-            "format": "%H:%M",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Saturday open",
-            "description": "Opening time of the library on Saturdays. If not open on that day use 00:00",
-            "type": "time",
-            "format": "%H:%M",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Saturday close",
-            "description": "Closing time of the library on Saturdays. If not open on that day use 00:00",
-            "type": "time",
-            "format": "%H:%M",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Sunday open",
-            "description": "Opening time of the library on Sundays. If not open on that day use 00:00",
-            "type": "time",
-            "format": "%H:%M",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Sunday close",
-            "description": "Closing time of the library on Sundays. If not open on that day use 00:00",
-            "type": "time",
-            "format": "%H:%M",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Staffed hours",
-            "description": "Total number of hours the library is staffed (by paid staff and/or volunteers) each week",
-            "type": "number",
-            "format": "default",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Contact email",
-            "description": "The generic or team email (not personal) for the library. If no general library email is available, the library service one.",
-            "type": "string",
-            "format": "email",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Library URL",
-            "description": "The specific URL for the library.",
-            "type": "string",
-            "format": "uri",
-            "constraints": {
-                "required": true
-            }
-        }
-    ],
-    "foreignKeys": [
-        {
-            "fields": "Local authority code",
-            "reference": {
-                "resource": "library-services.csv",
-                "fields": "Local authority code"
-            }
-        }
-    ]
+  "name": "library-locations-survey-2019",
+  "title": "Library locations survey 2019",
+  "version": "2.0.0",
+  "fields": [
+    {
+      "name": "local_authority",
+      "title": "Local authority",
+      "description": "Local authority responsible for the library service",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "local_authority_code",
+      "title": "Local authority code",
+      "description": "Official Government Statistical Service (GSS/ONS) 9-character code for the local authority",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": true,
+        "pattern": "^[ELMNSW][0-9]{8}$"
+      }
+    },
+    {
+      "name": "library_name",
+      "title": "Library name",
+      "description": "Full public name by which the library is known",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "address_1",
+      "title": "Address 1",
+      "description": "Address line 1",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "address_2",
+      "title": "Address 2",
+      "description": "Address line 2",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "address_3",
+      "title": "Address 3",
+      "description": "Address line 3",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "postcode",
+      "title": "Postcode",
+      "description": "Postcode for the library",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": true,
+        "pattern": "^([A-Z][A-HJ-Y]?[0-9][A-Z0-9]? ?[0-9][A-Z]{2}|GIR ?0A{2})$"
+      }
+    },
+    {
+      "name": "unique_property_reference_number",
+      "title": "Unique Property Reference Number (UPRN)",
+      "description": "Unique property reference number for the building unit the library is located in",
+      "type": "integer",
+      "format": "default",
+      "constraints": {
+        "required": true,
+        "unique": true,
+        "minimum": 1,
+        "maximum": 999999999999
+      }
+    },
+    {
+      "name": "statutory_1_april_2010",
+      "title": "Statutory 1 April 2010",
+      "description": "Whether the library was part of the statutory service on 1 April 2010",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "Yes",
+          "No"
+        ]
+      }
+    },
+    {
+      "name": "statutory_1_july_2016",
+      "title": "Statutory 1 July 2016",
+      "description": "Whether the library was part of the statutory service on 1 July 2016",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "Yes",
+          "No"
+        ]
+      }
+    },
+    {
+      "name": "statutory_1_july_2019",
+      "title": "Statutory 1 July 2019",
+      "description": "Whether the library was part of the statutory service on 1 July 2019",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "Yes",
+          "No"
+        ]
+      }
+    },
+    {
+      "name": "type_of_library",
+      "title": "Type of library",
+      "description": "The category of public library",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "LAL",
+          "LAL-",
+          "CL",
+          "CRL",
+          "ICL"
+        ]
+      }
+    },
+    {
+      "name": "year_closed",
+      "title": "Year closed",
+      "description": "Year the library closed",
+      "type": "year",
+      "format": "default",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "year_opened",
+      "title": "Year opened",
+      "description": "Year the library opened if a new library since 2010",
+      "type": "year",
+      "format": "default",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "colocation",
+      "title": "Colocation",
+      "description": "Whether the library is stand-alone or co-located within the building property unit",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "Yes",
+          "No"
+        ]
+      }
+    },
+    {
+      "name": "colocated_with",
+      "title": "Colocated with",
+      "description": "What the library is co-located with if applicable",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "notes",
+      "title": "Notes",
+      "description": "Notes about the library status or future changes",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": false
+      }
+    },
+    {
+      "name": "monday_open",
+      "title": "Monday open",
+      "description": "Opening time of the library on Mondays. If not open on that day use 00:00",
+      "type": "time",
+      "format": "%H:%M",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "monday_close",
+      "title": "Monday close",
+      "description": "Closing time of the library on Mondays. If not open on that day use 00:00",
+      "type": "time",
+      "format": "%H:%M",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "tuesday_open",
+      "title": "Tuesday open",
+      "description": "Opening time of the library on Tuesdays. If not open on that day use 00:00",
+      "type": "time",
+      "format": "%H:%M",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "tuesday_close",
+      "title": "Tuesday close",
+      "description": "Closing time of the library on Tuesdays. If not open on that day use 00:00",
+      "type": "time",
+      "format": "%H:%M",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "wednesday_open",
+      "title": "Wednesday open",
+      "description": "Opening time of the library on Wednesdays. If not open on that day use 00:00",
+      "type": "time",
+      "format": "%H:%M",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "wednesday_close",
+      "title": "Wednesday close",
+      "description": "Closing time of the library on Wednesdays. If not open on that day use 00:00",
+      "type": "time",
+      "format": "%H:%M",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "thursday_open",
+      "title": "Thursday open",
+      "description": "Opening time of the library on Thursdays. If not open on that day use 00:00",
+      "type": "time",
+      "format": "%H:%M",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "thursday_close",
+      "title": "Thursday close",
+      "description": "Closing time of the library on Thursdays. If not open on that day use 00:00",
+      "type": "time",
+      "format": "%H:%M",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "friday_open",
+      "title": "Friday open",
+      "description": "Opening time of the library on Fridays. If not open on that day use 00:00",
+      "type": "time",
+      "format": "%H:%M",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "friday_close",
+      "title": "Friday close",
+      "description": "Closing time of the library on Fridays. If not open on that day use 00:00",
+      "type": "time",
+      "format": "%H:%M",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "saturday_open",
+      "title": "Saturday open",
+      "description": "Opening time of the library on Saturdays. If not open on that day use 00:00",
+      "type": "time",
+      "format": "%H:%M",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "saturday_close",
+      "title": "Saturday close",
+      "description": "Closing time of the library on Saturdays. If not open on that day use 00:00",
+      "type": "time",
+      "format": "%H:%M",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "sunday_open",
+      "title": "Sunday open",
+      "description": "Opening time of the library on Sundays. If not open on that day use 00:00",
+      "type": "time",
+      "format": "%H:%M",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "sunday_close",
+      "title": "Sunday close",
+      "description": "Closing time of the library on Sundays. If not open on that day use 00:00",
+      "type": "time",
+      "format": "%H:%M",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "staffed_hours",
+      "title": "Staffed hours",
+      "description": "Total number of hours the library is staffed (by paid staff and/or volunteers) each week",
+      "type": "number",
+      "format": "default",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "contact_email",
+      "title": "Contact email",
+      "description": "The generic or team email (not personal) for the library. If no general library email is available, the library service one.",
+      "type": "string",
+      "format": "email",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "library_url",
+      "title": "Library URL",
+      "description": "The specific URL for the library.",
+      "type": "string",
+      "format": "uri",
+      "constraints": {
+        "required": true
+      }
+    }
+  ],
+  "foreignKeys": [
+    {
+      "fields": "local_authority_code",
+      "reference": {
+        "resource": "library-services.csv",
+        "fields": "local_authority_code"
+      }
+    }
+  ],
+  "description": "Historical survey dataset of public library locations in England (2010-2019).",
+  "homepage": "https://schema.librarydata.uk",
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": "unique_property_reference_number"
 }

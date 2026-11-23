@@ -24,7 +24,7 @@ If starting from scratch, [this template file](https://github.com/LibrariesHacke
 
 ### Sample data row
 
-| Local authority | Local authority code | Count date | Area code | Members |
+| local_authority | local_authority_code | count_date | area_code | members |
 | --------------- | -------------------- | ---------- | --------- | ------- |
 | Bristol City Council | E06000023 | 2018-10-23 | E01014486 | 557 |
 
@@ -34,11 +34,11 @@ A full sample can be viewed at [Bristol membership](https://github.com/Libraries
 
 ---
 
-#### Local authority code
+#### Local authority code (`local_authority_code`)
 
 The Government Statistical Service (GSS / ONS) 9-character code for the local authority (e.g. `E06000023` for Bristol). This links directly to the parent [library services dataset](./library-services).
 
-#### Area code
+#### Area code (`area_code`)
 
 We cannot publish membership by postcode, as postcodes can identify individuals. An alternative option would be to use postcode area (e.g. 'BA1' rather than 'BA1 6AX'). However, this does not have much use for data analysis, and will have a great variation in the number of people in each area.
 
@@ -56,11 +56,11 @@ If address data is unavailable for a member, or for any other reason the LSOA is
 
 If using a different area code this should be specified in the dataset metadata.
 
-#### Count date
+#### Count date (`count_date`)
 
 The date the count was taken.
 
-#### Members
+#### Members (`members`)
 
 The number of active members in the specified LSOA.
 

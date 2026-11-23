@@ -1,4 +1,4 @@
-Local authority,Local authority code,Library name,Count start,Count end,Count type,Visits
+local_authority,local_authority_code,library_name,count_start,count_end,count_type,visits
 Plymouth City Council,E06000026,Central,2019-02-12,2019-02-19,Manual,5933
 Plymouth City Council,E06000026,Central,2018-05-14,2018-05-21,Manual,4652
 Plymouth City Council,E06000026,Central,2018-07-31,2018-08-07,Manual,6197

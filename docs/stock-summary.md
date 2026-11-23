@@ -22,7 +22,7 @@ If starting from scratch, [this template file](https://github.com/LibrariesHacke
 
 ### Sample data row
 
-| Local authority | Local authority code | Library name | Count date | Type | Items |
+| local_authority | local_authority_code | library_name | count_date | type | items |
 | --------------- | -------------------- | ------------ | -----------| ---- | ----- |
 | Barnet | E09000003 | Burnt Oak | 2019-10-07 | Adult audiobook | 208 |
 
@@ -32,11 +32,11 @@ A full sample can be viewed at [Barnet stock summary](https://github.com/Librari
 
 ---
 
-#### Local authority code
+#### Local authority code (`local_authority_code`)
 
 The Government Statistical Service (GSS / ONS) 9-character code for the local authority (e.g. `E09000003` for Barnet). This links directly to the parent [library services dataset](./library-services).
 
-#### Type
+#### Type (`type`)
 
 The type will be the item type the item is categorised under in the library management system.
 

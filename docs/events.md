@@ -24,7 +24,7 @@ If starting from scratch, [this template file](https://github.com/LibrariesHacke
 
 ### Sample data row
 
-| Local authority | Local authority code | Library name | Event date | Name | Main outcome | Secondary outcome | Attendees |
+| local_authority | local_authority_code | library_name | event_date | name | main_outcome | secondary_outcome | attendees |
 | --------------- | -------------------- | ------------ | ---------- | ---- | ------------ | ----------------- | --------- |
 | Barnet | E09000003 | Burnt Oak | 2018-01-12 | Toddler Read and Rhyme | Stronger more resilient communities | Increased reading and literacy | 11 |
 
@@ -34,21 +34,21 @@ A full sample can be viewed at [Barnet events](https://github.com/LibrariesHacke
 
 ---
 
-#### Local authority code
+#### Local authority code (`local_authority_code`)
 
 The Government Statistical Service (GSS / ONS) 9-character code for the local authority (e.g. `E09000003` for Barnet). This links directly to the parent [library services dataset](./library-services).
 
-#### Library name
+#### Library name (`library_name`)
 
 If the event is not held in a library: use "Outreach" in this column and add the location to the event name.
 
 See an example below.
 
-| Local authority | Local authority code | Library name | Event date | Name | Main outcome | Secondary outcome | Attendees |
+| local_authority | local_authority_code | library_name | event_date | name | main_outcome | secondary_outcome | attendees |
 | --------------- | -------------------- | ------------ | ---------- | ---- | ------------ | ----------------- | --------- |
 | Newcastle | E08000021 | Outreach | 2019-07-23 | Copyright for Newcastle City Learning tutors at Westgate College | Helping everyone achieve their full potential | Greater prosperity | 5 |
 
-#### Main outcome
+#### Main outcome (`main_outcome`)
 
 The outcomes are taken from the Libraries Taskforce Ambition document: [outcomes libraries deliver for their communities](https://www.gov.uk/government/publications/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021/libraries-deliver-ambition-for-public-libraries-in-england-2016-to-2021#the-outcomes-libraries-deliver-for-their-communities). A main outcome should be selected for each event.
 
@@ -62,7 +62,7 @@ The outcomes are taken from the Libraries Taskforce Ambition document: [outcomes
 | Greater prosperity |
 | Stronger more resilient communities |
 
-#### Secondary outcome
+#### Secondary outcome (`secondary_outcome`)
 
 The secondary outcome is optional. Some events will clearly fit under one outcome; this column should be used for events that fit under multiple outcomes.
 

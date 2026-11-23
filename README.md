@@ -4,11 +4,17 @@ This is a repository to hold open data schemas for public library data. A data s
 
 ## Information
 
-The schemas are written using Table Schema. Table Schema is a standard format for describing table data, such as that which can be held in a spreadsheet. A benefit of writing schemas in this format is there are  software tools that will provide additional functionality, such as validating that data conforms to a schema.
+The schemas are written using Table Schema. Table Schema is a standard format for describing table data, such as that which can be held in a spreadsheet. A benefit of writing schemas in this format is there are software tools that will provide additional functionality, such as validating that data conforms to a schema.
 
 - [Table Schema Documentation](https://frictionlessdata.io/docs/table-schema/)
 - [Frictionless Data Software Tools](https://frictionlessdata.io/software/)
 - [Good Tables](https://goodtables.io/)
+
+### Field Naming Conventions (v2.0.0)
+
+From version 2.0.0 onwards:
+- **`name`**: Standard lowercase snake_case identifier (e.g. `local_authority`, `local_authority_code`, `library_name`) used as the column header in CSV templates and programmatic data pipelines.
+- **`title`**: Human-friendly label (e.g. `Local authority`, `Local authority code`, `Library name`) used for user interfaces, data entry forms, and documentation.
 
 ## Documentation
 
@@ -23,6 +29,7 @@ Descriptive documentation for these schemas is held in the ```docs``` directory 
 | Membership | membership.json | The membership of a library service |
 | Events | events.json | The number of people attending library events |
 | Loans | loans.json | The number of items being issued in libraries |
+| Library locations survey 2019 | library-locations-survey-2019.json | A survey of library locations in England in 2019 |
 | Mobile library stops | mobile-library-stops.json | Mobile library stops with their timetabled visits |
 | Physical visits | physical_visits.json | The number of visits made to library buildings |
 | Stock summary | stock_summary.json | Summary of the stock held in libraries |
@@ -47,7 +54,7 @@ We use [SemVer](http://semver.org/) for versioning.
 
 Each schema will share a single version number, which will be updated on making any changes. If a new schema is added it will increment the version number of the current set, rather than start at 0.
 
-All completed schemas will be held in versioned directories in the `archive` folder in this repository (e.g. `archive/1.0.0/`). Schemas in development are held in the root folder.
+All completed releases are archived in versioned directories in the `archive` folder in this repository (e.g. `archive/1.0.0/`). Current schemas in development are held in the root folder.
 
 ## Authors
 

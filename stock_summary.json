@@ -1,68 +1,89 @@
 {
-    "fields": [
-        {
-            "name": "Local authority",
-            "description": "Local authority responsible for the library service",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Local authority code",
-            "description": "Official Government Statistical Service (GSS/ONS) 9-character code for the local authority",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": true,
-                "pattern": "^[ENSW][0-9]{8}$"
-            }
-        },
-        {
-            "name": "Library name",
-            "description": "Full public name by which the library is known",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Count date",
-            "description": "The date this count was completed.",
-            "type": "date",
-            "format": "default",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Type",
-            "description": "The type of item. Will use the item category set by the individual library service e.g. Adult Fiction.",
-            "type": "string",
-            "format": "default",
-            "constraints": {
-                "required": true
-            }
-        },
-        {
-            "name": "Items",
-            "description": "The number of items for that item type in the counting period.",
-            "type": "integer",
-            "format": "default",
-            "constraints": {
-                "required": true
-            }
-        }
-    ],
-    "foreignKeys": [
-        {
-            "fields": "Local authority code",
-            "reference": {
-                "resource": "library-services.csv",
-                "fields": "Local authority code"
-            }
-        }
-    ]
+  "name": "stock-summary",
+  "title": "Stock summary",
+  "version": "2.0.0",
+  "fields": [
+    {
+      "name": "local_authority",
+      "title": "Local authority",
+      "description": "Local authority responsible for the library service",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "local_authority_code",
+      "title": "Local authority code",
+      "description": "Official Government Statistical Service (GSS/ONS) 9-character code for the local authority",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": true,
+        "pattern": "^[ELMNSW][0-9]{8}$"
+      }
+    },
+    {
+      "name": "library_name",
+      "title": "Library name",
+      "description": "Full public name by which the library is known",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "count_date",
+      "title": "Count date",
+      "description": "The date this count was completed.",
+      "type": "date",
+      "format": "default",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "type",
+      "title": "Item type",
+      "description": "The type of item. Will use the item category set by the individual library service e.g. Adult Fiction.",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "items",
+      "title": "Items",
+      "description": "The number of items for that item type in the counting period.",
+      "type": "integer",
+      "format": "default",
+      "constraints": {
+        "required": true,
+        "minimum": 0
+      }
+    }
+  ],
+  "foreignKeys": [
+    {
+      "fields": "local_authority_code",
+      "reference": {
+        "resource": "library-services.csv",
+        "fields": "local_authority_code"
+      }
+    }
+  ],
+  "description": "Snapshot counts of library stock items held by item categorisation.",
+  "homepage": "https://schema.librarydata.uk",
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "local_authority_code",
+    "library_name",
+    "count_date",
+    "type"
+  ]
 }

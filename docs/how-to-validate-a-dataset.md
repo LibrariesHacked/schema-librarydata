@@ -37,8 +37,9 @@ The tool will report whether the table is valid.
 
 | Schema | URL |
 | ------ | --- |
-| Events | https://raw.githubusercontent.com/LibrariesHacked/schema-librarydata/master/events.json |
+| Library services | https://raw.githubusercontent.com/LibrariesHacked/schema-librarydata/master/library-services.json |
 | Libraries | https://raw.githubusercontent.com/LibrariesHacked/schema-librarydata/master/libraries.json |
+| Events | https://raw.githubusercontent.com/LibrariesHacked/schema-librarydata/master/events.json |
 | Loans | https://raw.githubusercontent.com/LibrariesHacked/schema-librarydata/master/loans.json |
 | Membership | https://raw.githubusercontent.com/LibrariesHacked/schema-librarydata/master/membership.json |
 | Mobile library stops | https://raw.githubusercontent.com/LibrariesHacked/schema-librarydata/master/mobile-library-stops.json |

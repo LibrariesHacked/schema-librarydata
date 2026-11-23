@@ -1,0 +1,89 @@
+{
+  "name": "loans",
+  "title": "Loans",
+  "version": "2.0.0",
+  "fields": [
+    {
+      "name": "local_authority",
+      "title": "Local authority",
+      "description": "Local authority responsible for the library service",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "local_authority_code",
+      "title": "Local authority code",
+      "description": "Official Government Statistical Service (GSS/ONS) 9-character code for the local authority",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": true,
+        "pattern": "^[ELMNSW][0-9]{8}$"
+      }
+    },
+    {
+      "name": "library_name",
+      "title": "Library name",
+      "description": "Full public name by which the library is known",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "month",
+      "title": "Month",
+      "description": "The month of the count in the format YYYY-MM",
+      "type": "date",
+      "format": "%Y-%m",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "type",
+      "title": "Item type",
+      "description": "The type of item. Will use the item category set by the individual library service e.g. Adult Fiction.",
+      "type": "string",
+      "format": "default",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "loans",
+      "title": "Loans",
+      "description": "The number of issues and renewals for that item type in the counting period.",
+      "type": "integer",
+      "format": "default",
+      "constraints": {
+        "required": true,
+        "minimum": 0
+      }
+    }
+  ],
+  "foreignKeys": [
+    {
+      "fields": "local_authority_code",
+      "reference": {
+        "resource": "library-services.csv",
+        "fields": "local_authority_code"
+      }
+    }
+  ],
+  "description": "Monthly lending and renewal counts of library items by categorised type.",
+  "homepage": "https://schema.librarydata.uk",
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "local_authority_code",
+    "library_name",
+    "month",
+    "type"
+  ]
+}

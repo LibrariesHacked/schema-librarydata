@@ -84,15 +84,15 @@ A dataset of all 208 UK library authorities can be viewed at [library_services.c
 
 ---
 
-#### Local authority code
+#### Local authority code (`local_authority_code`)
 
 The Government Statistical Service (GSS / ONS) 9-character code identifies the statutory authority uniquely (e.g. `E06000026` for Plymouth, `E09000003` for Barnet, `S12000049` for Glasgow City, `W06000015` for Cardiff, `N92000002` for Northern Ireland). This serves as the primary key for the service and the foreign key for all branch libraries in the [libraries dataset](./libraries).
 
-#### Country
+#### Country (`country`)
 
 Specifies which UK nation the authority is located in: `England`, `Scotland`, `Wales`, or `Northern Ireland`.
 
-#### Governance model & Operating organisation
+#### Governance model & Operating organisation (`governance_model`, `operating_organisation`)
 
 - **Governance model**: The overarching operating model:
   - `Local authority run`: In-house council service.
@@ -102,7 +102,7 @@ Specifies which UK nation the authority is located in: `England`, `Scotland`, `W
 - **Operating organisation**: The legal name of the delivering body if not operated in-house.
 - **Local authority department**: The council directorate overseeing the service (e.g. *Community Solutions*, *Place*, *Public Health*).
 
-#### Consortia and shared services
+#### Consortia and shared services (`consortium`)
 
 Several library authorities share LMS infrastructure, catalogues, or mobile apps through regional consortia (e.g. *LibrariesWest*, *The Libraries Consortium (TLC)*, *SELMS*, *Libraries NI*). In these cases, catalogue and mobile app URLs will point to the shared regional portal rather than an individual council URL.
 
@@ -136,3 +136,20 @@ This reference dataset is updated whenever an authority changes suppliers, re-pr
 ---
 
 [< Back to home](./)
+
+
+#### About the library service (`about`)
+
+A narrative overview of the public library service, community focus, and history.
+
+#### Modern Social Media & Channels
+
+In addition to traditional channels (Facebook, Twitter/X, Instagram, YouTube), modern discovery channels are supported:
+- **Bluesky URL (`bluesky_url`)**: Official Bluesky handle URL.
+- **Threads URL (`threads_url`)**: Official Threads profile URL.
+- **LinkedIn URL (`linkedin_url`)**: Official LinkedIn organisation page URL.
+- **TikTok URL (`tiktok_url`)**: Official TikTok profile URL.
+
+#### Overdue item fine intervals (`fine_interval`)
+
+The billing unit for overdue library items: `Day`, `Week`, `Month`, or `Item`. For fine-free library services, set `adult_fine` and `child_fine` to `0` and leave blank.
